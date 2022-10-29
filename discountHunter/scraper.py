@@ -1,9 +1,18 @@
-import datetime
 import re
-
 import requests
 from bs4 import BeautifulSoup
 from .categories import kaufland_cats, billa_cats, lidl_cats
+from datetime import datetime as dt
+
+
+def convert_to_date(date_text):
+    if int(date_text.split('.')[1]) < dt.now().month:
+        year = dt.now().year + 1
+    else:
+        year = dt.now().year
+
+    date_text = dt.strptime(f"{date_text}{year} 00:00:00", "%d.%m.%Y %H:%M:%S")
+    return date_text
 
 
 def billa():
@@ -14,9 +23,10 @@ def billa():
     soup = BeautifulSoup(response.text, "html.parser")
     products = soup.find_all("div", 'product')
     promotion_text = soup.find("div", 'date').get_text().split(" ")
-    promotion_starts = promotion_text[-5]
-    promotion_expires = promotion_text[-2]
-    print(promotion_starts, promotion_expires)
+    promotion_starts = dt.strptime(promotion_text[-5], '%d.%m.%Y')
+    promotion_ends = dt.strptime(promotion_text[-2], '%d.%m.%Y')
+
+    print(f"{promotion_starts} - {promotion_ends}")
     for product in products:
         product_title = product.select_one(".actualProduct").text.strip()
 
@@ -48,8 +58,8 @@ def kaufland():
         products = soup.find_all("a", 'm-offer-tile__link u-button--hover-children')
         promotion_text = soup.find("div",
                                    "a-icon-tile-headline__subheadline").find("h2").text.strip()
-        promotion_starts = promotion_text.split()[-1]
-        promotion_ends = promotion_text.split()[-3]
+        promotion_starts = dt.strptime(promotion_text.split()[-1], '%d.%m.%Y')
+        promotion_ends = dt.strptime(promotion_text.split()[-3], '%d.%m.%Y')
         print(f"{promotion_starts} - {promotion_ends}")
         for product in products:
             product_image = product.select_one(".a-image-responsive")['data-src']
@@ -128,11 +138,13 @@ def lidl():
             product_quantity = product.select_one(".lidl-m-pricebox__basic-quantity").text.strip()
 
             # Promotion could be interval date-date, but could be 'само на date', 'от date'
-            # if promotion_start is not date - 'само на date'
+            # if promotion_start is None - 'само на date'
             # if promotion_end is None - 'от date'
             try:
                 promotion_interval = product.select_one(".lidl-m-ribbon-item__text").text.strip()
                 promotion_start = promotion_interval.split()[-3]
+                if promotion_start == 'само':
+                    promotion_start = None
                 promotion_end = promotion_interval.split()[-1]
             except AttributeError:
                 promotion_start = None
@@ -140,6 +152,11 @@ def lidl():
             except IndexError:
                 promotion_start = promotion_interval.split()[-1]
                 promotion_end = None
+
+            if promotion_start:
+                promotion_start = convert_to_date(promotion_start)
+            if promotion_end:
+                promotion_end = convert_to_date(promotion_end)
 
             print(product_image, product_title, product_discount, product_old_price, product_new_price,
                   product_quantity, f"{promotion_start} - {promotion_end}", sep='\n')
