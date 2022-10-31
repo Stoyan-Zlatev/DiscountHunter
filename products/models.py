@@ -23,4 +23,10 @@ class Product(models.Model):
     image_url = models.TextField(blank=True, null=True)
 
     def __str__(self):
-        return self.title
+        if self.title and self.sub_title:
+            return f"{self.title}, {self.sub_title}"
+        elif not self.sub_title:
+            return self.title
+        else:
+            return self.sub_title
+

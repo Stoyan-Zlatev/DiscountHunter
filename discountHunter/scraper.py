@@ -5,6 +5,7 @@ from .categories import kaufland_cats, billa_cats, lidl_cats
 from datetime import datetime as dt
 from products.models import Promotion, Product
 
+
 # TODO migrate and check if scraper is working
 
 def convert_to_date(date_text):
@@ -87,7 +88,8 @@ def kaufland(store):
 
             # It could be old_price and 'само' as well
             try:
-                product_old_price = float(product.select_one(".a-pricetag__old-price").text.strip().replace(",", "."))
+                product_old_price = float(
+                    product.select_one(".a-pricetag__old-price").text.strip().replace(",", "."))
             except ValueError:
                 product_old_price = None
                 product_discount_phrase = product.select_one(".a-pricetag__old-price").text.strip()
@@ -104,7 +106,6 @@ def kaufland(store):
             except AttributeError:
                 product_quantity = None
 
-            print(product_title)
             product, _ = Product.objects.get_or_create(promotion=promotion, title=product_title,
                                                        sub_title=product_subtitle,
                                                        old_price=product_old_price, new_price=product_new_price,
@@ -171,11 +172,9 @@ def lidl(store):
             promotion, _ = Promotion.objects.get_or_create(store=store, expire_date=promotion_expires,
                                                            start_date=promotion_starts)
 
-            print(product_title)
             product, _ = Product.objects.get_or_create(promotion=promotion, title=product_title,
-                                                       sub_title=None,
                                                        old_price=product_old_price, new_price=product_new_price,
-                                                       base_price=None, quantity=product_quantity,
+                                                       quantity=product_quantity,
                                                        discount_phrase=product_discount_phrase,
                                                        image_url=product_image
                                                        )
