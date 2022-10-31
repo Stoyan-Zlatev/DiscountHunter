@@ -68,8 +68,8 @@ def kaufland(store):
         products = soup.find_all("a", 'm-offer-tile__link u-button--hover-children')
         promotion_text = soup.find("div",
                                    "a-icon-tile-headline__subheadline").find("h2").text.strip()
-        promotion_starts = dt.strptime(promotion_text.split()[-1], '%d.%m.%Y')
-        promotion_expires = dt.strptime(promotion_text.split()[-3], '%d.%m.%Y')
+        promotion_starts = dt.strptime(promotion_text.split()[-3], '%d.%m.%Y')
+        promotion_expires = dt.strptime(promotion_text.split()[-1], '%d.%m.%Y')
         promotion, _ = Promotion.objects.get_or_create(store=store, expire_date=promotion_expires,
                                                        start_date=promotion_starts)
 

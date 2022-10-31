@@ -3,34 +3,94 @@ from bs4 import BeautifulSoup
 
 billa_cats = ["https://ssbbilla.site/weekly"]
 
-kaufland_cats = [
-    'https://www.kaufland.bg/aktualni-predlozheniya/ot-ponedelnik/obsht-pregled.category=01_%D0%9C%D0%B5%D1%81%D0%BE__%D0%BF%D1%82%D0%B8%D1%87%D0%B5_%D0%BC%D0%B5%D1%81%D0%BE__%D0%BA%D0%BE%D0%BB%D0%B1%D0%B0%D1%81%D0%B8.html',
-    'https://www.kaufland.bg/aktualni-predlozheniya/ot-ponedelnik/obsht-pregled.category=01a_%D0%9F%D1%80%D1%8F%D1%81%D0%BD%D0%B0_%D1%80%D0%B8%D0%B1%D0%B0.html',
-    'https://www.kaufland.bg/aktualni-predlozheniya/ot-ponedelnik/obsht-pregled.category=02_%D0%9F%D0%BB%D0%BE%D0%B4%D0%BE%D0%B2%D0%B5_%D0%B8_%D0%B7%D0%B5%D0%BB%D0%B5%D0%BD%D1%87%D1%83%D1%86%D0%B8.html',
-    'https://www.kaufland.bg/aktualni-predlozheniya/ot-ponedelnik/obsht-pregled.category=03_%D0%9C%D0%BB%D0%B5%D1%87%D0%BD%D0%B8_%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%D0%B8.html',
-    'https://www.kaufland.bg/aktualni-predlozheniya/ot-ponedelnik/obsht-pregled.category=04_%D0%97%D0%B0%D0%BC%D1%80%D0%B0%D0%B7%D0%B5%D0%BD%D0%B8_%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%D0%B8.html',
-    'https://www.kaufland.bg/aktualni-predlozheniya/ot-ponedelnik/obsht-pregled.category=05_%D0%9A%D0%BE%D0%BD%D1%81%D0%B5%D1%80%D0%B2%D0%B8__%D0%B4%D0%B5%D0%BB%D0%B8%D0%BA%D0%B0%D1%82%D0%B5%D1%81%D0%B8.html',
-    'https://www.kaufland.bg/aktualni-predlozheniya/ot-ponedelnik/obsht-pregled.category=06_%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%B8_%D1%85%D1%80%D0%B0%D0%BD%D0%B8.html',
-    'https://www.kaufland.bg/aktualni-predlozheniya/ot-ponedelnik/obsht-pregled.category=07_%D0%9A%D0%B0%D1%84%D0%B5__%D1%87%D0%B0%D0%B9__%D0%B7%D0%B0%D1%85%D0%B0%D1%80%D0%BD%D0%B8_%D0%B8%D0%B7%D0%B4%D0%B5%D0%BB%D0%B8%D1%8F__%D1%81%D0%BD%D0%B0%D0%BA%D1%81.html',
-    'https://www.kaufland.bg/aktualni-predlozheniya/ot-ponedelnik/obsht-pregled.category=08_%D0%90%D0%BB%D0%BA%D0%BE%D1%85%D0%BE%D0%BB%D0%BD%D0%B8_%D0%B8_%D0%B1%D0%B5%D0%B7%D0%B0%D0%BB%D0%BA%D0%BE%D1%85%D0%BE%D0%BB%D0%BD%D0%B8_%D0%BD%D0%B0%D0%BF%D0%B8%D1%82%D0%BA%D0%B8.html',
-    'https://www.kaufland.bg/aktualni-predlozheniya/ot-ponedelnik/obsht-pregled.category=09_%D0%94%D1%80%D0%BE%D0%B3%D0%B5%D1%80%D0%B8%D1%8F__%D1%85%D1%80%D0%B0%D0%BD%D0%B0_%D0%B7%D0%B0_%D0%B4%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D0%B8_%D0%BB%D1%8E%D0%B1%D0%B8%D0%BC%D1%86%D0%B8.html',
-    'https://www.kaufland.bg/aktualni-predlozheniya/ot-ponedelnik/obsht-pregled.category=10_%D0%95%D0%BB__%D1%83%D1%80%D0%B5%D0%B4%D0%B8__%D0%BE%D1%84%D0%B8%D1%81__%D0%BC%D0%B5%D0%B4%D0%B8%D0%B8.html',
-    'https://www.kaufland.bg/aktualni-predlozheniya/ot-ponedelnik/obsht-pregled.category=11_%D0%94%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D0%B8_%D0%BF%D0%BE%D1%82%D1%80%D0%B5%D0%B1%D0%B8.html',
-    'https://www.kaufland.bg/aktualni-predlozheniya/ot-ponedelnik/obsht-pregled.category=12_%D0%A2%D0%B5%D0%BA%D1%81%D1%82%D0%B8%D0%BB__%D0%B8%D0%B3%D1%80%D0%B0%D1%87%D0%BA%D0%B8__%D0%B0%D0%B2%D1%82%D0%BE__%D1%83%D0%B8%D0%BA%D0%B5%D0%BD%D0%B4.html'
-]
+kaufland_url = "https://www.kaufland.bg/"
 
-lidl_url = "https://www.lidl.bg/c/novo/c2738/w2"
+lidl_url = "https://www.lidl.bg/"
 
 
-def get_lidl_categories():
+def lidl_promotions_url():
+    '''
+    Searches for the new url where lidl presents it promotions each week
+    :return: Promotions url
+    '''
     response = requests.get(lidl_url)
     if response.status_code != 200:
         return False
 
     soup = BeautifulSoup(response.text, "html.parser")
+    main_urls = soup.select(".nuc-m-header-main-nav-item__anchor-text")
+    for url in main_urls:
+        if url.get_text() == "Нови предложения":
+            return f"{lidl_url}{url.parent['href']}"
+
+
+def get_lidl_categories():
+    response = requests.get(lidl_promotions_url())
+    if response.status_code != 200:
+        return False
+
+    soup = BeautifulSoup(response.text, "html.parser")
     categories = soup.find_all("a", "theme__item")
-    categories_urls = [f"https://www.lidl.bg/{category['href']}" for category in categories]
-    return categories_urls
+    categories_url = [f"https://www.lidl.bg/{category['href']}" for category in categories]
+    return categories_url
+
+
+def kaufland_get_promotions_main():
+    '''
+    Searches for the main promotions page
+    :return: main promotion page url
+    '''
+    response = requests.get(kaufland_url)
+    if response.status_code != 200:
+        return False
+
+    soup = BeautifulSoup(response.text, "html.parser")
+    navigation_url = soup.select(".m-accordion__link")
+    promotions_page = None
+    for url in navigation_url:
+        if url.find("span").get_text().startswith("Предложения"):
+            return f"https://www.kaufland.bg/{url['href']}"
+
+
+def kaufland_get_promotions_urls():
+    '''
+    Searches for the promotions that start from monday and from thursday
+    :return: promotions from monday and thursday urls
+    '''
+    response = requests.get(kaufland_get_promotions_main())
+    if response.status_code != 200:
+        return False
+
+    soup = BeautifulSoup(response.text, "html.parser")
+    promotions = []
+    for component in soup.select(".textimageteaser"):
+        url = component.find("a")["href"]
+        if not url.startswith("https:"):
+            url = "https://www.kaufland.bg" + url
+        promotions.append(url)
+
+    return promotions
+
+
+def kaufland_categories_url():
+    '''
+    Gets categories for monday promotions, the url with thursday promotions is equal to a category
+    '''
+    categories = []
+    promotions_urls = kaufland_get_promotions_urls()
+    response = requests.get(promotions_urls[0])
+    if response.status_code != 200:
+        return False
+
+    soup = BeautifulSoup(response.text, "html.parser")
+    buttons = soup.select(".a-button--primary")
+    for button in buttons:
+        if button.find("a") and button.find("a").get_text().startswith("Разгледай всички предложения"):
+            categories.append(button.find("a")['href'])
+    # Append category with promotions from thursday
+    categories.append(promotions_urls[1])
+    return categories
 
 
 lidl_cats = get_lidl_categories()
+kaufland_cats = kaufland_categories_url()
