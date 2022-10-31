@@ -30,31 +30,30 @@ def billa(store):
     promotion, _ = Promotion.objects.get_or_create(store=store, expire_date=promotion_expires,
                                                    start_date=promotion_starts)
 
-    print(f"{promotion_starts} - {promotion_expires}")
     for product in products:
         product_title = product.select_one(".actualProduct").text.strip()
 
         product_prices = product.select(".price")
+        product_old_price = None
+        product_new_price = None
         if len(product_prices) == 2:
             product_new_price = float(product_prices[1].text.strip())
             product_old_price = float(product_prices[0].text.strip())
         elif len(product_prices) == 1:
             product_new_price = float(product_prices[0].text.strip())
-            product_old_price = None
 
         try:
             product_discount = product.select_one(".discount").text.strip()
         except AttributeError:
             product_discount = None
 
-        if product_prices:
-            print(product_title, product_old_price, product_new_price, product_discount, sep='\n')
-
-        product, _ = Product.objects.get_or_create(promotion=promotion, title=product_title, sub_title=None,
-                                                   old_price=product_old_price, new_price=product_new_price,
-                                                   base_price=None, quantity=None, discount_phrase=product_discount,
-                                                   image_url=None
-                                                   )
+        if product_new_price:
+            print(product_title)
+            product, _ = Product.objects.get_or_create(promotion=promotion, title=product_title,
+                                                       old_price=product_old_price, new_price=product_new_price,
+                                                       base_price=None, quantity=None, discount_phrase=product_discount,
+                                                       image_url=None
+                                                       )
     return True
 
 
@@ -73,7 +72,6 @@ def kaufland(store):
         promotion, _ = Promotion.objects.get_or_create(store=store, expire_date=promotion_expires,
                                                        start_date=promotion_starts)
 
-        print(f"{promotion_starts} - {promotion_expires}")
         for product in products:
             product_image = product.select_one(".a-image-responsive")['data-src']
             product_subtitle = product.select_one(".m-offer-tile__subtitle").text.strip()
@@ -106,9 +104,7 @@ def kaufland(store):
             except AttributeError:
                 product_quantity = None
 
-            print(product_image, product_subtitle, product_title, product_old_price, product_discount_phrase,
-                  product_new_price, product_base_price, product_quantity, sep='\n')
-
+            print(product_title)
             product, _ = Product.objects.get_or_create(promotion=promotion, title=product_title,
                                                        sub_title=product_subtitle,
                                                        old_price=product_old_price, new_price=product_new_price,
@@ -172,12 +168,10 @@ def lidl(store):
             if promotion_expires:
                 promotion_expires = convert_to_date(promotion_expires)
 
-            print(product_image, product_title, product_discount_phrase, product_old_price, product_new_price,
-                  product_quantity, f"{promotion_starts} - {promotion_expires}", sep='\n')
-
             promotion, _ = Promotion.objects.get_or_create(store=store, expire_date=promotion_expires,
                                                            start_date=promotion_starts)
 
+            print(product_title)
             product, _ = Product.objects.get_or_create(promotion=promotion, title=product_title,
                                                        sub_title=None,
                                                        old_price=product_old_price, new_price=product_new_price,
