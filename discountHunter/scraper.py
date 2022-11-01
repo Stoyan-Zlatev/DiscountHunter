@@ -6,7 +6,8 @@ from datetime import datetime as dt
 from products.models import Promotion, Product
 
 
-# TODO migrate and check if scraper is working
+BILLA_LOGO = "https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/0012/8033/brand.gif?itok=zP8_dFEh"
+
 
 def convert_to_date(date_text):
     if int(date_text.split('.')[1]) < dt.now().month:
@@ -28,8 +29,8 @@ def billa(store):
     promotion_text = soup.find("div", 'date').get_text().split(" ")
     promotion_starts = dt.strptime(promotion_text[-5], '%d.%m.%Y')
     promotion_expires = dt.strptime(promotion_text[-2], '%d.%m.%Y')
-    promotion, _ = Promotion.objects.get_or_create(store=store, expire_date=promotion_expires,
-                                                   start_date=promotion_starts)
+    promotion = Promotion.objects.create(store=store, expire_date=promotion_expires,
+                                         start_date=promotion_starts)
 
     for product in products:
         product_title = product.select_one(".actualProduct").text.strip()
@@ -49,12 +50,11 @@ def billa(store):
             product_discount = None
 
         if product_new_price:
-            print(product_title)
-            product, _ = Product.objects.get_or_create(promotion=promotion, title=product_title,
-                                                       old_price=product_old_price, new_price=product_new_price,
-                                                       base_price=None, quantity=None, discount_phrase=product_discount,
-                                                       image_url=None
-                                                       )
+            Product.objects.create(promotion=promotion, title=product_title,
+                                   old_price=product_old_price, new_price=product_new_price,
+                                   discount_phrase=product_discount,
+                                   image_url=BILLA_LOGO
+                                   )
     return True
 
 
@@ -70,8 +70,8 @@ def kaufland(store):
                                    "a-icon-tile-headline__subheadline").find("h2").text.strip()
         promotion_starts = dt.strptime(promotion_text.split()[-3], '%d.%m.%Y')
         promotion_expires = dt.strptime(promotion_text.split()[-1], '%d.%m.%Y')
-        promotion, _ = Promotion.objects.get_or_create(store=store, expire_date=promotion_expires,
-                                                       start_date=promotion_starts)
+        promotion = Promotion.objects.create(store=store, expire_date=promotion_expires,
+                                             start_date=promotion_starts)
 
         for product in products:
             product_image = product.select_one(".a-image-responsive")['data-src']
@@ -106,13 +106,13 @@ def kaufland(store):
             except AttributeError:
                 product_quantity = None
 
-            product, _ = Product.objects.get_or_create(promotion=promotion, title=product_title,
-                                                       sub_title=product_subtitle,
-                                                       old_price=product_old_price, new_price=product_new_price,
-                                                       base_price=product_base_price, quantity=product_quantity,
-                                                       discount_phrase=product_discount_phrase,
-                                                       image_url=product_image
-                                                       )
+            Product.objects.create(promotion=promotion, title=product_title,
+                                   sub_title=product_subtitle,
+                                   old_price=product_old_price, new_price=product_new_price,
+                                   base_price=product_base_price, quantity=product_quantity,
+                                   discount_phrase=product_discount_phrase,
+                                   image_url=product_image
+                                   )
     return True
 
 
@@ -169,13 +169,13 @@ def lidl(store):
             if promotion_expires:
                 promotion_expires = convert_to_date(promotion_expires)
 
-            promotion, _ = Promotion.objects.get_or_create(store=store, expire_date=promotion_expires,
-                                                           start_date=promotion_starts)
+            promotion = Promotion.objects.create(store=store, expire_date=promotion_expires,
+                                                 start_date=promotion_starts)
 
-            product, _ = Product.objects.get_or_create(promotion=promotion, title=product_title,
-                                                       old_price=product_old_price, new_price=product_new_price,
-                                                       quantity=product_quantity,
-                                                       discount_phrase=product_discount_phrase,
-                                                       image_url=product_image
-                                                       )
+            Product.objects.create(promotion=promotion, title=product_title,
+                                   old_price=product_old_price, new_price=product_new_price,
+                                   quantity=product_quantity,
+                                   discount_phrase=product_discount_phrase,
+                                   image_url=product_image
+                                   )
     return True

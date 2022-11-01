@@ -15,8 +15,8 @@ class Product(models.Model):
     promotion = models.ForeignKey(Promotion, related_name='products', on_delete=models.CASCADE)
     title = models.CharField(max_length=255, null=True)
     sub_title = models.CharField(max_length=255, null=True)
-    old_price = models.DecimalField(max_digits=9, decimal_places=2, default=0, null=True)
-    new_price = models.DecimalField(max_digits=9, decimal_places=2, default=0, null=True)
+    old_price = models.DecimalField(max_digits=9, decimal_places=2, null=True)
+    new_price = models.DecimalField(max_digits=9, decimal_places=2, default=0)
     base_price = models.CharField(max_length=255, null=True)
     quantity = models.CharField(max_length=255, null=True)
     discount_phrase = models.CharField(max_length=255, null=True)
@@ -29,4 +29,3 @@ class Product(models.Model):
             return self.title
         else:
             return self.sub_title
-
