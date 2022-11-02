@@ -20,6 +20,7 @@ class Product(models.Model):
     base_price = models.CharField(max_length=255, null=True)
     quantity = models.CharField(max_length=255, null=True)
     discount_phrase = models.CharField(max_length=255, null=True)
+    description = models.TextField(blank=True, null=True)
     image_url = models.TextField(blank=True, null=True)
 
     def __str__(self):

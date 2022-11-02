@@ -5,7 +5,6 @@ from .categories import kaufland_cats, billa_cats, lidl_cats
 from datetime import datetime as dt
 from products.models import Promotion, Product
 
-
 BILLA_LOGO = "https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/0012/8033/brand.gif?itok=zP8_dFEh"
 
 
@@ -29,8 +28,8 @@ def billa(store):
     promotion_text = soup.find("div", 'date').get_text().split(" ")
     promotion_starts = dt.strptime(promotion_text[-5], '%d.%m.%Y')
     promotion_expires = dt.strptime(promotion_text[-2], '%d.%m.%Y')
-    promotion = Promotion.objects.create(store=store, expire_date=promotion_expires,
-                                         start_date=promotion_starts)
+    promotion, _ = Promotion.objects.get_or_create(store=store, expire_date=promotion_expires,
+                                                   start_date=promotion_starts)
 
     for product in products:
         product_title = product.select_one(".actualProduct").text.strip()
@@ -50,70 +49,91 @@ def billa(store):
             product_discount = None
 
         if product_new_price:
-            Product.objects.create(promotion=promotion, title=product_title,
-                                   old_price=product_old_price, new_price=product_new_price,
-                                   discount_phrase=product_discount,
-                                   image_url=BILLA_LOGO
-                                   )
+            product, _ = Product.objects.get_or_create(promotion=promotion, title=product_title,
+                                                       old_price=product_old_price, new_price=product_new_price,
+                                                       discount_phrase=product_discount,
+                                                       image_url=BILLA_LOGO
+                                                       )
     return True
 
 
+def get_kaufland_category_products_url(category):
+    response = requests.get(category)
+    if response.status_code != 200:
+        return False
+
+    soup = BeautifulSoup(response.text, "html.parser")
+    products = soup.find_all("a", ["m-offer-tile__link", "u-button--hover-children"])
+    category_products_urls = [f"https://www.kaufland.bg{product['href']}" for product in products if
+                              product['target'] == "_self"]
+    return category_products_urls
+
+
 def kaufland(store):
-    print(kaufland_cats)
     for category in kaufland_cats[:]:
-        response = requests.get(category)
-        if response.status_code != 200:
-            return False
-
-        soup = BeautifulSoup(response.text, "html.parser")
-        products = soup.find_all("a", 'm-offer-tile__link u-button--hover-children')
-        promotion_text = soup.find("div",
-                                   "a-icon-tile-headline__subheadline").find("h2").text.strip()
-        promotion_starts = dt.strptime(promotion_text.split()[-3], '%d.%m.%Y')
-        promotion_expires = dt.strptime(promotion_text.split()[-1], '%d.%m.%Y')
-        promotion = Promotion.objects.create(store=store, expire_date=promotion_expires,
-                                             start_date=promotion_starts)
-
+        products = get_kaufland_category_products_url(category)
         for product in products:
-            product_image = product.select_one(".a-image-responsive")['data-src']
-            product_subtitle = product.select_one(".m-offer-tile__subtitle").text.strip()
+            response = requests.get(product)
+            if response.status_code != 200:
+                return False
+
+            print(product)
+            soup = BeautifulSoup(response.text, "html.parser")
+            product_image = soup.find("img", ["a-image-responsive", "a-image-responsive--preview-knockout"])['src']
+            promotion_text = soup.find("div", ["a-eye-catcher", "a-eye-catcher--secondary"]).find("span").text.strip()
+            promotion_starts = convert_to_date(promotion_text.split()[-3])
+            promotion_expires = convert_to_date(promotion_text.split()[-1])
+
+            product_component = soup.find("div", [".g-col", "g-col-2"])
+            product_subtitle = soup.select_one(".t-offer-detail__subtitle").text.strip()
             try:
-                product_title = product.select_one(".m-offer-tile__title").text.strip()
+                product_title = soup.select_one(".t-offer-detail__title").text.strip()
             except AttributeError:
                 product_title = None
 
             try:
-                product_discount_phrase = product.select_one(".a-pricetag__discount").text.strip()
+                product_discount_phrase = soup.select_one(".a-pricetag__discount").text.strip()
             except AttributeError:
                 product_discount_phrase = None
 
             # It could be old_price and 'само' as well
             try:
                 product_old_price = float(
-                    product.select_one(".a-pricetag__old-price").text.strip().replace(",", "."))
+                    soup.select_one(".a-pricetag__old-price").text.strip().replace(",", "."))
             except ValueError:
                 product_old_price = None
-                product_discount_phrase = product.select_one(".a-pricetag__old-price").text.strip()
+                product_discount_phrase = soup.select_one(".a-pricetag__old-price").text.strip()
 
-            product_new_price = float(product.select_one(".a-pricetag__price").text.strip().replace(",", "."))
+            product_new_price = float(soup.select_one(".a-pricetag__price").text.strip().replace(",", "."))
 
             try:
-                product_base_price = product.select_one(".m-offer-tile__basic-price").text.strip()
+                product_base_price = soup.select_one(".t-offer-detail__basic-price").text.strip()
             except AttributeError:
                 product_base_price = None
 
             try:
-                product_quantity = product.select_one(".m-offer-tile__quantity").text.strip()
+                product_quantity = soup.select_one(".t-offer-detail__quantity").text.strip()
             except AttributeError:
                 product_quantity = None
 
-            Product.objects.create(promotion=promotion, title=product_title,
-                                   sub_title=product_subtitle,
-                                   old_price=product_old_price, new_price=product_new_price,
-                                   base_price=product_base_price, quantity=product_quantity,
-                                   discount_phrase=product_discount_phrase,
-                                   image_url=product_image
-                                   )
+            try:
+                product_description = soup.select_one(".t-offer-detail__description").text.strip()
+            except AttributeError:
+                product_description = None
+
+            promotion, _ = Promotion.objects.get_or_create(store=store, expire_date=promotion_expires,
+                                                           start_date=promotion_starts)
+
+            product, _ = Product.objects.get_or_create(promotion=promotion, title=product_title,
+                                                       sub_title=product_subtitle,
+                                                       old_price=product_old_price, new_price=product_new_price,
+                                                       base_price=product_base_price, quantity=product_quantity,
+                                                       discount_phrase=product_discount_phrase,
+                                                       description=product_description,
+                                                       image_url=product_image
+                                                       )
+
+    print("Success")
     return True
 
 
@@ -150,7 +170,8 @@ def lidl(store):
                 product_discount_phrase = None
 
             try:
-                product_old_price = product_component.select_one(".pricebox__recommended-retail-price").find("span").text.strip()
+                product_old_price = product_component.select_one(".pricebox__recommended-retail-price").find(
+                    "span").text.strip()
             except AttributeError:
                 product_old_price = None
             else:
@@ -163,7 +184,8 @@ def lidl(store):
             product_quantity = product_component.select_one(".pricebox__basic-quantity").text.strip()
 
             try:
-                product_description = [description.text.strip() for description in product_component.select_one(".textbody").find_all("li")]
+                product_description = [description.text.strip() for description in
+                                       product_component.select_one(".textbody").find_all("li")]
             except AttributeError:
                 product_description = None
 
@@ -188,14 +210,14 @@ def lidl(store):
             if promotion_expires:
                 promotion_expires = convert_to_date(promotion_expires)
 
-            promotion = Promotion.objects.create(store=store, expire_date=promotion_expires,
-                                                 start_date=promotion_starts)
+            promotion, _ = Promotion.objects.get_or_create(store=store, expire_date=promotion_expires,
+                                                           start_date=promotion_starts)
 
-            Product.objects.create(promotion=promotion, title=product_title,
-                                   old_price=product_old_price, new_price=product_new_price,
-                                   quantity=product_quantity,
-                                   discount_phrase=product_discount_phrase,
-                                   description=product_description,
-                                   image_url=product_image
-                                   )
+            product, _ = Product.objects.get_or_create(promotion=promotion, title=product_title,
+                                                       old_price=product_old_price, new_price=product_new_price,
+                                                       quantity=product_quantity,
+                                                       discount_phrase=product_discount_phrase,
+                                                       description=product_description,
+                                                       image_url=product_image
+                                                       )
     return True
