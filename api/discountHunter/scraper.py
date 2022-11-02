@@ -117,27 +117,40 @@ def kaufland(store):
     return True
 
 
+def get_lidl_category_products_url(category):
+    response = requests.get(category)
+    if response.status_code != 200:
+        return False
+
+    soup = BeautifulSoup(response.text, "html.parser")
+    products = soup.find_all("a", "ret-o-card__link nuc-a-anchor")
+    category_products_urls = [f"https://www.lidl.bg/{product['href']}" for product in products]
+    return category_products_urls
+
+
 def lidl(store):
     for category in lidl_cats[:]:
-        response = requests.get(category)
-        if response.status_code != 200:
-            return False
-
-        soup = BeautifulSoup(response.text, "html.parser")
-        products = soup.find_all("a", 'ret-o-card__link nuc-a-anchor')
+        products = get_lidl_category_products_url(category)
         for product in products:
-            product_image = product.find("img")["src"]
+            response = requests.get(product)
+            if response.status_code != 200:
+                return False
+
+            soup = BeautifulSoup(response.text, "html.parser")
+            product_component = soup.select_one(".attributebox")
+            product_image = soup.find("a", ["multimediabox__preview-link"])["href"]
             product_title = " ".join(
-                re.sub('\n', '', product.select_one(".ret-o-card__head").find("h3").text).strip().split())
+                re.sub('\n', '',
+                       product_component.select_one(".attributebox__headline--h1").text).strip().split())
 
             # Shows discount % as well as other type of promotion 'СПЕСТИ 20 ЛВ. САМО НА 05.11.'
             try:
-                product_discount_phrase = product.select_one(".lidl-m-pricebox__highlight").text.strip()
+                product_discount_phrase = product_component.select_one(".pricebox__highlight").text.strip()
             except AttributeError:
                 product_discount_phrase = None
 
             try:
-                product_old_price = product.select_one(".lidl-m-pricebox__discount-wrapper").text.strip()
+                product_old_price = product_component.select_one(".pricebox__recommended-retail-price").find("span").text.strip()
             except AttributeError:
                 product_old_price = None
             else:
@@ -145,15 +158,20 @@ def lidl(store):
                     product_old_price = float(product_old_price.replace(",", "."))
                 except ValueError:
                     product_old_price = None
+            product_new_price = float(product_component.select_one(".pricebox__price").text.strip().replace(",", "."))
 
-            product_new_price = float(product.select_one(".lidl-m-pricebox__price").text.strip().replace(",", "."))
-            product_quantity = product.select_one(".lidl-m-pricebox__basic-quantity").text.strip()
+            product_quantity = product_component.select_one(".pricebox__basic-quantity").text.strip()
+
+            try:
+                product_description = [description.text.strip() for description in product_component.select_one(".textbody").find_all("li")]
+            except AttributeError:
+                product_description = None
 
             # Promotion could be interval date-date, but could be 'само на date', 'от date'
             # if promotion_starts is None - 'само на date'
             # if promotion_expires is None - 'от date'
             try:
-                promotion_interval = product.select_one(".lidl-m-ribbon-item__text").text.strip()
+                promotion_interval = product_component.select_one(".ribbon__text").text.strip()
                 promotion_starts = promotion_interval.split()[-3]
                 if promotion_starts == 'само':
                     promotion_starts = None
@@ -177,6 +195,7 @@ def lidl(store):
                                    old_price=product_old_price, new_price=product_new_price,
                                    quantity=product_quantity,
                                    discount_phrase=product_discount_phrase,
+                                   description=product_description,
                                    image_url=product_image
                                    )
     return True
