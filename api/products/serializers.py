@@ -17,4 +17,4 @@ class ProductDetailSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Product
         fields = ['title', 'sub_title', 'old_price', 'new_price', 'base_price', 'quantity', 'discount_phrase',
-                  'image_url']
+                  'description', 'image_url']

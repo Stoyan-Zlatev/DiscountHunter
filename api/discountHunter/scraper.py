@@ -9,7 +9,7 @@ BILLA_LOGO = "https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/001
 
 
 def convert_to_date(date_text):
-    if int(date_text.split('.')[1]) < dt.now().month:
+    if (int(date_text.split('.')[1]) - 1) < dt.now().month:
         year = dt.now().year + 1
     else:
         year = dt.now().year
@@ -77,14 +77,12 @@ def kaufland(store):
             if response.status_code != 200:
                 return False
 
-            print(product)
             soup = BeautifulSoup(response.text, "html.parser")
             product_image = soup.find("img", ["a-image-responsive", "a-image-responsive--preview-knockout"])['src']
             promotion_text = soup.find("div", ["a-eye-catcher", "a-eye-catcher--secondary"]).find("span").text.strip()
             promotion_starts = convert_to_date(promotion_text.split()[-3])
             promotion_expires = convert_to_date(promotion_text.split()[-1])
 
-            product_component = soup.find("div", [".g-col", "g-col-2"])
             product_subtitle = soup.select_one(".t-offer-detail__subtitle").text.strip()
             try:
                 product_title = soup.select_one(".t-offer-detail__title").text.strip()
@@ -132,8 +130,6 @@ def kaufland(store):
                                                        description=product_description,
                                                        image_url=product_image
                                                        )
-
-    print("Success")
     return True
 
 

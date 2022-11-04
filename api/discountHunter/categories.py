@@ -8,7 +8,7 @@ kaufland_url = "https://www.kaufland.bg/"
 lidl_url = "https://www.lidl.bg/"
 
 
-def lidl_promotions_url():
+def get_lidl_promotions_url():
     '''
     Searches for the new url where lidl presents it promotions each week
     :return: Promotions url
@@ -25,7 +25,7 @@ def lidl_promotions_url():
 
 
 def get_lidl_categories():
-    response = requests.get(lidl_promotions_url())
+    response = requests.get(get_lidl_promotions_url())
     if response.status_code != 200:
         return False
 
@@ -35,7 +35,7 @@ def get_lidl_categories():
     return categories_url
 
 
-def kaufland_get_promotions_main():
+def get_kaufland_promotions_main():
     '''
     Searches for the main promotions page
     :return: main promotion page url
@@ -52,12 +52,12 @@ def kaufland_get_promotions_main():
             return f"https://www.kaufland.bg/{url['href']}"
 
 
-def kaufland_get_promotions_urls():
+def get_kaufland_promotions_urls():
     '''
     Searches for the promotions that start from monday and from thursday
     :return: promotions from monday and thursday urls
     '''
-    response = requests.get(kaufland_get_promotions_main())
+    response = requests.get(get_kaufland_promotions_main())
     if response.status_code != 200:
         return False
 
@@ -72,12 +72,12 @@ def kaufland_get_promotions_urls():
     return promotions
 
 
-def kaufland_categories_url():
+def get_kaufland_categories():
     '''
     Gets categories for monday promotions, the url with thursday promotions is equal to a category
     '''
     categories = []
-    promotions_urls = kaufland_get_promotions_urls()
+    promotions_urls = get_kaufland_promotions_urls()
     response = requests.get(promotions_urls[0])
     if response.status_code != 200:
         return False
@@ -93,4 +93,4 @@ def kaufland_categories_url():
 
 
 lidl_cats = get_lidl_categories()
-kaufland_cats = kaufland_categories_url()
+kaufland_cats = get_kaufland_categories()
