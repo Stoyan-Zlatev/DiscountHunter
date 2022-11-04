@@ -1,0 +1,15 @@
+<div class="products__container">
+	<ng-container *ngFor="let product of products">
+		<section class="product__item">
+			<figure class="product__figure">
+				<img *ngIf="product.image" class="product__image" [src]="product.image" alt="" />
+			</figure>
+			<a [routerLink]="['/product/' + product.id]">
+				<div class="product__content">
+					<strong class="product__title">{{ product.name }}</strong>
+					<em class="product__price">{{ product.price | currency: 'EUR' }}</em>
+				</div>
+			</a>
+		</section>
+	</ng-container>
+</div>

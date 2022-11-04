@@ -1,9 +1,8 @@
-<mat-toolbar color="primary">
-   <span>Discount Hunter</span>
- </mat-toolbar>
-<p>{{products}}</p>
-<!--<div *ngFor="let product of products">-->
-<!--  <h1>{{product}}</h1>-->
-<!--</div>-->
+<div class="toolbar" role="banner">
+	<h1 class="name">Discount Hunter</h1>
+	<button [routerLink]="['/']" mat-flat-button>Home</button>
+</div>
 
-<router-outlet></router-outlet>
+<div class="content" role="main">
+	<router-outlet></router-outlet>
+</div>

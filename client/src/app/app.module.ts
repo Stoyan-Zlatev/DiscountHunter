@@ -1,25 +1,17 @@
-import {NgModule} from '@angular/core';
-import {BrowserModule} from '@angular/platform-browser';
-import {HttpClientModule} from '@angular/common/http'
-import {AppRoutingModule} from './app-routing.module';
-import {AppComponent} from './app.component';
-import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {MatToolbarModule} from '@angular/material/toolbar';
+import { BrowserModule } from '@angular/platform-browser'
+import { NgModule } from '@angular/core'
 
+import { AppRoutingModule } from './app-routing.module'
+import { AppComponent } from './app.component'
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
+
+import { HttpClientModule } from '@angular/common/http';
+import { ProductItemComponent } from './products/components/product-item/product-item.component';
+import { ProductListComponent } from './products/components/product-list/product-list.component';
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    BrowserAnimationsModule,
-    MatToolbarModule,
-    HttpClientModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+	declarations: [AppComponent, ProductItemComponent, ProductListComponent],
+	imports: [BrowserModule, HttpClientModule, AppRoutingModule, BrowserAnimationsModule],
+	providers: [],
+	bootstrap: [AppComponent],
 })
-export class AppModule {
-
-}
+export class AppModule {}
