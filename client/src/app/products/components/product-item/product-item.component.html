@@ -1,13 +1,13 @@
 <ng-container *ngIf="productItem">
-	<section class="product__item">
-		<h1 class="product__title">{{ productItem.name }}</h1>
-		<ng-container *ngIf="productItem.image">
-			<figure class="product__figure">
-				<img loading="lazy" *ngIf="productItem.image" width="640px" class="product__image" [src]="productItem.image" alt="" />
-			</figure>
-		</ng-container>
-		<footer class="product__footer">
-			<em class="product__price">{{ productItem.price | currency: 'EUR' }}</em>
-		</footer>
-	</section>
+  <section class="product__item">
+    <h1 class="product__title">{{ productItem.name }}</h1>
+    <ng-container *ngIf="productItem.image">
+      <figure class="product__figure">
+        <ik-image loading="lazy" *ngIf="productItem.image" src="productItem.image" [transformation]="transform" alt=""></ik-image>
+      </figure>
+    </ng-container>
+    <footer class="product__footer">
+      <em class="product__price">{{ productItem.price | currency: 'EUR' }}</em>
+    </footer>
+  </section>
 </ng-container>

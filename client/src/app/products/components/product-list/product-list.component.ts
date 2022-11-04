@@ -9,6 +9,7 @@ import { Product, ProductData } from '../../models/product'
 })
 export class ProductListComponent implements OnInit {
 	products: ProductData[] = []
+  public transform = [{"height": "200", "width": "200", "focus": "auto"}]
 
 	constructor(private product: ProductService) {}
 
