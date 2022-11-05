@@ -1,5 +1,3 @@
-
-
 import {Injectable} from '@angular/core'
 import {HttpClient} from '@angular/common/http'
 import {Product, ProductData} from '../models/product'
@@ -16,7 +14,7 @@ export class ProductService {
     let products = null
     let productsWithImages = null
     try {
-      products = await this.http.get<any>(environment.apiUrl + 'products/?page=' + id).toPromise()
+      products = await this.http.get<any>(`${environment.apiUrl}products/?page=${id}`).toPromise()
       productsWithImages = products.results.map((productItem: any) => new Product(this.getProductImage(productItem)).data)
     } catch (error) {
       console.error(error)
@@ -24,7 +22,20 @@ export class ProductService {
     return productsWithImages
   }
 
-  public async getProductById(id:any): Promise<ProductData | null> {
+  public async getFilteredProducts(id: any, search: any): Promise<ProductData[] | null | undefined> {
+    let products = null
+    let productsWithImages = null
+    try {
+      products = await this.http.get<any>(`${environment.apiUrl}products/?search=${search}&page=${id}`).toPromise()
+      console.log(`${environment.apiUrl}products/?search=${search}&?page=${id}`)
+      productsWithImages = products.results.map((productItem: any) => new Product(this.getProductImage(productItem)).data)
+    } catch (error) {
+      console.error(error)
+    }
+    return productsWithImages
+  }
+
+  public async getProductById(id: any): Promise<ProductData | null> {
     if (!id) return null
     const product = await this.http.get<Product>(`${environment.apiUrl}product/${id}/`).toPromise()
     return new Product(this.getProductImage(product)).data
@@ -32,13 +43,16 @@ export class ProductService {
 
   private getProductImage(product: any): Product {
     const tempProduct = {...product}
-
-    console.log('tempProduct:', tempProduct)
     return tempProduct
   }
 
   public async getProductsCount(): Promise<any> {
-        const productCount = await this.http.get<any>(`${environment.apiUrl}products/`).toPromise()
-        return productCount.count
+    const productCount = await this.http.get<any>(`${environment.apiUrl}products/`).toPromise()
+    return productCount.count
+  }
+
+   public async getFilteredProductsCount(id: any, search: any): Promise<any> {
+    const productCount = await this.http.get<any>(`${environment.apiUrl}products/?search=${search}&?page=${id}`).toPromise()
+    return productCount.count
   }
 }
