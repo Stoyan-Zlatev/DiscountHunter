@@ -1,13 +1,57 @@
 <ng-container *ngIf="productItem">
-  <section class="product__item">
-    <h1 class="product__title">{{ productItem.name }}</h1>
-    <ng-container *ngIf="productItem.image">
-      <figure class="product__figure">
-        <ik-image loading="lazy" *ngIf="productItem.image" src="productItem.image" [transformation]="transform" alt=""></ik-image>
-      </figure>
-    </ng-container>
-    <footer class="product__footer">
-      <em class="product__price">{{ productItem.price | currency: 'EUR' }}</em>
-    </footer>
-  </section>
+
+
+<div class='card'>
+  <div class='card-header'>
+    {{productItem.name }}
+  </div>
+
+  <div class='card-body'
+       *ngIf='productItem'>
+    <div class='row'>
+      <div class='col-md-8'>
+        <div class='row'>
+          <div class='col-md-4'>Name:</div>
+          <div class='col-md-8'>{{productItem.name}}</div>
+        </div>
+        <div class='row'>
+          <div class='col-md-4'>Code:</div>
+          <div class='col-md-8'>{{productItem.basePrice | lowercase }}</div>
+        </div>
+        <div class='row'>
+          <div class='col-md-4'>Description:</div>
+          <div class='col-md-8'>{{productItem.description}}</div>
+        </div>
+        <div class='row'>
+          <div class='col-md-4'>Availability:</div>
+          <div class='col-md-8'>{{productItem.oldPrice}}</div>
+        </div>
+        <div class='row'>
+          <div class='col-md-4'>Price:</div>
+          <div class='col-md-8'>{{productItem.price|currency:'BGN':'symbol'}}</div>
+        </div>
+        <div class='row'>
+          <div class='col-md-4'>5 Star Rating:</div>
+          <div class='col-md-8'>{{productItem.quantity}}</div>
+        </div>
+      </div>
+
+      <div class='col-md-4'>
+        <img class='center-block img-responsive'
+             [style.width.px]='200'
+             [style.margin.px]='2'
+             [src]='productItem.image'
+             [title]='productItem.name'>
+      </div>
+    </div>
+  </div>
+
+  <div class='card-footer'>
+    <button class='btn btn-outline-secondary'
+            style='width:80px'
+            (click)='onBack()'>
+      <i class='fa fa-chevron-left'></i> Back
+    </button>
+  </div>
+</div>
 </ng-container>

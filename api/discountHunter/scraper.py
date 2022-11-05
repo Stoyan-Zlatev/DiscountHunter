@@ -78,7 +78,8 @@ def kaufland(store):
                 return False
 
             soup = BeautifulSoup(response.text, "html.parser")
-            product_image = soup.find("img", ["a-image-responsive", "a-image-responsive--preview-knockout"])['src']
+            product_image = soup.find("img", ["a-image-responsive", "a-image-responsive--preview-knockout"])[
+                'src'].replace('?MYRAVRESIZE=150', '')
             promotion_text = soup.find("div", ["a-eye-catcher", "a-eye-catcher--secondary"]).find("span").text.strip()
             promotion_starts = convert_to_date(promotion_text.split()[-3])
             promotion_expires = convert_to_date(promotion_text.split()[-1])

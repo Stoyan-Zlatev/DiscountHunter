@@ -4,8 +4,12 @@ import { ProductListComponent } from './products/components/product-list/product
 import { ProductItemComponent } from './products/components/product-item/product-item.component'
 
 const routes: Routes = [
-	{
+  	{
 		path: '',
+		component: ProductListComponent,
+	},
+	{
+		path: ':id',
 		component: ProductListComponent,
 	},
 	{

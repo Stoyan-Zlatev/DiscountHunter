@@ -1,15 +1,23 @@
+<div class="product_page">
 <div class="products__container">
-	<ng-container *ngFor="let product of products">
-		<section class="product__item">
-			<figure class="product__figure">
-        <ik-image loading="lazy" *ngIf="product.image" [transformation]="transform" [src]="product.image" alt=""></ik-image>
-			</figure>
-			<a [routerLink]="['/product/' + product.id]">
-				<div class="product__content">
-					<strong class="product__title">{{ product.name }}</strong>
-					<em class="product__price">{{ product.price | currency: 'EUR' }}</em>
-				</div>
-			</a>
-		</section>
-	</ng-container>
+  <ng-container *ngFor="let product of products">
+    <section class="product__item">
+      <figure class="product__figure">
+        <img loading="lazy" *ngIf="product.image" [src]="product.image"
+                  alt=""/>
+      </figure>
+      <a [routerLink]="['/product/' + product.id]">
+        <div class="product__content">
+          <p class="product__title">{{product.name}}</p>
+          <em class="product__price">{{ product.price | currency: 'BGN' }}</em>
+        </div>
+      </a>
+    </section>
+  </ng-container>
+</div>
+<ul>
+      <li *ngFor="let item of collection | paginate: { itemsPerPage: 15, currentPage: p, totalItems: productsCount }"> ... </li>
+    </ul>
+
+    <pagination-controls (pageChange)="reload($event)"></pagination-controls>
 </div>
