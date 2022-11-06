@@ -1,6 +1,7 @@
+from django_filters import IsoDateTimeFilter, CharFilter
 from .models import Product
 from rest_framework import serializers
-from django_filters import rest_framework as filter
+import django_filters
 
 
 class ProductsSerializer(serializers.HyperlinkedModelSerializer):
@@ -46,3 +47,13 @@ class ProductDetailSerializer(serializers.HyperlinkedModelSerializer):
         model = Product
         fields = ['id', 'title', 'sub_title', 'old_price', 'new_price', 'base_price', 'quantity', 'discount_phrase',
                   'description', 'image_url', 'promotion_starts', 'promotion_expires', 'store']
+
+
+class MyEndpointFilter(django_filters.FilterSet):
+    promotion_start = IsoDateTimeFilter(field_name="promotion__start_date", lookup_expr='gte')
+    promotion_expire = IsoDateTimeFilter(field_name='promotion__expire_date', lookup_expr='lte')
+    store = CharFilter(field_name='promotion__store__name')
+
+    class Meta:
+        model = Product
+        fields = '__all__'
