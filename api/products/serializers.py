@@ -1,20 +1,48 @@
 from .models import Product
 from rest_framework import serializers
+from django_filters import rest_framework as filter
 
 
 class ProductsSerializer(serializers.HyperlinkedModelSerializer):
     name = serializers.SerializerMethodField()
+    promotion_starts = serializers.SerializerMethodField()
+    promotion_expires = serializers.SerializerMethodField()
+    store = serializers.SerializerMethodField()
 
+    # TODO filter only active promotions
+    # promotion_starts = filter.DateFilter('promotion_starts', date__range=["2022-11-03", "2022-11-06"])
     def get_name(self, obj):
         return str(obj)
 
+    def get_promotion_starts(self, obj):
+        return obj.get_promotion_start()
+
+    def get_promotion_expires(self, obj):
+        return obj.get_promotion_expire()
+
+    def get_store(self, obj):
+        return obj.get_store()
+
     class Meta:
         model = Product
-        fields = ['id', 'name', 'new_price', 'image_url']
+        fields = ['id', 'name', 'new_price', 'image_url', 'promotion_starts', 'promotion_expires', 'store']
 
 
 class ProductDetailSerializer(serializers.HyperlinkedModelSerializer):
+    promotion_starts = serializers.SerializerMethodField()
+    promotion_expires = serializers.SerializerMethodField()
+    store = serializers.SerializerMethodField()
+
+    def get_promotion_starts(self, obj):
+        return obj.get_promotion_start()
+
+    def get_promotion_expires(self, obj):
+        return obj.get_promotion_expire()
+
+    def get_store(self, obj):
+        return obj.get_store()
+
     class Meta:
         model = Product
         fields = ['id', 'title', 'sub_title', 'old_price', 'new_price', 'base_price', 'quantity', 'discount_phrase',
-                  'description', 'image_url']
+                  'description', 'image_url', 'promotion_starts', 'promotion_expires', 'store']

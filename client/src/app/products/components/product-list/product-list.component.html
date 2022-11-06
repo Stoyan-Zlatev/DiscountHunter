@@ -1,29 +1,42 @@
-   <div class="search-container">
+<div>
+  <div class="search-container">
     <form action="/action_page.php">
       <input type="text" placeholder="Въведи име на продукт" name="search" #searchName>
       <button type="submit" (click)="setValue(searchName.value)"><i class="fa fa-search"></i></button>
     </form>
   </div>
-<div class="product_page">
-<div class="products__container">
-  <ng-container *ngFor="let product of products">
-    <section class="product__item">
-      <figure class="product__figure">
-        <img loading="lazy" *ngIf="product.image" [src]="product.image"
-                  alt=""/>
-      </figure>
-      <a [routerLink]="['/product/' + product.id]">
-        <div class="product__content">
-          <p class="product__title">{{product.name}}</p>
-          <em class="product__price">{{ product.price | currency: 'BGN' }}</em>
-        </div>
-      </a>
-    </section>
-  </ng-container>
+  <div class="dropdown">
+    <span>Stores</span>
+    <div class="dropdown-content">
+      <p>Kaufland</p>
+      <p>Lidl</p>
+      <p>Billa</p>
+    </div>
+  </div>
 </div>
-<ul>
-      <li *ngFor="let item of collection | paginate: { itemsPerPage: itemsPerPage, currentPage: p, totalItems: productsCount }"> ... </li>
-    </ul>
+<div class="product_page">
+  <div class="products__container">
+    <ng-container *ngFor="let product of products">
+      <section class="product__item">
+        <figure class="product__figure">
+          <img loading="lazy" *ngIf="product.image" [src]="product.image"
+               alt=""/>
+        </figure>
+        <a [routerLink]="['/product/' + product.id]">
+          <div class="product__content">
+            <p class="product__title">{{product.name}}</p>
+            <em class="product__price">{{ product.price | currency: 'BGN' }}</em>
+          </div>
+        </a>
+      </section>
+    </ng-container>
+  </div>
+  <ul>
+    <li
+      *ngFor="let item of collection | paginate: { itemsPerPage: itemsPerPage, currentPage: p, totalItems: productsCount }">
+      ...
+    </li>
+  </ul>
 
-    <pagination-controls (pageChange)="reload($event)"></pagination-controls>
+  <pagination-controls (pageChange)="reload($event)"></pagination-controls>
 </div>

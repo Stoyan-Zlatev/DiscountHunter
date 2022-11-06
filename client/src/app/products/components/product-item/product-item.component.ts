@@ -21,12 +21,12 @@ export class ProductItemComponent implements OnInit {
     })
     this.product.getProductById(this.id).then((data: any) => {
       this.productItem = data
-      console.log("Product item:", this.productItem.image)
+      console.log(data)
     })
   }
 
   onBack(): void {
-    this.router.navigate(['/']);
+    this.router.navigate(['/'])
   }
 }
 

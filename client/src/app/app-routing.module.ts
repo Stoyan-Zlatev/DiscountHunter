@@ -5,21 +5,18 @@ import {ProductItemComponent} from './products/components/product-item/product-i
 
 const routes: Routes = [
   {
-    path: '',
+    path: '?search=:search&page=:id',
     component: ProductListComponent,
-  },
-  {
+  }, {
     path: ':id',
     component: ProductListComponent,
-  },
-  {
-    path: ':id:&?search:search',
+  }, {
+    path: '',
     component: ProductListComponent,
-  },
-  {
+  }, {
     path: 'product/:id',
     component: ProductItemComponent,
-  },
+  }
 ]
 
 @NgModule({

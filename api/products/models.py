@@ -30,3 +30,12 @@ class Product(models.Model):
             return self.title
         else:
             return self.sub_title
+
+    def get_promotion_start(self):
+        return self.promotion.start_date
+
+    def get_promotion_expire(self):
+        return self.promotion.expire_date
+
+    def get_store(self):
+        return self.promotion.store.name

@@ -1,51 +1,42 @@
 <ng-container *ngIf="productItem">
+  <section class="section">
+    <img [src]="productItem.image" class="square"/>
+    <div class="content">
 
-
-<div class='card'>
-  <div class='card-header'>
-    {{productItem.name }}
-  </div>
-
-  <div class='card-body'
-       *ngIf='productItem'>
-    <div class='row'>
-      <div class='col-md-8'>
-        <div class='row'>
-          <div class='col-md-4'>Name:</div>
-          <div class='col-md-8'>{{productItem.name}}</div>
+      <h2 class="title">
+        {{productItem.title}} {{productItem.subtitle}}
+      </h2>
+      <p class="paragraph">
+        {{productItem.description}}
+      </p>
+      <p>
+        {{productItem.quantity}}
+      </p>
+      <p>
+        {{productItem.basePrice}}
+      </p>
+      <div class="price_component">
+        <div class="discount">
+          {{productItem.discountPhrase}}
         </div>
-        <div class='row'>
-          <div class='col-md-4'>Code:</div>
-          <div class='col-md-8'>{{productItem.basePrice | lowercase }}</div>
-        </div>
-        <div class='row'>
-          <div class='col-md-4'>Description:</div>
-          <div class='col-md-8'>{{productItem.description}}</div>
-        </div>
-        <div class='row'>
-          <div class='col-md-4'>Availability:</div>
-          <div class='col-md-8'>{{productItem.oldPrice}}</div>
-        </div>
-        <div class='row'>
-          <div class='col-md-4'>Price:</div>
-          <div class='col-md-8'>{{productItem.price|currency:'BGN':'symbol'}}</div>
-        </div>
-        <div class='row'>
-          <div class='col-md-4'>5 Star Rating:</div>
-          <div class='col-md-8'>{{productItem.quantity}}</div>
+        <div class="product_price">
+          <div class="old_price">
+            {{productItem.oldPrice}}лв.
+          </div>
+          <div class="new_price">
+            {{productItem.price}}лв.
+          </div>
         </div>
       </div>
-
-      <div class='col-md-4'>
-        <img class='center-block img-responsive'
-             [style.width.px]='200'
-             [style.margin.px]='2'
-             [src]='productItem.image'
-             [title]='productItem.name'>
+      <div>
+        <p>Промоцията е валидна от:</p>
+        <div class="promotion">{{productItem.promotionStart}} - {{productItem.promotionEnd}}</div>
+      </div>
+      <div>
+        <img [src]="productItem.storeLogo" class="logo"/>
       </div>
     </div>
-  </div>
-
+  </section>
   <div class='card-footer'>
     <button class='btn btn-outline-secondary'
             style='width:80px'
@@ -53,5 +44,4 @@
       <i class='fa fa-chevron-left'></i> Back
     </button>
   </div>
-</div>
 </ng-container>

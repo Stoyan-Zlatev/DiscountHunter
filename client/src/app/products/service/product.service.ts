@@ -27,7 +27,6 @@ export class ProductService {
     let productsWithImages = null
     try {
       products = await this.http.get<any>(`${environment.apiUrl}products/?search=${search}&page=${id}`).toPromise()
-      console.log(`${environment.apiUrl}products/?search=${search}&?page=${id}`)
       productsWithImages = products.results.map((productItem: any) => new Product(this.getProductImage(productItem)).data)
     } catch (error) {
       console.error(error)
@@ -51,8 +50,8 @@ export class ProductService {
     return productCount.count
   }
 
-   public async getFilteredProductsCount(id: any, search: any): Promise<any> {
-    const productCount = await this.http.get<any>(`${environment.apiUrl}products/?search=${search}&?page=${id}`).toPromise()
+   public async getFilteredProductsCount(search: any): Promise<any> {
+    const productCount = await this.http.get<any>(`${environment.apiUrl}products/?search=${search}`).toPromise()
     return productCount.count
   }
 }

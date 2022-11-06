@@ -16,6 +16,7 @@ export class ProductListComponent implements OnInit {
   collection: any[] = [];
   searchName: string = ''
   itemsPerPage: number = 15
+  pagesCount: number = 1
 
   constructor(private route: ActivatedRoute, private product: ProductService, private router: Router,) {
   }
@@ -53,15 +54,11 @@ export class ProductListComponent implements OnInit {
         this.products = products
       })
     } else {
-      console.log("New page:",this.p)
       this.product.getFilteredProducts(this.p, this.searchName).then((products: any) => {
-        console.log("Loads")
         this.products = products
-        console.log(products)
       })
     }
     this.route.paramMap.subscribe((params: ParamMap) => {
-      console.log(params.keys)
       params.keys
     });
     this.changingQueryParams()
@@ -69,16 +66,18 @@ export class ProductListComponent implements OnInit {
 
   setValue(searchName: string) {
     this.searchName = searchName;
-    this.product.getFilteredProductsCount(this.p, this.searchName).then((pagesCount: any) => {
-      this.productsCount = pagesCount
-      if (this.p > pagesCount || this.p < 1) {
+    this.product.getFilteredProductsCount(this.searchName).then((productsCount: any) => {
+      this.productsCount = productsCount
+      this.pagesCount = Math.ceil(this.productsCount / this.itemsPerPage)
+      console.log("Pages count: p", this.pagesCount, this.p)
+      if (this.p > this.pagesCount || this.p < 1) {
         this.p = 1
       }
+      console.log(this.p)
+      this.product.getFilteredProducts(this.p, this.searchName).then((products: any) => {
+        this.products = products
+      })
+      this.changingQueryParams()
     })
-    this.product.getFilteredProducts(this.p, this.searchName).then((products: any) => {
-      this.products = products
-    })
-    this.changingQueryParams()
-
   }
 }
