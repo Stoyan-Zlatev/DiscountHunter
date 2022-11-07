@@ -2,38 +2,41 @@
   <section class="section">
     <img [src]="productItem.image" class="square"/>
     <div class="content">
-
+<div class="top-section">
       <h2 class="title">
         {{productItem.title}} {{productItem.subtitle}}
       </h2>
-      <p class="paragraph">
-        {{productItem.description}}
-      </p>
+      <p class="paragraph">{{productItem.description}}</p>
       <p>
         {{productItem.quantity}}
       </p>
       <p>
         {{productItem.basePrice}}
       </p>
-      <div class="price_component">
-        <div class="discount">
-          {{productItem.discountPhrase}}
-        </div>
-        <div class="product_price">
-          <div class="old_price">
-            {{productItem.oldPrice}}лв.
-          </div>
-          <div class="new_price">
-            {{productItem.price}}лв.
-          </div>
-        </div>
-      </div>
       <div>
         <p>Промоцията е валидна от:</p>
-        <div class="promotion">{{productItem.promotionStart}} - {{productItem.promotionEnd}}</div>
+        <div>
+          <span class="promotion">{{productItem.promotionStart}} - {{productItem.promotionEnd}}</span>
+        </div>
       </div>
-      <div>
-        <img [src]="productItem.storeLogo" class="logo"/>
+  </div>
+      <div class="bottom-section">
+        <div>
+          <img [src]="productItem.storeLogo" class="logo"/>
+        </div>
+        <div class="price_component">
+          <div *ngIf="productItem.discountPhrase" class="discount">
+            {{productItem.discountPhrase}}
+          </div>
+          <div class="product_price">
+            <div *ngIf="productItem.oldPrice" class="old_price">
+              {{productItem.oldPrice}}лв.
+            </div>
+            <div class="new_price">
+              {{productItem.price}}лв.
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>

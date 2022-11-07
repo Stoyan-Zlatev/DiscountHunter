@@ -7,7 +7,7 @@ from products.models import Promotion, Product
 
 BILLA_LOGO = "https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/0012/8033/brand.gif?itok=zP8_dFEh"
 
-
+# TODO Lidl description tostring()
 def convert_to_date(date_text, ends):
     if (int(date_text.split('.')[1])) < dt.now().month - 1:
         year = dt.now().year + 1

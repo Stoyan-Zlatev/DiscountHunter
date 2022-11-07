@@ -71,6 +71,8 @@ pagination-controls {
 .search-container {
   text-align: center;
   margin: 20px 0;
+   display: flex !important;
+    width: 80vw;
 }
 
 input[type=text] {
@@ -79,7 +81,6 @@ input[type=text] {
   font-size: 17px;
   border: none;
   width: 80%;
-
 }
 
 .search-container button {
@@ -97,6 +98,10 @@ input[type=text] {
 }
 
 @media screen and (max-width: 600px) {
+  .products__container {
+  grid-template-columns: repeat(1, 1fr);
+
+}
   .search-container {
     float: none;
   }
@@ -130,4 +135,17 @@ input[type=text] {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+.search-filter {
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+  max-width: 960px;
+  align-items: center;
+}
+
+.input-form {
+   display: flex !important;
+    width: 40vw;
 }

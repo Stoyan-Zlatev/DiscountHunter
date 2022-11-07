@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core'
-import {ActivatedRoute, Router} from '@angular/router'
+import {ActivatedRoute, ParamMap, Router} from '@angular/router'
 import {ProductService} from '../../service/product.service'
 import {ProductData} from '../../models/product'
 
@@ -12,8 +12,8 @@ export class ProductItemComponent implements OnInit {
   public id: string = ''
   public productItem: any = null
 
-  constructor(private product: ProductService,  private route: ActivatedRoute,   private router: Router) {
-}
+  constructor(private product: ProductService, private route: ActivatedRoute, private router: Router) {
+  }
 
   ngOnInit(): void {
     this.route.params.subscribe((params) => {
@@ -26,7 +26,14 @@ export class ProductItemComponent implements OnInit {
   }
 
   onBack(): void {
-    this.router.navigate(['/'])
+    // this.route.parent?.paramMap.subscribe((param:ParamMap)=>{
+    //   console.log(param.keys)
+    // })
+    this.route.queryParams.subscribe((param) => {
+      console.log(param)
+      this.router.navigateByUrl(`/?search=${param["search"]}&page=${param["page"]}`)
+    })
+
   }
 }
 

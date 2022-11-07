@@ -5,7 +5,6 @@ export class Product {
   data: any = null
 
   constructor(data: any) {
-    console.log(data)
     this.data = new ProductData(data.id, data)
   }
 }
@@ -20,7 +19,7 @@ export class ProductData {
   basePrice: string = ''
   quantity: string = ''
   discountPhrase: string = ''
-  description: string = ''
+  description: any = ''
   title: string = ''
   store: string = ''
   promotionStart: string = ''
@@ -28,8 +27,6 @@ export class ProductData {
   storeLogo: any
 
   constructor(id: any, data: any) {
-    console.log('id: ', typeof id)
-    console.log("data:", data)
     this.id = id
     this.name = data.name || data.title
     this.title = data.title

@@ -1,13 +1,16 @@
-<div>
+<div class="search-filter">
   <div class="search-container">
-    <form action="/action_page.php">
-      <input type="text" placeholder="Въведи име на продукт" name="search" #searchName>
-      <button type="submit" (click)="setValue(searchName.value)"><i class="fa fa-search"></i></button>
+    <form class="search-form" action="/action_page.php">
+      <div class="input-form">
+        <input type="text" placeholder="Въведи име на продукт" name="search" #searchName>
+        <button type="submit" (click)="reload(1, searchName.value, startDate)"><i class="fa fa-search"></i></button>
+      </div>
     </form>
   </div>
   <div class="dropdown">
-    <span>Stores</span>
+    <span>Супермаркети</span>
     <div class="dropdown-content">
+      <p>Всички</p>
       <p>Kaufland</p>
       <p>Lidl</p>
       <p>Billa</p>
@@ -22,7 +25,7 @@
           <img loading="lazy" *ngIf="product.image" [src]="product.image"
                alt=""/>
         </figure>
-        <a [routerLink]="['/product/' + product.id]">
+        <a [routerLink]="['/product/' + product.id]" [queryParams]="{search: searchName.value, page:p}">
           <div class="product__content">
             <p class="product__title">{{product.name}}</p>
             <em class="product__price">{{ product.price | currency: 'BGN' }}</em>
@@ -38,5 +41,5 @@
     </li>
   </ul>
 
-  <pagination-controls (pageChange)="reload($event)"></pagination-controls>
+  <pagination-controls (pageChange)="reload($event, searchName.value, startDate)"></pagination-controls>
 </div>

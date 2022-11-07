@@ -1,57 +1,10 @@
-//:host {
-//	--productSize: 600px;
-//}
-//
-//.product {
-//	&__item {
-//		position: relative;
-//		overflow: hidden;
-//		background: #fff;
-//		border-radius: 10px;
-//		-webkit-box-shadow: 0px 0px 23px -7px rgba(0, 0, 0, 0.28);
-//		-moz-box-shadow: 0px 0px 23px -7px rgba(0, 0, 0, 0.28);
-//		box-shadow: 0px 0px 23px -7px rgba(0, 0, 0, 0.28);
-//	}
-//	&__title {
-//		padding: 0rem;
-//		font-size: 0.5rem;
-//	}
-//	&__content {
-//		padding: 1rem;
-//	}
-//	&__description {
-//		width: 100%;
-//	}
-//	&__price {
-//		color: #000;
-//		font-size: 1.6rem;
-//		margin-bottom: 1rem;
-//	}
-//	&__image {
-//		height: calc(var(--productSize) - 100px);
-//		width: 100%;
-//		object-fit: cover;
-//	}
-//	&__figure {
-//		height: calc(var(--productSize) - 100px);
-//		width: 100%;
-//		padding: 0;
-//		margin: 0;
-//	}
-//	&__footer {
-//		text-align: center;
-//		display: flex;
-//		flex-direction: column;
-//		align-content: center;
-//	}
-//}
-
 .section {
   border: 1px solid #ccc;
   border-radius: 25px;
   display: flex;
   flex-direction: row;
   font-family: sans-serif;
+  width: 40vw;
 }
 
 .paragraph {
@@ -63,6 +16,10 @@
 .content {
   padding: 20px;
   position: relative;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  width: 50%;
 }
 
 .title {
@@ -72,21 +29,19 @@
 }
 
 img {
-  max-width: 100%;
+  //max-width: 100%;
+  width: 50%;
   max-height: 100%;
 }
 
 .square {
-  height: 400px;
-  width: 400px;
+  //height: 400px;
+  //width: 400px;
   border-radius: 25px;
 }
 
 .price_component {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 50%;
+  min-width: 25%;
   padding: 20px;
 }
 
@@ -94,30 +49,54 @@ img {
   font-size: 15px;
   background: yellow;
   text-align: center;
+
+
+  padding: 5px;
 }
 
 .old_price {
-  float: left;
+margin-right: 50px;
+  padding: 5px;
   text-decoration: line-through;
 }
 
 .new_price {
-  float: right;
+  padding: 5px;
+font-size: 20px;
+  display: flex;
+  flex-flow: row-reverse;
 }
 
 .logo {
   height: 50px;
   width: 50px;
-  position: absolute;
-  bottom: 0;
-  padding-bottom: 20px;
+  padding: 20px;
 }
 
 .product_price {
-   background: red;
-    border-radius: 10px;
+  background: red;
+  min-height: 50px;
 }
 
 .promotion {
   background: grey;
+
+  padding: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  .section {
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+  }
+}
+
+.bottom-section{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

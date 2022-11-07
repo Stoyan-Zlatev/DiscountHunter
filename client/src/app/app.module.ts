@@ -8,11 +8,11 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations'
 import {HttpClientModule} from '@angular/common/http';
 import {ProductItemComponent} from './products/components/product-item/product-item.component';
 import {ProductListComponent} from './products/components/product-list/product-list.component';
-import {FormsModule} from "@angular/forms";
+import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {NgxImageCompressService} from "ngx-image-compress";
 import {NgxPaginationModule} from 'ngx-pagination';
-
 import {environment} from "../environments/environment";
+
 
 @NgModule({
   declarations: [AppComponent, ProductItemComponent, ProductListComponent],
@@ -23,6 +23,7 @@ import {environment} from "../environments/environment";
     BrowserAnimationsModule,
     NgxPaginationModule,
     FormsModule,
+    ReactiveFormsModule
   ],
   providers: [NgxImageCompressService],
   bootstrap: [AppComponent],
