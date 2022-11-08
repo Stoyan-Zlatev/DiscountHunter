@@ -10,26 +10,12 @@ export class ProductService {
   constructor(private http: HttpClient) {
   }
 
-  public async getProducts(id: any): Promise<ProductData[] | null | undefined> {
+  public async getFilteredProducts(id: any, search: any, promotionStart: any, store: any): Promise<ProductData[] | null | undefined> {
     let products = null
     let productsWithImages = null
     try {
-      products = await this.http.get<any>(`${environment.apiUrl}products/?page=${id}`).toPromise()
-      productsWithImages = products.results.map((productItem: any) => new Product(this.getProductImage(productItem)).data)
-    } catch (error) {
-      console.error(error)
-    }
-    return productsWithImages
-  }
-
-  public async getFilteredProducts(id: any, search: any, promotionStart:any): Promise<ProductData[] | null | undefined> {
-    let products = null
-    let productsWithImages = null
-    try {
-      products = await this.http.get<any>(`${environment.apiUrl}products/?search=${search}&page=${id}&promotion_start=${promotionStart}`).toPromise()
-      console.log(products)
+      products = await this.http.get<any>(`${environment.apiUrl}products/?search=${search}&page=${id}&promotion_expire=${promotionStart}&store=${store}`).toPromise()
       productsWithImages = products.results.map((productItem: any) => new Product(productItem))
-       // /*this.getProductImage(productItem)).data*/
     } catch (error) {
       console.error(error)
     }
@@ -52,8 +38,8 @@ export class ProductService {
     return productCount.count
   }
 
-   public async getFilteredProductsCount(search: any, startDate: any): Promise<any> {
-    const productCount = await this.http.get<any>(`${environment.apiUrl}products/?search=${search}&promotion_start=${startDate}`).toPromise()
+  public async getFilteredProductsCount(search: any, startDate: any, store: any): Promise<any> {
+    const productCount = await this.http.get<any>(`${environment.apiUrl}products/?search=${search}&promotion_expire=${startDate}&store=${store}`).toPromise()
     return productCount.count
   }
 }

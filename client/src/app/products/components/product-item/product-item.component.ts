@@ -16,22 +16,23 @@ export class ProductItemComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    window.scroll({
+      top: 0,
+      left: 0,
+      behavior: 'smooth'
+    });
     this.route.params.subscribe((params) => {
       this.id = params['id']
     })
     this.product.getProductById(this.id).then((data: any) => {
       this.productItem = data
-      console.log(data)
     })
   }
 
   onBack(): void {
-    // this.route.parent?.paramMap.subscribe((param:ParamMap)=>{
-    //   console.log(param.keys)
-    // })
+
     this.route.queryParams.subscribe((param) => {
-      console.log(param)
-      this.router.navigateByUrl(`/?search=${param["search"]}&page=${param["page"]}`)
+      this.router.navigateByUrl(`/?search=${param["search"]}&page=${param["page"]}&store=${param["store"]}`)
     })
 
   }

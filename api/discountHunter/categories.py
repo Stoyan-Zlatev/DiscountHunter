@@ -72,7 +72,7 @@ def get_kaufland_promotions_urls():
     return promotions
 
 
-def get_kaufland_categories():
+def kaufland_categories_url():
     '''
     Gets categories for monday promotions, the url with thursday promotions is equal to a category
     '''
@@ -86,11 +86,19 @@ def get_kaufland_categories():
     buttons = soup.select(".a-button--primary")
     for button in buttons:
         if button.find("a") and button.find("a").get_text().startswith("Разгледай всички предложения"):
-            categories.append(button.find("a")['href'])
-    # Append category with promotions from thursday
-    categories.append(promotions_urls[1])
+            main_category = button.find("a")['href']
+
+    response = requests.get(main_category)
+    if response.status_code != 200:
+        return False
+
+    soup = BeautifulSoup(response.text, "html.parser")
+    for promotions in soup.find_all("ul", "m-accordion__list m-accordion__list--level-2")[:2]:
+        promotions = promotions.find_all("a")
+        for promotion in promotions:
+            categories.append(f"https://www.kaufland.bg/{promotion['href']}")
     return categories
 
 
 lidl_cats = get_lidl_categories()
-kaufland_cats = get_kaufland_categories()
+kaufland_cats = kaufland_categories_url()

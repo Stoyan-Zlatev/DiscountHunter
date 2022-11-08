@@ -2,24 +2,29 @@
   <section class="section">
     <img [src]="productItem.image" class="square"/>
     <div class="content">
-<div class="top-section">
-      <h2 class="title">
-        {{productItem.title}} {{productItem.subtitle}}
-      </h2>
-      <p class="paragraph">{{productItem.description}}</p>
-      <p>
-        {{productItem.quantity}}
-      </p>
-      <p>
-        {{productItem.basePrice}}
-      </p>
-      <div>
-        <p>Промоцията е валидна от:</p>
+      <div class="top-section">
+        <h2 class="title">
+          {{productItem.title}} {{productItem.subtitle}}
+        </h2>
+        <p class="paragraph">{{productItem.description}}</p>
+        <p>
+          {{productItem.quantity}}
+        </p>
+        <p>
+          {{productItem.basePrice}}
+        </p>
+        <p>
+          <strong>
+            {{productItem.promoMessage}}
+          </strong>
+        </p>
         <div>
-          <span class="promotion">{{productItem.promotionStart}} - {{productItem.promotionEnd}}</span>
+          <p>Промоцията е валидна от:</p>
+          <div>
+            <span class="promotion">{{productItem.promotionInterval}}</span>
+          </div>
         </div>
       </div>
-  </div>
       <div class="bottom-section">
         <div>
           <img [src]="productItem.storeLogo" class="logo"/>

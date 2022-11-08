@@ -25,6 +25,8 @@ export class ProductData {
   promotionStart: string = ''
   promotionEnd: string = ''
   storeLogo: any
+  promotionInterval: string = ''
+  promoMessage: string = ''
 
   constructor(id: any, data: any) {
     this.id = id
@@ -38,9 +40,15 @@ export class ProductData {
     this.quantity = data.quantity
     this.discountPhrase = data.discount_phrase
     this.description = data.description
+    this.promoMessage = data.promo_message
     this.store = data.store
-    this.promotionStart = formatDate(data.promotion_starts, 'dd/MM/yyyy', 'en-US')
     this.promotionEnd = formatDate(data.promotion_expires, 'dd/MM/yyyy', 'en-US')
+    if (data.promotion_starts) {
+      this.promotionStart = formatDate(data.promotion_starts, 'dd/MM/yyyy', 'en-US')
+      this.promotionInterval = this.promotionStart + ' - ' + this.promotionEnd
+    } else {
+      this.promotionInterval = 'само на ' + this.promotionEnd
+    }
     this.storeLogo = this.get_store_logo();
   }
 

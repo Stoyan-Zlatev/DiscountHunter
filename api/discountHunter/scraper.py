@@ -7,17 +7,14 @@ from products.models import Promotion, Product
 
 BILLA_LOGO = "https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/0012/8033/brand.gif?itok=zP8_dFEh"
 
-# TODO Lidl description tostring()
+
 def convert_to_date(date_text, ends):
     if (int(date_text.split('.')[1])) < dt.now().month - 1:
         year = dt.now().year + 1
     else:
         year = dt.now().year
 
-    if ends:
-        date_text = dt.strptime(f"{date_text}{year} 23:59:59", "%d.%m.%Y %H:%M:%S")
-    else:
-        date_text = dt.strptime(f"{date_text}{year} 00:00:00", "%d.%m.%Y %H:%M:%S")
+    date_text = dt.strptime(f"{date_text}{year} 00:00:00", "%d.%m.%Y %H:%M:%S")
 
     return date_text
 
@@ -120,9 +117,23 @@ def kaufland(store):
                 product_quantity = None
 
             try:
-                product_description = soup.select_one(".t-offer-detail__description").text
+                description_wrapper = str(soup.select_one(".t-offer-detail__description").find("p"))
+                description_wrapper = description_wrapper.replace("<br/>", '\n')
+                description_list = []
+                for line in description_wrapper.split('\n'):
+                    if not "p>" in line:
+                        description_list.append(line.strip())
+                product_description = "\n".join(description_list)
             except AttributeError:
                 product_description = None
+
+            try:
+                promotion_message = soup.select_one(".t-offer-detail__mpa").text.strip()
+            except AttributeError:
+                try:
+                    promotion_message = soup.select_one(".t-offer-detail__promo-message").text.strip()
+                except AttributeError:
+                    promotion_message = None
 
             promotion, _ = Promotion.objects.get_or_create(store=store, expire_date=promotion_expires,
                                                            start_date=promotion_starts)
@@ -133,7 +144,7 @@ def kaufland(store):
                                                        base_price=product_base_price, quantity=product_quantity,
                                                        discount_phrase=product_discount_phrase,
                                                        description=product_description,
-                                                       image_url=product_image
+                                                       image_url=product_image, promo_message=promotion_message
                                                        )
     return True
 
@@ -185,14 +196,13 @@ def lidl(store):
             product_quantity = product_component.select_one(".pricebox__basic-quantity").text.strip()
 
             try:
-                product_description = [description.text.strip() for description in
-                                       product_component.select_one(".textbody").find_all("li")]
+                product_description = "\n".join([description.text for description in
+                                                 product_component.select_one(".textbody").find_all("li")])
             except AttributeError:
                 product_description = None
 
             # Promotion could be interval date-date, but could be 'само на date', 'от date'
             # if promotion_starts is None - 'само на date'
-            # if promotion_expires is None - 'от date'
             try:
                 promotion_interval = product_component.select_one(".ribbon__text").text.strip()
                 promotion_starts = promotion_interval.split()[-3]
@@ -204,7 +214,7 @@ def lidl(store):
                 promotion_expires = None
             except IndexError:
                 promotion_starts = promotion_interval.split()[-1]
-                promotion_expires = None
+                promotion_expires = convert_to_date(promotion_interval.split()[-1]) + dt.timedelta(days=7)
 
             if promotion_starts:
                 promotion_starts = convert_to_date(promotion_starts, False)
