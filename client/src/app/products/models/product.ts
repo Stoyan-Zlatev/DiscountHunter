@@ -40,6 +40,9 @@ export class ProductData {
     this.quantity = data.quantity
     this.discountPhrase = data.discount_phrase
     this.description = data.description
+    if (this.description) {
+      this.description = this.description.split("\n")
+    }
     this.promoMessage = data.promo_message
     this.store = data.store
     this.promotionEnd = formatDate(data.promotion_expires, 'dd/MM/yyyy', 'en-US')

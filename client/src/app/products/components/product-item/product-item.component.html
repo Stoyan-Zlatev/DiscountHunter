@@ -6,7 +6,9 @@
         <h2 class="title">
           {{productItem.title}} {{productItem.subtitle}}
         </h2>
-        <p class="paragraph">{{productItem.description}}</p>
+        <p class="paragraph" *ngFor="let d of productItem.description">
+          {{d}}
+        </p>
         <p>
           {{productItem.quantity}}
         </p>

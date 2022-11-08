@@ -25,6 +25,7 @@ export class ProductItemComponent implements OnInit {
       this.id = params['id']
     })
     this.product.getProductById(this.id).then((data: any) => {
+      data.image = data.image + "?MYRAVRESIZE=600"
       this.productItem = data
     })
   }

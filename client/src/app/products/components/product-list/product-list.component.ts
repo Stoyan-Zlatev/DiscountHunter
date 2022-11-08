@@ -78,7 +78,7 @@ export class ProductListComponent implements OnInit {
           return {
             name: product.name.substring(0, 42),
             id: product.id,
-            image: product.image,
+            image: product.image+"?MYRAVRESIZE=200",
             price: product.price,
             promotionStart: product.promotionStart,
             promotionEnd: product.promotionEnd,
