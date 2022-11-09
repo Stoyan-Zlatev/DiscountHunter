@@ -8,7 +8,7 @@ from products.models import Promotion, Product
 BILLA_LOGO = "https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/0012/8033/brand.gif?itok=zP8_dFEh"
 
 
-def convert_to_date(date_text, ends):
+def convert_to_date(date_text):
     if (int(date_text.split('.')[1])) < dt.now().month - 1:
         year = dt.now().year + 1
     else:
@@ -82,8 +82,8 @@ def kaufland(store):
             product_image = soup.find("img", ["a-image-responsive", "a-image-responsive--preview-knockout"])[
                 'src'].replace('?MYRAVRESIZE=150', '')
             promotion_text = soup.find("div", ["a-eye-catcher", "a-eye-catcher--secondary"]).find("span").text.strip()
-            promotion_starts = convert_to_date(promotion_text.split()[-3], False)
-            promotion_expires = convert_to_date(promotion_text.split()[-1], True)
+            promotion_starts = convert_to_date(promotion_text.split()[-3])
+            promotion_expires = convert_to_date(promotion_text.split()[-1])
 
             product_subtitle = soup.select_one(".t-offer-detail__subtitle").text.strip()
             try:
@@ -217,9 +217,9 @@ def lidl(store):
                 promotion_expires = convert_to_date(promotion_interval.split()[-1]) + dt.timedelta(days=7)
 
             if promotion_starts:
-                promotion_starts = convert_to_date(promotion_starts, False)
+                promotion_starts = convert_to_date(promotion_starts)
             if promotion_expires:
-                promotion_expires = convert_to_date(promotion_expires, True)
+                promotion_expires = convert_to_date(promotion_expires)
 
             promotion, _ = Promotion.objects.get_or_create(store=store, expire_date=promotion_expires,
                                                            start_date=promotion_starts)

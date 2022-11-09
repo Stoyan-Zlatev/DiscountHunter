@@ -11,8 +11,7 @@ import {ProductListComponent} from './products/components/product-list/product-l
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {NgxImageCompressService} from "ngx-image-compress";
 import {NgxPaginationModule} from 'ngx-pagination';
-import {environment} from "../environments/environment";
-
+import {DatePickerModule, DateRangePickerModule, MaskedDateTimeService} from '@syncfusion/ej2-angular-calendars'
 
 @NgModule({
   declarations: [AppComponent, ProductItemComponent, ProductListComponent],
@@ -23,9 +22,11 @@ import {environment} from "../environments/environment";
     BrowserAnimationsModule,
     NgxPaginationModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    DatePickerModule,
+    DateRangePickerModule
   ],
-  providers: [NgxImageCompressService],
+  providers: [NgxImageCompressService, MaskedDateTimeService],
   bootstrap: [AppComponent],
 })
 

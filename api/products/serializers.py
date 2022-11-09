@@ -51,7 +51,8 @@ class ProductDetailSerializer(serializers.HyperlinkedModelSerializer):
 
 class MyEndpointFilter(django_filters.FilterSet):
     promotion_start = IsoDateTimeFilter(field_name="promotion__start_date", lookup_expr='gte')
-    promotion_expire = IsoDateTimeFilter(field_name='promotion__expire_date', lookup_expr='gte')
+    promotion_expire_gte = IsoDateTimeFilter(field_name='promotion__expire_date', lookup_expr='gte')
+    promotion_expire_lte = IsoDateTimeFilter(field_name='promotion__expire_date', lookup_expr='lte')
     store = CharFilter(field_name='promotion__store__name')
 
     class Meta:

@@ -1,7 +1,6 @@
 import {Component, OnInit} from '@angular/core'
-import {ActivatedRoute, ParamMap, Router} from '@angular/router'
+import {ActivatedRoute, Router} from '@angular/router'
 import {ProductService} from '../../service/product.service'
-import {ProductData} from '../../models/product'
 
 @Component({
   selector: 'app-product-item',
@@ -31,7 +30,6 @@ export class ProductItemComponent implements OnInit {
   }
 
   onBack(): void {
-
     this.route.queryParams.subscribe((param) => {
       this.router.navigateByUrl(`/?search=${param["search"]}&page=${param["page"]}&store=${param["store"]}`)
     })

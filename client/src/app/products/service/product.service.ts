@@ -10,11 +10,12 @@ export class ProductService {
   constructor(private http: HttpClient) {
   }
 
-  public async getFilteredProducts(id: any, search: any, promotionStart: any, store: any): Promise<ProductData[] | null | undefined> {
+  public async getFilteredProducts(id: any, search: any, minDate: any, store: any, promotionInterval: any): Promise<ProductData[] | null | undefined> {
     let products = null
     let productsWithImages = null
     try {
-      products = await this.http.get<any>(`${environment.apiUrl}products/?search=${search}&page=${id}&promotion_expire=${promotionStart}&store=${store}`).toPromise()
+      products = await this.http.get<any>(`${environment.apiUrl}products/?search=${search}&page=${id}&promotion_expire_gte=${minDate}&store=${store}&promotion_expire_lte=${promotionInterval[1]}&promotion_start=${promotionInterval[0]}`).toPromise()
+      console.log(`${environment.apiUrl}products/?search=${search}&page=${id}&promotion_expire_gte=${minDate}&store=${store}&promotion_expire_lte=${promotionInterval[1]}&promotion_start=${promotionInterval[0]}`)
       productsWithImages = products.results.map((productItem: any) => new Product(productItem))
     } catch (error) {
       console.error(error)
@@ -38,8 +39,8 @@ export class ProductService {
     return productCount.count
   }
 
-  public async getFilteredProductsCount(search: any, startDate: any, store: any): Promise<any> {
-    const productCount = await this.http.get<any>(`${environment.apiUrl}products/?search=${search}&promotion_expire=${startDate}&store=${store}`).toPromise()
+  public async getFilteredProductsCount(search: any, minDate: any, store: any, promotionInterval: any): Promise<any> {
+    const productCount = await this.http.get<any>(`${environment.apiUrl}products/?search=${search}&promotion_expire_gte=${minDate}&store=${store}&promotion_expire_lte=${promotionInterval[1]}&promotion_start=${promotionInterval[0]}`).toPromise()
     return productCount.count
   }
 }

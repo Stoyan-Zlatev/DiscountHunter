@@ -19,8 +19,7 @@ class ProductsView(generics.ListAPIView):
     # $ means Regex search
     search_fields = ['title', 'sub_title']
     filterset_class = MyEndpointFilter
-    # filterset_fields = ['promotion__store__name', 'promotion__start_date', 'promotion__expire_date']
-    filterset_fields = ['promotion_start', 'promotion_expire', 'store']
+    filterset_fields = ['promotion_start', 'promotion_expire_lte', 'promotion_expire_gte', 'store']
 
 
 class ProductDetailView(RetrieveAPIView):
