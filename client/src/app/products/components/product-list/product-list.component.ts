@@ -33,7 +33,13 @@ export class ProductListComponent implements OnInit {
       {
         relativeTo: this.route,
         replaceUrl: true,
-        queryParams: {page: this.p, search: this.search, store: this.store},
+        queryParams: {
+          page: this.p,
+          search: this.search,
+          store: this.store,
+          startDate: this.promotionInterval[0],
+          endDate: this.promotionInterval[1]
+        },
         queryParamsHandling: 'merge', // remove to replace all query params by provided
       });
   }
@@ -49,6 +55,10 @@ export class ProductListComponent implements OnInit {
       if (param["page"]) {
         this.p = param["page"]
       }
+      if (param["startDate"] && param["endDate"]){
+        this.promotionInterval[0] = param["startDate"]
+        this.promotionInterval[1] = param["endDate"]
+      }
       this.reload(this.p, this.search, this.currentDate, this.store, this.promotionInterval)
     })
   }
@@ -63,7 +73,6 @@ export class ProductListComponent implements OnInit {
     this.search = search
     this.store = store
     this.currentDate = startDate
-    console.log(promotionInterval)
     if (promotionInterval && promotionInterval[0] != '') {
       this.promotionInterval = []
       promotionInterval.forEach((interval: any) => {
@@ -72,7 +81,6 @@ export class ProductListComponent implements OnInit {
     } else {
       this.promotionInterval = ['', '']
     }
-    console.log(this.promotionInterval)
     if (this.store != '') {
       this.storeWrapper = this.store
     } else {

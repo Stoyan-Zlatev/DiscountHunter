@@ -31,7 +31,7 @@ export class ProductItemComponent implements OnInit {
 
   onBack(): void {
     this.route.queryParams.subscribe((param) => {
-      this.router.navigateByUrl(`/?search=${param["search"]}&page=${param["page"]}&store=${param["store"]}`)
+      this.router.navigateByUrl(`/?search=${param["search"]}&page=${param["page"]}&store=${param["store"]}&startDate=${param["startDate"]}&endDate=${param["endDate"]}`)
     })
 
   }

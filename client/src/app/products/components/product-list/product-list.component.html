@@ -2,8 +2,8 @@
   <div class="search-container">
     <form class="search-form" action="/action_page.php">
       <div class="input-form">
-        <input type="text" placeholder="Въведи име на продукт" name="search" #searchName>
-        <button type="submit" (click)="reload(1, searchName.value, currentDate, store, picker)"><i
+        <input [value]="search" type="text" placeholder="Въведи име на продукт" name="search" #searchName>
+        <button type="submit" (click)="reload(1, searchName.value, currentDate, store, picker.value)"><i
           class="fa fa-search"></i>
         </button>
       </div>
@@ -11,15 +11,15 @@
   </div>
   <ejs-daterangepicker placeholder="Избери интервал на промоция"
                        #picker
-                       (valueChange)="reload(p, searchName.value, currentDate, store, picker.value)"
-                       (cleared)="reload(p, searchName.value, currentDate, store, '')"></ejs-daterangepicker>
+                       (valueChange)="reload(p, searchName.value, currentDate, store, picker)"
+                       (cleared)="reload(p, searchName.value, currentDate, store, ['',''])"></ejs-daterangepicker>
   <div class="dropdown">
     <span class="dropdown-main">{{storeWrapper}}</span>
     <div class="dropdown-content">
-      <p (click)="reload(1, searchName.value, currentDate, '', picker)">Всички</p>
-      <p (click)="reload(1, searchName.value, currentDate, 'Kaufland', picker)">Kaufland</p>
-      <p (click)="reload(1, searchName.value, currentDate, 'Lidl', picker)">Lidl</p>
-      <p (click)="reload(1, searchName.value, currentDate, 'Billa', picker)">Billa</p>
+      <p (click)="reload(1, searchName.value, currentDate, '', picker.value)">Всички</p>
+      <p (click)="reload(1, searchName.value, currentDate, 'Kaufland', picker.value)">Kaufland</p>
+      <p (click)="reload(1, searchName.value, currentDate, 'Lidl', picker.value)">Lidl</p>
+      <p (click)="reload(1, searchName.value, currentDate, 'Billa', picker.value)">Billa</p>
     </div>
   </div>
 </div>
@@ -31,7 +31,8 @@
           <img loading="lazy" *ngIf="product.image" [src]="product.image"
                alt=""/>
         </figure>
-        <a [routerLink]="['/product/' + product.id]" [queryParams]="{search: search, page:p, store:store}">
+        <a [routerLink]="['/product/' + product.id]"
+           [queryParams]="{search: search, page:p, store:store, startDate:promotionInterval[0], endDate: promotionInterval[1]}">
           <div class="product__content">
             <p class="product__title">{{product.name}}</p>
             <em class="product__price">{{ product.price | currency: 'BGN' }}</em>
@@ -48,5 +49,5 @@
   </ul>
 
   <pagination-controls
-    (pageChange)="reload($event, searchName.value, currentDate, store, picker)"></pagination-controls>
+    (pageChange)="reload($event, searchName.value, currentDate, store, picker.value)"></pagination-controls>
 </div>
