@@ -13,6 +13,8 @@ https://docs.djangoproject.com/en/4.1/ref/settings/
 from pathlib import Path
 import os
 
+import pytest
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -43,7 +45,7 @@ INSTALLED_APPS = [
     'django_crontab',
     'rest_framework',
     'corsheaders',
-    'django_filters',
+    'django_filters'
 ]
 
 MIDDLEWARE = [
@@ -143,3 +145,4 @@ REST_FRAMEWORK = {
 }
 
 CORS_ORIGIN_ALLOW_ALL = True
+

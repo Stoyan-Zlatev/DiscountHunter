@@ -55,7 +55,7 @@ def get_kaufland_promotions_main():
 def get_kaufland_promotions_urls():
     '''
     Searches for the promotions that start from monday and from thursday
-    :return: promotions from monday and thursday urls
+    :return: promotions from monday, thursday and special urls
     '''
     response = requests.get(get_kaufland_promotions_main())
     if response.status_code != 200:
@@ -74,7 +74,7 @@ def get_kaufland_promotions_urls():
 
 def kaufland_categories_url():
     '''
-    Gets categories for monday promotions, the url with thursday promotions is equal to a category
+    Gets categories for monday promotion, thursday promotions and special promotions
     '''
     categories = []
     promotions_urls = get_kaufland_promotions_urls()

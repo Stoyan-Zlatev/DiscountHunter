@@ -113,7 +113,7 @@ input[type=text] {
     margin: 0;
     padding: 14px;
   }
-  input[type=text] {
+  input[type=search] {
     border: 1px solid #ccc;
   }
 }
@@ -155,4 +155,8 @@ input[type=text] {
   background: #c3c4c7;
   border-radius: 10px;
   padding: 10px;
+}
+
+button[type=button] {
+  margin-right: 0px !important;
 }

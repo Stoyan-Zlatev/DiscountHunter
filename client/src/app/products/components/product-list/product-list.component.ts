@@ -69,6 +69,7 @@ export class ProductListComponent implements OnInit {
       left: 0,
       behavior: 'smooth'
     });
+    console.log(promotionInterval)
     this.p = event
     this.search = search
     this.store = store
