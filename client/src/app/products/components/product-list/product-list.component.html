@@ -2,7 +2,6 @@
   <div class="search-container">
     <form class="search-form" action="/action_page.php">
       <div class="input-form">
-        <!--(cancel)="reload(1, '', currentDate, store, picker.value)"-->
         <input [value]="search" type="text" placeholder="Въведи име на продукт" name="search" #searchName>
         <button type="button" class="btn bg-transparent"
                 (click)="searchName.value=''; reload(1, '', currentDate, store, picker.value)">
@@ -16,8 +15,10 @@
   </div>
   <ejs-daterangepicker placeholder="Избери интервал на промоция"
                        #picker
+                       enablePersistence="true"
                        (valueChange)="reload(p, searchName.value, currentDate, store, picker.value)"
-                       (cleared)="reload(p, searchName.value, currentDate, store, ['',''])"></ejs-daterangepicker>
+                       (cleared)="reload(p, searchName.value, currentDate, store, ['',''])">
+  </ejs-daterangepicker>
   <div class="dropdown">
     <span class="dropdown-main">{{storeWrapper}}</span>
     <div class="dropdown-content">
@@ -29,7 +30,7 @@
   </div>
 </div>
 <div class="product_page">
-  <div class="products__container">
+  <div class="products__container" *ngIf="products.length>0;else noResults">
     <ng-container *ngFor="let product of products">
       <section class="product__item">
         <figure class="product__figure">
@@ -46,6 +47,9 @@
       </section>
     </ng-container>
   </div>
+   <ng-template #noResults style="text-align: center">
+ No results.
+</ng-template>
   <ul>
     <li
       *ngFor="let item of collection | paginate: { itemsPerPage: itemsPerPage, currentPage: p, totalItems: productsCount }">

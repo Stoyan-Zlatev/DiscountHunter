@@ -3,7 +3,6 @@ import {ProductService} from '../../service/product.service'
 import {Product, ProductData} from '../../models/product'
 import {ActivatedRoute, ParamMap, Router} from '@angular/router'
 import {formatDate} from "@angular/common";
-import {interval, max} from "rxjs";
 
 
 @Component({
@@ -21,10 +20,11 @@ export class ProductListComponent implements OnInit {
   storeWrapper: string = "Супермаркети"
   itemsPerPage: number = 15
   pagesCount: number = 1
-  currentDate: any = formatDate(new Date(), 'yyyy-MM-dd', 'en')
-  promotionInterval: any = ['', '']
+  todayDate = new Date()
+  currentDate: any = formatDate(this.todayDate, 'yyyy-MM-dd', 'en')
+  promotionInterval: any = ['','']
 
-  constructor(private route: ActivatedRoute, private product: ProductService, private router: Router,) {
+  constructor(private route: ActivatedRoute, private product: ProductService, private router: Router) {
   }
 
   public changingQueryParams() {
@@ -45,7 +45,7 @@ export class ProductListComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.route.queryParams.subscribe((param) => {
+ this.route.queryParams.subscribe((param) => {
       if (param["search"]) {
         this.search = param["search"]
       }
