@@ -22,7 +22,7 @@ export class ProductListComponent implements OnInit {
   pagesCount: number = 1
   todayDate = new Date()
   currentDate: any = formatDate(this.todayDate, 'yyyy-MM-dd', 'en')
-  promotionInterval: any = ['','']
+  promotionInterval: any = ['', '']
 
   constructor(private route: ActivatedRoute, private product: ProductService, private router: Router) {
   }
@@ -45,7 +45,7 @@ export class ProductListComponent implements OnInit {
   }
 
   ngOnInit(): void {
- this.route.queryParams.subscribe((param) => {
+    this.route.queryParams.subscribe((param) => {
       if (param["search"]) {
         this.search = param["search"]
       }
@@ -55,7 +55,7 @@ export class ProductListComponent implements OnInit {
       if (param["page"]) {
         this.p = param["page"]
       }
-      if (param["startDate"] && param["endDate"]){
+      if (param["startDate"] && param["endDate"]) {
         this.promotionInterval[0] = param["startDate"]
         this.promotionInterval[1] = param["endDate"]
       }
@@ -69,7 +69,6 @@ export class ProductListComponent implements OnInit {
       left: 0,
       behavior: 'smooth'
     });
-    console.log(promotionInterval)
     this.p = event
     this.search = search
     this.store = store

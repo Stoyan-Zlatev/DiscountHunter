@@ -1,4 +1,3 @@
-import datetime
 from stores.models import Store
 from .scraper import kaufland, billa, lidl
 

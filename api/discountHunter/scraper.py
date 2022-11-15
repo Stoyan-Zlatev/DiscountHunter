@@ -78,40 +78,87 @@ def get_product_base_price(soup, class_name):
     return product_base_price
 
 
+def get_billa_promotion_start_date(soup):
+    promotion_text = soup.find("div", 'date').get_text().split(" ")
+    try:
+        promotion_starts = datetime.strptime(promotion_text[-5], '%d.%m.%Y')
+    except AttributeError:
+        promotion_starts = None
+
+    return promotion_starts
+
+
+def get_billa_promotion_expire_date(soup):
+    promotion_text = soup.find("div", 'date').get_text().split(" ")
+    try:
+        promotion_expires = datetime.strptime(promotion_text[-2], '%d.%m.%Y')
+    except AttributeError:
+        promotion_expires = None
+
+    return promotion_expires
+
+
+def get_billa_product_title(soup, class_name):
+    try:
+        product_title = soup.select_one(class_name).text.strip()
+    except AttributeError:
+        product_title = None
+
+    return product_title
+
+
+def get_billa_product_new_price(soup, class_name):
+    product_prices = soup.select(class_name)
+    product_new_price = None
+    if len(product_prices) == 2:
+        product_new_price = float(product_prices[1].text.strip())
+    elif len(product_prices) == 1:
+        product_new_price = float(product_prices[0].text.strip())
+
+    return product_new_price
+
+
+def get_billa_product_old_price(soup, class_name):
+    product_prices = soup.select(class_name)
+    product_old_price = None
+    if len(product_prices) == 2:
+        product_old_price = float(product_prices[0].text.strip())
+
+    return product_old_price
+
+
+def get_billa_product_discount_phrase(soup, class_name):
+    try:
+        product_discount_phrase = soup.select_one(class_name).text.strip()
+    except AttributeError:
+        product_discount_phrase = None
+
+    return product_discount_phrase
+
+
 def billa(store):
     response = requests.get(billa_cats[0])
     if response.status_code != 200:
         return False
 
     soup = BeautifulSoup(response.text, "html.parser")
-    products = soup.find_all("div", 'product')
-    promotion_text = soup.find("div", 'date').get_text().split(" ")
-    promotion_starts = datetime.strptime(promotion_text[-5], '%d.%m.%Y')
-    promotion_expires = datetime.strptime(promotion_text[-2], '%d.%m.%Y')
+    promotion_starts = get_billa_promotion_start_date(soup)
+    promotion_expires = get_billa_promotion_expire_date()
     promotion, _ = Promotion.objects.get_or_create(store=store, expire_date=promotion_expires,
                                                    start_date=promotion_starts)
 
+    products = soup.find_all("div", 'product')
     for product in products:
-        product_title = product.select_one(".actualProduct").text.strip()
+        product_title = get_billa_product_title(product, ".actualProduct")
 
-        product_prices = product.select(".price")
-        product_old_price = None
-        product_new_price = None
-        if len(product_prices) == 2:
-            product_new_price = float(product_prices[1].text.strip())
-            product_old_price = float(product_prices[0].text.strip())
-        elif len(product_prices) == 1:
-            product_new_price = float(product_prices[0].text.strip())
-
-        try:
-            product_discount = product.select_one(".discount").text.strip()
-        except AttributeError:
-            product_discount = None
+        product_old_price = get_billa_product_old_price(product, ".price")
+        product_new_price = get_billa_product_new_price(product, ".price")
+        product_discount_phrase = get_product_discount_phrase(product, ".discount")
 
         if product_new_price:
             product, _ = Product.objects.get_or_create(promotion=promotion, title=product_title,
                                                        old_price=product_old_price, new_price=product_new_price,
-                                                       discount_phrase=product_discount,
+                                                       discount_phrase=product_discount_phrase,
                                                        image_url=BILLA_LOGO
                                                        )
     return True

@@ -15,7 +15,6 @@ export class ProductService {
     let productsWithImages = null
     try {
       products = await this.http.get<any>(`${environment.apiUrl}products/?search=${search}&page=${id}&promotion_expire_gte=${minDate}&store=${store}&promotion_expire_lte=${promotionInterval[1]}&promotion_start=${promotionInterval[0]}`).toPromise()
-      console.log(`${environment.apiUrl}products/?search=${search}&page=${id}&promotion_expire_gte=${minDate}&store=${store}&promotion_expire_lte=${promotionInterval[1]}&promotion_start=${promotionInterval[0]}`)
       productsWithImages = products.results.map((productItem: any) => new Product(productItem))
     } catch (error) {
       console.error(error)

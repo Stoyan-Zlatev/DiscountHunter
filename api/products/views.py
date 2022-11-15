@@ -1,5 +1,3 @@
-import django_filters
-import requests
 from rest_framework.generics import ListCreateAPIView, RetrieveAPIView
 from products.models import Product
 from products.serializers import ProductsSerializer, ProductDetailSerializer

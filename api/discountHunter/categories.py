@@ -24,7 +24,7 @@ def get_lidl_promotions_url():
             return f"{lidl_url}{url.parent['href']}"
 
 
-def get_lidl_categories():
+def get_lidl_categories_urls():
     response = requests.get(get_lidl_promotions_url())
     if response.status_code != 200:
         return False
@@ -46,7 +46,6 @@ def get_kaufland_promotions_main():
 
     soup = BeautifulSoup(response.text, "html.parser")
     navigation_url = soup.select(".m-accordion__link")
-    promotions_page = None
     for url in navigation_url:
         if url.find("span").get_text().startswith("Предложения"):
             return f"https://www.kaufland.bg/{url['href']}"
@@ -54,7 +53,7 @@ def get_kaufland_promotions_main():
 
 def get_kaufland_promotions_urls():
     '''
-    Searches for the promotions that start from monday and from thursday
+    Searches for the promotions that start from monday, thursday and special promotions
     :return: promotions from monday, thursday and special urls
     '''
     response = requests.get(get_kaufland_promotions_main())
@@ -72,9 +71,9 @@ def get_kaufland_promotions_urls():
     return promotions
 
 
-def kaufland_categories_url():
+def get_kaufland_categories_urls():
     '''
-    Gets categories for monday promotion, thursday promotions and special promotions
+    Gets categories for monday promotions, thursday promotions and special promotions
     '''
     categories = []
     promotions_urls = get_kaufland_promotions_urls()
@@ -100,5 +99,5 @@ def kaufland_categories_url():
     return categories
 
 
-lidl_cats = get_lidl_categories()
-kaufland_cats = kaufland_categories_url()
+lidl_cats = get_lidl_categories_urls()
+kaufland_cats = get_kaufland_categories_urls()
