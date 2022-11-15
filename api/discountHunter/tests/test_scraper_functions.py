@@ -38,37 +38,101 @@ class TestScraper(TestCase):
         self.billa_test_soup = BeautifulSoup(self.billa_test_html, "html.parser")
         self.billa_test_product_soup = self.billa_test_soup.find("div", 'product')
 
-    def test_find_billa_promotion_start_date(self):
-        promotion_starts = get_billa_promotion_start_date(self.billa_test_soup)
-        self.assertEqual(promotion_starts, self.billa_promotion_start_date_test)
+        with open("discountHunter/tests/kaufland_test_html.txt", "r") as kaufland_source_html:
+            self.kaufland_test_html = "\n".join(kaufland_source_html.readlines())
+        self.kaufland_test_soup = BeautifulSoup(self.kaufland_test_html, "html.parser")
+        self.kaufland_promotion_text_test = '14.11. - 20.11.'
+        self.kaufland_image_url_test = "https://webassets.kaufland.com/images/PPIM/KMO/BG2708_00094522_P.jpg?MYRAVRESIZE=150"
+        self.kaufland_product_sub_title_test = "MAGGI"
+        self.kaufland_product_title = "Нудели с вкус на зеленчуци"
+        self.kaufland_product_discount_phrase = "- 25%"
+        self.kaufland_product_old_price = 0.75
+        self.kaufland_product_new_price = 0.56
+        self.kaufland_product_base_price = "(1 кг = 9,50)"
+        self.kaufland_product_quantity = "59,2 г"
+        self.kaufland_product_description = "\n25% отстъпка\nза всички продукти\nс марка Maggi\n"
+        self.kaufland_product_promotion_message = "Отстъпка за марка!"
 
-    def test_find_billa_promotion_expire_date(self):
-        promotion_expires = get_billa_promotion_expire_date(self.billa_test_soup)
-        self.assertEqual(promotion_expires, self.billa_promotion_expire_date_test)
+        with open("discountHunter/tests/lidl_test_html.txt", "r") as lidl_source_html:
+            self.lidl_test_html = "\n".join(lidl_source_html.readlines())
+        self.lidl_test_soup = BeautifulSoup(self.lidl_test_html, "html.parser")
+        self.lidl_product_image_url = "https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7205616/gallery/zoom/7205616_0.jpg"
+    # def test_find_billa_promotion_start_date(self):
+    #     promotion_starts = get_billa_promotion_start_date(self.billa_test_soup)
+    #     self.assertEqual(promotion_starts, self.billa_promotion_start_date_test)
+    #
+    # def test_find_billa_promotion_expire_date(self):
+    #     promotion_expires = get_billa_promotion_expire_date(self.billa_test_soup)
+    #     self.assertEqual(promotion_expires, self.billa_promotion_expire_date_test)
+    #
+    # def test_find_billa_product_title(self):
+    #     product_title = get_product_title(self.billa_test_product_soup, ".actualProduct")
+    #     self.assertEqual(product_title, self.billa_product_title_test)
+    #
+    # def test_find_billa_product_old_price(self):
+    #     product_old_price = get_billa_product_old_price(self.billa_test_product_soup, ".price")
+    #     self.assertEqual(product_old_price, self.billa_product_old_price_test)
+    #
+    # def test_find_billa_product_new_price(self):
+    #     product_new_price = get_billa_product_new_price(self.billa_test_product_soup, ".price")
+    #     self.assertEqual(product_new_price, self.billa_product_new_price_test)
+    #
+    # def test_find_billa_product_discount_phrase(self):
+    #     product_discount_phrase = get_billa_product_discount_phrase(self.billa_test_product_soup, ".discount")
+    #     self.assertEqual(product_discount_phrase, self.billa_product_discount_phrase_test)
+    #
+    # def test_convert_to_date_function(self):
+    #     date_to_convert_to = datetime(day=22, month=12, year=2022)
+    #     self.assertEqual(convert_to_date("22.12."), date_to_convert_to)
+    #
+    # def test_find_kaufland_promotion_text(self):
+    #     promotion_text = get_kaufland_promotion_text(self.kaufland_test_soup,
+    #                                                  ["a-eye-catcher", "a-eye-catcher--secondary"])
+    #     self.assertEqual(promotion_text, self.kaufland_promotion_text_test)
+    #
+    # def test_find_kaufland_product_image_url(self):
+    #     product_image_url = get_kaufland_product_image(self.kaufland_test_soup, ["a-image-responsive",
+    #                                                                              "a-image-responsive--preview-knockout"])
+    #     self.assertEqual(product_image_url, self.kaufland_image_url_test)
+    #
+    # def test_find_kaufland_product_sub_title(self):
+    #     product_sub_title = get_product_sub_title(self.kaufland_test_soup, ".t-offer-detail__subtitle")
+    #     self.assertEqual(product_sub_title, self.kaufland_product_sub_title_test)
+    #
+    # def test_find_kaufland_product_title(self):
+    #     product_title = get_product_title(self.kaufland_test_soup, ".t-offer-detail__title")
+    #     self.assertEqual(product_title, self.kaufland_product_title)
+    #
+    # def test_find_kaufland_product_discount_phrase(self):
+    #     product_discount_phrase = get_kaufland_product_discount_phrase(self.kaufland_test_soup, ".a-pricetag__discount",
+    #                                                                    ".a-pricetag__old-price")
+    #     self.assertEqual(product_discount_phrase, self.kaufland_product_discount_phrase)
+    #
+    # def test_find_kaufland_product_old_price(self):
+    #     product_old_price = get_product_old_price(self.kaufland_test_soup, ".a-pricetag__old-price")
+    #     self.assertEqual(product_old_price, self.kaufland_product_old_price)
+    #
+    # def test_find_kaufland_product_new_price(self):
+    #     product_new_price = get_product_new_price(self.kaufland_test_soup, ".a-pricetag__price")
+    #     self.assertEqual(product_new_price, self.kaufland_product_new_price)
+    #
+    # def test_find_kaufland_product_base_price(self):
+    #     product_base_price = get_product_base_price(self.kaufland_test_soup, ".t-offer-detail__basic-price")
+    #     self.assertEqual(product_base_price, self.kaufland_product_base_price)
+    #
+    # def test_find_kaufland_product_quantity(self):
+    #     product_quantity = get_product_quantity(self.kaufland_test_soup, ".t-offer-detail__quantity")
+    #     self.assertEqual(product_quantity, self.kaufland_product_quantity)
+    #
+    # def test_find_kaufland_product_description(self):
+    #     product_description = get_kaufland_product_description(self.kaufland_test_soup, ".t-offer-detail__description")
+    #     self.assertEqual(product_description, self.kaufland_product_description)
+    #
+    # def test_find_kaufland_product_promotion_message(self):
+    #     product_promotion_message = get_product_promotion_message(self.kaufland_test_soup, ".t-offer-detail__mpa",
+    #                                                       ".t-offer-detail__promo-message")
+    #     self.assertEqual(product_promotion_message, self.kaufland_product_promotion_message)
 
-    def test_find_billa_product_title(self):
-        product_title = get_billa_product_title(self.billa_test_product_soup, ".actualProduct")
-        self.assertEqual(product_title, self.billa_product_title_test)
-
-    def test_find_billa_product_old_price(self):
-        product_old_price = get_billa_product_old_price(self.billa_test_product_soup, ".price")
-        self.assertEqual(product_old_price, self.billa_product_old_price_test)
-
-    def test_find_billa_product_new_price(self):
-        product_new_price = get_billa_product_new_price(self.billa_test_product_soup, ".price")
-        self.assertEqual(product_new_price, self.billa_product_new_price_test)
-
-    def test_find_billa_product_discount_phrase(self):
-        product_discount_phrase = get_billa_product_discount_phrase(self.billa_test_product_soup, ".discount")
-        self.assertEqual(product_discount_phrase, self.billa_product_discount_phrase_test)
-
-
-def get_soup(category):
-    products = get_kaufland_category_products_url(category)
-    for product in products:
-        response = requests.get(product)
-        if response.status_code != 200:
-            return False
-
-        soup = BeautifulSoup(response.text, "html.parser")
-        return soup
+    def test_find_lidl_product_image_url(self):
+        product_image_url = get_lidl_product_image(self.lidl_test_soup, "multimediabox__preview-link")
+        self.assertEqual(product_image_url, self.lidl_product_image_url)

@@ -1,0 +1,6608 @@
+
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]>
+<html lang="bg-BG" class="no-js iem7"></html><![endif]-->
+<!--[if lt IE 7 ]>
+<html lang="bg-BG" class="no-js ie6"></html><![endif]-->
+<!--[if IE 7 ]>
+<html lang="bg-BG" class="no-js ie7"></html><![endif]-->
+<!--[if IE 8 ]>
+<html lang="bg-BG" class="no-js ie8"></html><![endif]-->
+<!--[if IE 9 ]>
+<html lang="bg-BG" class="no-js ie9"></html><![endif]-->
+<!--[if (gte IE 11)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!-->
+<html lang="bg-BG" class="no-js">
+<!--<![endif]-->
+
+<head>
+            <meta charset="UTF-8"/>
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="application-name" content='lidl.bg'>
+        <meta name="msapplication-config" content="/bundles/retail/images/root/browserconfig.xml"/>
+        <meta itemprop="name" content="frontpage"/>
+
+                    <title>
+    ниска ЦЕНА, високо КАЧЕСТВО. Промоции на фокус
+                    - www.lidl.bg
+            </title>
+
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="ниска ЦЕНА, високо КАЧЕСТВО. Промоции на фокус"/>
+
+    <meta name="description" property="og:description" content="Lidl. Верига от любими продукти.">
+
+    <meta property="og:site_name" content="www.lidl.bg"/>
+    <meta property="og:url" content="https://www.lidl.bg/p/niska-tsena-visoko-kachestvo-promotsii-na-fokus/shpekov-salam-burgas/p76643"/>
+
+    <meta property="og:image" content="/catalog5media/bg/article/7205616/third/lg-retina/7205616_0.jpg" />
+
+    <meta property="og:image:width" content="600" />
+    <meta property="og:image:height" content="600" />
+
+    <link rel="canonical" href="https://www.lidl.bg/p/niska-tsena-visoko-kachestvo-promotsii-na-fokus/shpekov-salam-burgas/p76643" />
+
+
+
+                    <meta name="robots" content="index, follow">
+
+
+
+
+            <link rel="icon" href="/bundles/retail/images/favicon.png"/>
+        <link rel="apple-touch-icon" href="/bundles/retail/images/meta/touch-icon-iphone.png"/>
+        <link rel="apple-touch-icon" sizes="76x76" href="/bundles/retail/images/meta/touch-icon-ipad.png"/>
+        <link rel="apple-touch-icon" sizes="152x152"
+              href="/bundles/retail/images/meta/touch-icon-ipad-retina.png"/>
+        <link rel="apple-touch-icon" sizes="180x180"
+              href="/bundles/retail/images/meta/touch-icon-iphone-6plus.png"/>
+
+            <script data-cookieconsent="ignore">
+            window.storesearchConfig = {
+                path: "/bundles/nucleuscomponent/retail/assets/@lidl-retail/global/bg-BG/base.504d64739e6fc9c5bdb86d7165a66976.config",
+            }
+        </script>
+
+
+
+                <script >
+            window.nucleusConfig = window.nucleusConfig || {};
+                            window.nucleusConfig.assetManifestPath = "/bundles/nucleuscomponent/retail/manifest.assets.274b6bd9cbaf981f4ff21482e5bdbb62.json";
+                                        window.nucleusConfig.nucleusManifestPath = "/bundles/nucleuscomponent/retail/manifest.nucleus.5a7aaca41cec6b2fe857dbb4c6653ae0.json";
+                                        window.nucleusConfig.translationsJsonPath = "/bundles/nucleuscomponent/retail/assets/@lidl-retail/global/bg-BG/base.3e2d3cd5da91e760675235f81a93307d.translation";
+                                </script>
+
+        <link rel="stylesheet" href="/bundles/nucleuscomponent/retail/nucleus.6db2e3cad20018c0a2a2065933d699b6.css" media="all" />
+        <script data-cookieconsent="ignore" src="/bundles/nucleuscomponent/retail/nucleus.956851493007aecf744cb3132e8a2ee9.js" async></script>
+
+        <link href="/bundles/retail/dist/styles/detailpage.css" rel="stylesheet">
+
+
+    <meta itemprop="version" content="1.0">
+    <meta itemprop="inLanguage" content="bg-BG">
+            <meta name="apple-itunes-app" content="app-id=1238611143">
+
+    <link rel="manifest" href="/bg/android.json?2d2fb1e5f54672b94c8565489bff65ed">
+
+
+                        <!-- Cookiebot boot -->
+            <script id="Cookiebot" data-culture="bg" src="https://consent.cookiebot.com/uc.js" data-cbid="3ab49099-f27d-4b5a-87ad-6e2b2a7dcb7c" data-blockingmode="auto" type="text/javascript"></script>
+            <!-- End cookiebot -->
+
+                    <!-- Start google Tag Manager -->
+            <script>var dataLayer = [{"version":"1.85.0","environment":"prod","language":"bg-BG"}];</script>
+            <script type="text/plain" data-cookieconsent="statistics">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-TJQ9KN');</script> <!-- End Google Tag Manager -->
+            <!-- Start new GTM unified ID for GA4 -->                                                                                                                                                                                                                                                                                                                                                                                                                                                            <!-- Google Tag Manager -->
+            <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+                })(window,document,'script','dataLayer','GTM-MZZQJMC');</script>
+             <!-- End Google Tag Manager -->
+
+</head>
+
+    <body data-controller="page" class="page" itemscope itemtype="http://schema.org/WebPage" data-ga-environment="dev"
+          data-dynamics-id="CE310A900DE607A5D2FC2CC224EE8D8C">
+
+    <div class="nuc-o-map-search__dialog hidden@all">
+        <div class="nuc-o-storesearch nuc-o-map-search"></div>
+    </div>
+
+                        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TJQ9KN" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+            <!-- Start new GTM unified ID for GA4 -->
+            <!-- Google Tag Manager (noscript) -->
+            <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MZZQJMC"
+                              height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+            <!-- End Google Tag Manager (noscript) -->
+
+    <noscript>
+        <section class="page__section">
+            <article tabindex="-1" class="hint hint--spaced hint--danger">
+                <header class="hint__header">
+                        <span class="hint__icon-container">
+                            <span class="icon icon--danger icon--no-pointer-events icon--small icon--medium@md">
+                                <svg role="img">
+                                  <title>No Javascript</title>
+                                  <use xlink:href="/bundles/cakecomponents/dist/images/icon__sprite.svg#danger"></use>
+                                </svg>
+                            </span>
+                        </span>
+                    <h2 data-controller="hint/title"
+                        class="hint__title">No Javascript</h2>
+                </header>
+                <div data-controller="hint/body" class="hint__body">Please activate Javascript
+                </div>
+            </article>
+        </section>
+    </noscript>
+
+
+
+            <header data-controller="page/header" class="page__header">
+            <div class="page__preheader">
+
+
+
+
+
+
+
+        <nav class="jumpmark jumpmark--skip-nav ">
+                                    <strong class="jumpmark__title-screenreader visible@sr ">Отиди към:</strong>
+
+
+
+        <ul class="list">
+
+
+
+        <li class="list__item list__item--pad-smallest@md">
+
+
+
+
+
+
+
+
+
+
+    <a class="link jumpmark__skip-nav-link" data-controller="jumpmark/skipnav/link" href="#mastheadNavigationHeader">
+                                    Меню
+                        </a>
+
+
+
+
+
+            </li>
+
+
+
+
+        <li class="list__item list__item--pad-smallest@md">
+
+
+
+
+
+
+
+
+
+
+    <a class="link jumpmark__skip-nav-link" data-controller="jumpmark/skipnav/link" href="#navigationUserHeader">
+                                    Поддръжка
+                        </a>
+
+
+
+
+
+            </li>
+
+
+
+
+        <li class="list__item list__item--pad-smallest@md">
+
+
+
+
+
+
+
+
+
+
+    <a class="link jumpmark__skip-nav-link" data-controller="jumpmark/skipnav/link" href="#pageMain">
+                                    jumpmark.item.textblock.content
+                        </a>
+
+
+
+
+
+            </li>
+
+
+
+
+        <li class="list__item list__item--pad-smallest@md">
+
+
+
+
+
+
+
+
+
+
+    <a class="link jumpmark__skip-nav-link" data-controller="jumpmark/skipnav/link" href="#languageSelectionFooter">
+                                    Избор на език
+                        </a>
+
+
+
+
+
+            </li>
+
+
+
+
+        <li class="list__item list__item--pad-smallest@md">
+
+
+
+
+
+
+
+
+
+
+    <a class="link jumpmark__skip-nav-link" data-controller="jumpmark/skipnav/link" href="#languageSelectionHeader">
+                                    Избор на език
+                        </a>
+
+
+
+
+
+            </li>
+
+                        </ul>
+
+            </nav>
+
+
+
+
+            </div>
+            <div class="page__masthead">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <header  class="nuc-o-header">
+            <div class="nuc-o-header__content">
+                                    <div class="nuc-o-header__brand-text">Лидл България</div>
+                                                    <div class="nuc-o-header__navigation-wrapper">
+                                                    <nav class="nuc-o-header__brand-navigation" aria-label="Brand Navigation">
+                                <ul class="nuc-o-header__brand-navigation-list">
+
+
+
+
+
+                <li  class="nuc-m-header-brand-nav-item" data-tracking="gtm" data-tracking-type="EECpromotion" data-creative="Company Navigation" data-name="За нас" data-id="3353" data-position="1">
+
+
+
+                <a  class="nuc-m-header-brand-nav-item__anchor nuc-a-anchor" href="https://www.corporate.lidl.bg/">
+
+                                                            <span class="nuc-m-header-brand-nav-item__text">За нас</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+
+                <li  class="nuc-m-header-brand-nav-item" data-tracking="gtm" data-tracking-type="EECpromotion" data-creative="Company Navigation" data-name="Полезно инфо" data-id="3351" data-position="2">
+
+
+
+                <a  class="nuc-m-header-brand-nav-item__anchor nuc-a-anchor" href="/polezno-info">
+
+                                                            <span class="nuc-m-header-brand-nav-item__text">Полезно инфо</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+
+                <li  class="nuc-m-header-brand-nav-item" data-tracking="gtm" data-tracking-type="EECpromotion" data-creative="Company Navigation" data-name="Обслужване и контакти" data-id="3352" data-position="30">
+
+
+
+                <a  class="nuc-m-header-brand-nav-item__anchor nuc-a-anchor" href="https://obsluzhvane-i-kontakti.lidl.bg/SelfServiceBG/s/">
+
+                                                            <span class="nuc-m-header-brand-nav-item__text">Обслужване и контакти</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+
+                <li  class="nuc-m-header-brand-nav-item" data-tracking="gtm" data-tracking-type="EECpromotion" data-creative="Company Navigation" data-name="Пресцентър" data-id="29307" data-position="40">
+
+
+
+                <a  class="nuc-m-header-brand-nav-item__anchor nuc-a-anchor" href="https://corporate.lidl.bg">
+
+                                                            <span class="nuc-m-header-brand-nav-item__text">Пресцентър</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+
+                <li  class="nuc-m-header-brand-nav-item" data-tracking="gtm" data-tracking-type="EECpromotion" data-creative="Company Navigation" data-name="Кариера" data-id="3349" data-position="50">
+
+
+
+                <a  class="nuc-m-header-brand-nav-item__anchor nuc-a-anchor" href="https://jobs.lidl.bg">
+
+                                                            <span class="nuc-m-header-brand-nav-item__text">Кариера</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+
+                <li  class="nuc-m-header-brand-nav-item" data-tracking="gtm" data-tracking-type="EECpromotion" data-creative="Company Navigation" data-name="Недвижими имоти" data-id="3350" data-position="60">
+
+
+
+                <a  class="nuc-m-header-brand-nav-item__anchor nuc-a-anchor" href="https://www.realestate-lidl.bg/">
+
+                                                            <span class="nuc-m-header-brand-nav-item__text">Недвижими имоти</span>
+
+
+
+        </a>
+
+        </li>
+
+
+                                </ul>
+                            </nav>
+                                                                            <nav class="nuc-o-header__language-navigation" aria-label="Language Navigation">
+
+
+
+                <div  class="nuc-o-language-nav-container" data-retail-e-set-language-link="{&quot;module&quot;:&quot;retail\/e-set-language-link&quot;}">
+                        <ul class="nuc-o-language-nav-container__language-navigation-list" data-controller="list/lang">
+                            </ul>
+        </div>
+
+                            </nav>
+                                            </div>
+                                <div class="nuc-o-header__main">
+
+
+
+
+
+
+
+                <a  class="nuc-o-header__anchor-logo nuc-m-logo nuc-a-anchor" tabindex="3" href="/" title="Bulgaria (BG)">
+
+
+                        <!-- [nucleus] Validation Violation -->
+
+
+
+                <img  class="lidl-a-logo-image" role="img" src="/bundles/nucleuscomponent/retail/assets/@lidl/a-logo-image/logo_default.55fa35599267bb36eb58dd8930b445f8.svg" alt="Лидл България">
+
+
+
+
+        </a>
+
+
+
+                                            <span class="nuc-o-header__claim-text">Верига от любими продукти</span>
+                                        <div class="nuc-o-header__spacer"></div>
+                                            <nav class="nuc-o-header__user-navigation" aria-label="User Navigation">
+                            <ul class="nuc-o-header__user-navigation-list">
+
+
+
+
+                <li  class="nuc-m-header-user-nav-item" data-retail-e-storesearch-indicator="{&quot;module&quot;:&quot;retail\/e-storesearch-indicator&quot;}">
+
+
+
+                <a  class="nuc-m-header-user-nav-item__anchor nuc-a-anchor" data-map-search-toggle tabindex="4" href="#">
+
+                                                    <div class="nuc-m-header-user-nav-item__icon-wrapper">
+
+
+
+
+
+
+
+                <svg  class="nuc-m-header-user-nav-item__icon nuc-a-icon nuc-a-icon--size-24 nuc-a-icon--size-32@lg nuc-a-svg-use" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 1">
+                        <use href="/bundles/nucleuscomponent/retail/icons/lidl.ebbd80e0845ba10b.svg#store"></use>
+        </svg>
+
+
+                                            <span class="nuc-m-header-user-nav-item__addon">x</span>
+                                    </div>
+                <span class="nuc-m-header-user-nav-item__anchor-text">Магазини</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-user-nav-item" data-tracking="gtm" data-tracking-type="EECpromotion" data-creative="User Navigation" data-name="Брошура" data-id="3356" data-position="2">
+
+
+
+                <a  class="nuc-m-header-user-nav-item__anchor nuc-a-anchor" tabindex="4" href="/polezno-info/broshura">
+
+                                                    <div class="nuc-m-header-user-nav-item__icon-wrapper">
+
+
+
+
+
+
+
+                <svg  class="nuc-m-header-user-nav-item__icon nuc-a-icon nuc-a-icon--size-24 nuc-a-icon--size-32@lg nuc-a-svg-use" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 1">
+                        <use href="/bundles/nucleuscomponent/retail/icons/lidl.ebbd80e0845ba10b.svg#flyer"></use>
+        </svg>
+
+
+                                    </div>
+                <span class="nuc-m-header-user-nav-item__anchor-text">Брошура</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-user-nav-item" data-tracking="gtm" data-tracking-type="EECpromotion" data-creative="User Navigation" data-name="Нюзлетър" data-id="3357" data-position="3">
+
+
+
+                <a  class="nuc-m-header-user-nav-item__anchor nuc-a-anchor" tabindex="4" href="/polezno-info/abonirane">
+
+                                                    <div class="nuc-m-header-user-nav-item__icon-wrapper">
+
+
+
+
+
+
+
+                <svg  class="nuc-m-header-user-nav-item__icon nuc-a-icon nuc-a-icon--size-24 nuc-a-icon--size-32@lg nuc-a-svg-use" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 1">
+                        <use href="/bundles/nucleuscomponent/retail/icons/lidl.ebbd80e0845ba10b.svg#envelope-open"></use>
+        </svg>
+
+
+                                    </div>
+                <span class="nuc-m-header-user-nav-item__anchor-text">Нюзлетър</span>
+
+
+
+        </a>
+
+        </li>
+
+
+                            </ul>
+                        </nav>
+                                                                <button class="nuc-o-header__hamburger-navigation" data-controller="header/burgermenu" aria-pressed="false" tabindex="5" aria-label="Hamburger Navigation">
+                            <span class="nuc-o-header__hamburger-navigation-icon">
+
+
+
+
+
+
+
+                <svg  class="nuc-o-header__hamburger-navigation-icon-open nuc-a-icon nuc-a-icon--size-16 nuc-a-svg-use" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 1">
+                        <use href="/bundles/nucleuscomponent/retail/icons/nucleus.0295cc31d18a91f4.svg#menu"></use>
+        </svg>
+
+
+
+
+
+
+
+
+
+                <svg  class="nuc-o-header__hamburger-navigation-icon-close nuc-a-icon nuc-a-icon--size-16 nuc-a-svg-use" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 1">
+                        <use href="/bundles/nucleuscomponent/retail/icons/nucleus.0295cc31d18a91f4.svg#close"></use>
+        </svg>
+
+
+                            </span>
+                            <span class="nuc-o-header__hamburger-navigation-text">
+                                MENU
+                            </span>
+                        </button>
+                                    </div>
+                <div   class="nuc-o-header__navigation" aria-label="Main Navigation" aria-expanded="false" role="menu">
+                    <a href="#" class="nuc-o-header__navigation-back" tabindex="-1">
+
+
+
+
+
+
+
+                <svg  class="nuc-o-header__navigation-back-icon nuc-a-icon nuc-a-icon--size-16 nuc-a-svg-use" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 1">
+                        <use href="/bundles/nucleuscomponent/retail/icons/nucleus.0295cc31d18a91f4.svg#left"></use>
+        </svg>
+
+
+                        <span class="nuc-o-header__navigation-back-text">назад</span>
+                    </a>
+                    <nav class="nuc-o-header__navigation-main">
+
+
+
+                <div  class="nuc-o-header-nav-slider">
+            <button class="nuc-o-header-nav-slider__btn-left hidden@all" tabindex="-1">
+
+
+
+
+
+
+
+                <svg  class="nuc-o-header-nav-slider__icon nuc-a-icon nuc-a-icon--size-16 nuc-a-svg-use" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 1">
+                        <use href="/bundles/nucleuscomponent/retail/icons/nucleus.0295cc31d18a91f4.svg#left"></use>
+        </svg>
+
+
+            </button>
+            <ul class="nuc-o-header-nav-slider__content">
+
+
+
+
+                <li  class="nuc-m-header-main-nav-item" data-tracking="gtm" data-tracking-type="EECpromotion" data-creative="Main Navigation" data-name="Нови предложения" data-id="3239" data-position="-2" data-js-subnav>
+
+
+
+                <a  class="nuc-m-header-main-nav-item__anchor nuc-a-anchor" href="/novi-predlozheniya">
+
+                                                    <span class="nuc-m-header-main-nav-item__anchor-text">Нови предложения</span>
+
+
+
+
+
+
+
+                <svg  class="nuc-m-header-main-nav-item__anchor-icon nuc-a-icon nuc-a-icon--size-16 nuc-a-svg-use" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 1">
+                        <use href="/bundles/nucleuscomponent/retail/icons/nucleus.0295cc31d18a91f4.svg#right"></use>
+        </svg>
+
+
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-main-nav-item" data-tracking="gtm" data-tracking-type="EECpromotion" data-creative="Main Navigation" data-name="lubimo" data-id="66229" data-position="0" data-js-subnav>
+
+
+
+                <a  class="nuc-m-header-main-nav-item__anchor nuc-a-anchor" href="/lubimo">
+
+                                                    <span class="nuc-m-header-main-nav-item__anchor-text">Любимо</span>
+
+
+
+
+
+
+
+                <svg  class="nuc-m-header-main-nav-item__anchor-icon nuc-a-icon nuc-a-icon--size-16 nuc-a-svg-use" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 1">
+                        <use href="/bundles/nucleuscomponent/retail/icons/nucleus.0295cc31d18a91f4.svg#right"></use>
+        </svg>
+
+
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-main-nav-item" data-tracking="gtm" data-tracking-type="EECpromotion" data-creative="Main Navigation" data-name="Lidl Plus" data-id="44623" data-position="10" data-js-subnav>
+
+
+
+                <a  class="nuc-m-header-main-nav-item__anchor nuc-a-anchor" href="/lidl-plus">
+
+                                                    <span class="nuc-m-header-main-nav-item__anchor-text">Lidl Plus</span>
+
+
+
+
+
+
+
+                <svg  class="nuc-m-header-main-nav-item__anchor-icon nuc-a-icon nuc-a-icon--size-16 nuc-a-svg-use" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 1">
+                        <use href="/bundles/nucleuscomponent/retail/icons/nucleus.0295cc31d18a91f4.svg#right"></use>
+        </svg>
+
+
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-main-nav-item" data-tracking="gtm" data-tracking-type="EECpromotion" data-creative="Main Navigation" data-name="Рецепти" data-id="3735" data-position="20">
+
+
+
+                <a  class="nuc-m-header-main-nav-item__anchor nuc-a-anchor" href="https://gotvi.lidl.bg/">
+
+                                                    <span class="nuc-m-header-main-nav-item__anchor-text">Рецепти</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-main-nav-item" data-tracking="gtm" data-tracking-type="EECpromotion" data-creative="Main Navigation" data-name="1000x300" data-id="115503" data-position="25">
+
+
+
+                <a  class="nuc-m-header-main-nav-item__anchor nuc-a-anchor" href="/lidl-plus/1000x300">
+
+                                                    <span class="nuc-m-header-main-nav-item__anchor-text">1000x300</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-main-nav-item" data-tracking="gtm" data-tracking-type="EECpromotion" data-creative="Main Navigation" data-name="Parkside" data-id="111491" data-position="30">
+
+
+
+                <a  class="nuc-m-header-main-nav-item__anchor nuc-a-anchor" href="/parkside">
+
+                                                    <span class="nuc-m-header-main-nav-item__anchor-text">Parkside</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-main-nav-item" data-tracking="gtm" data-tracking-type="EECpromotion" data-creative="Main Navigation" data-name="volleyball" data-id="109929" data-position="41" data-js-subnav>
+
+
+
+                <a  class="nuc-m-header-main-nav-item__anchor nuc-a-anchor" href="/volleyball">
+
+                                                    <span class="nuc-m-header-main-nav-item__anchor-text">Волейбол</span>
+
+
+
+
+
+
+
+                <svg  class="nuc-m-header-main-nav-item__anchor-icon nuc-a-icon nuc-a-icon--size-16 nuc-a-svg-use" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 1">
+                        <use href="/bundles/nucleuscomponent/retail/icons/nucleus.0295cc31d18a91f4.svg#right"></use>
+        </svg>
+
+
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-main-nav-item" data-tracking="gtm" data-tracking-type="EECpromotion" data-creative="Main Navigation" data-name="solizahar" data-id="102562" data-position="45">
+
+
+
+                <a  class="nuc-m-header-main-nav-item__anchor nuc-a-anchor" href="/solizahar">
+
+                                                    <span class="nuc-m-header-main-nav-item__anchor-text">По-малко сол и захар</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-main-nav-item" data-tracking="gtm" data-tracking-type="EECpromotion" data-creative="Main Navigation" data-name="4seasons" data-id="70904" data-position="100" data-js-subnav>
+
+
+
+                <a  class="nuc-m-header-main-nav-item__anchor nuc-a-anchor" href="/4seasons">
+
+                                                    <span class="nuc-m-header-main-nav-item__anchor-text">4 сезона</span>
+
+
+
+
+
+
+
+                <svg  class="nuc-m-header-main-nav-item__anchor-icon nuc-a-icon nuc-a-icon--size-16 nuc-a-svg-use" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 1">
+                        <use href="/bundles/nucleuscomponent/retail/icons/nucleus.0295cc31d18a91f4.svg#right"></use>
+        </svg>
+
+
+
+
+
+        </a>
+
+        </li>
+
+
+            </ul>
+            <button class="nuc-o-header-nav-slider__btn-right hidden@all" tabindex="-1">
+
+
+
+
+
+
+
+                <svg  class="nuc-o-header-nav-slider__icon nuc-a-icon nuc-a-icon--size-16 nuc-a-svg-use" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 1">
+                        <use href="/bundles/nucleuscomponent/retail/icons/nucleus.0295cc31d18a91f4.svg#right"></use>
+        </svg>
+
+
+            </button>
+        </div>
+
+                                            </nav>
+
+                            <nav  class="nuc-o-header__navigation-sub hidden@all">
+
+
+
+                <div  class="nuc-o-header-nav-slider--sub nuc-o-header-nav-slider">
+            <button class="nuc-o-header-nav-slider__btn-left hidden@all" tabindex="-1">
+
+
+
+
+
+
+
+                <svg  class="nuc-o-header-nav-slider__icon nuc-a-icon nuc-a-icon--size-16 nuc-a-svg-use" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 1">
+                        <use href="/bundles/nucleuscomponent/retail/icons/nucleus.0295cc31d18a91f4.svg#left"></use>
+        </svg>
+
+
+            </button>
+            <ul class="nuc-o-header-nav-slider__content">
+
+
+
+                <li  class="nuc-m-header-main-nav-item nuc-m-header-main-nav-item--direct-access" data-tracking="gtm" data-tracking-type="EECpromotion" data-creative="Main Navigation" data-name="Нови предложения" data-id="3239" data-position="-2" data-js-subnav>
+
+
+
+                <a  class="nuc-m-header-main-nav-item__anchor nuc-a-anchor" href="/novi-predlozheniya">
+
+                                                    <span class="nuc-m-header-main-nav-item__anchor-text">Нови предложения</span>
+
+
+
+
+                            <span  class="nuc-m-header-main-nav-item__anchor-badge nuc-m-badge nuc-m-badge--theme-primary nuc-m-badge--size-small">
+                                        <span class="nuc-m-badge__text">Преглед</span>
+
+            </span>
+
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item" data-js-subnav>
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="#">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Актуални</span>
+
+
+
+
+
+
+
+                <svg  class="nuc-m-header-sub-nav-item__anchor-icon nuc-a-icon nuc-a-icon--size-16 nuc-a-svg-use" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 1">
+                        <use href="/bundles/nucleuscomponent/retail/icons/nucleus.0295cc31d18a91f4.svg#right"></use>
+        </svg>
+
+
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item" data-js-subnav>
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="#">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Предстоящи</span>
+
+
+
+
+
+
+
+                <svg  class="nuc-m-header-sub-nav-item__anchor-icon nuc-a-icon nuc-a-icon--size-16 nuc-a-svg-use" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 1">
+                        <use href="/bundles/nucleuscomponent/retail/icons/nucleus.0295cc31d18a91f4.svg#right"></use>
+        </svg>
+
+
+
+
+
+        </a>
+
+        </li>
+
+
+            </ul>
+            <button class="nuc-o-header-nav-slider__btn-right hidden@all" tabindex="-1">
+
+
+
+
+
+
+
+                <svg  class="nuc-o-header-nav-slider__icon nuc-a-icon nuc-a-icon--size-16 nuc-a-svg-use" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 1">
+                        <use href="/bundles/nucleuscomponent/retail/icons/nucleus.0295cc31d18a91f4.svg#right"></use>
+        </svg>
+
+
+            </button>
+        </div>
+
+                            </nav>
+
+                            <nav  class="nuc-o-header__navigation-sub hidden@all">
+
+
+
+                <div  class="nuc-o-header-nav-slider--sub nuc-o-header-nav-slider">
+            <button class="nuc-o-header-nav-slider__btn-left hidden@all" tabindex="-1">
+
+
+
+
+
+
+
+                <svg  class="nuc-o-header-nav-slider__icon nuc-a-icon nuc-a-icon--size-16 nuc-a-svg-use" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 1">
+                        <use href="/bundles/nucleuscomponent/retail/icons/nucleus.0295cc31d18a91f4.svg#left"></use>
+        </svg>
+
+
+            </button>
+            <ul class="nuc-o-header-nav-slider__content">
+
+
+
+                <li  class="nuc-m-header-main-nav-item nuc-m-header-main-nav-item--direct-access" data-tracking="gtm" data-tracking-type="EECpromotion" data-creative="Main Navigation" data-name="lubimo" data-id="66229" data-position="0" data-js-subnav>
+
+
+
+                <a  class="nuc-m-header-main-nav-item__anchor nuc-a-anchor" href="/lubimo">
+
+                                                    <span class="nuc-m-header-main-nav-item__anchor-text">Любимо</span>
+
+
+
+
+                            <span  class="nuc-m-header-main-nav-item__anchor-badge nuc-m-badge nuc-m-badge--theme-primary nuc-m-badge--size-small">
+                                        <span class="nuc-m-badge__text">Преглед</span>
+
+            </span>
+
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item" data-js-subnav>
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/lubimo/plodove-i-zelenchuci">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Плодове и зеленчуци</span>
+
+
+
+
+
+
+
+                <svg  class="nuc-m-header-sub-nav-item__anchor-icon nuc-a-icon nuc-a-icon--size-16 nuc-a-svg-use" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 1">
+                        <use href="/bundles/nucleuscomponent/retail/icons/nucleus.0295cc31d18a91f4.svg#right"></use>
+        </svg>
+
+
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/lubimo/podpravki">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Подправки</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/lubimo/pazaruvane">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Пазаруване</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/lubimo/pryasno-meso">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Прясно месо</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item" data-js-subnav>
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/lubimo/experts">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Къщата</span>
+
+
+
+
+
+
+
+                <svg  class="nuc-m-header-sub-nav-item__anchor-icon nuc-a-icon nuc-a-icon--size-16 nuc-a-svg-use" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 1">
+                        <use href="/bundles/nucleuscomponent/retail/icons/nucleus.0295cc31d18a91f4.svg#right"></use>
+        </svg>
+
+
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/lubimo/burger">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Бургери</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/lubimo/black-angus">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Black Angus</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/lubimo/rodna-stryaha">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Родна стряха</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/lubimo/wine">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Вино</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item" data-js-subnav>
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/lubimo/ot-cyala-b-lgariya">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">От цяла България</span>
+
+
+
+
+
+
+
+                <svg  class="nuc-m-header-sub-nav-item__anchor-icon nuc-a-icon nuc-a-icon--size-16 nuc-a-svg-use" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 1">
+                        <use href="/bundles/nucleuscomponent/retail/icons/nucleus.0295cc31d18a91f4.svg#right"></use>
+        </svg>
+
+
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/lubimo/ot-furnata-na-lidl">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">От фурната на Lidl</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/lubimo/kachestveni-kolbasi">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Качествени колбаси</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/lubimo/lupilu">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Lupilu</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/lubimo/cien">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Cien</span>
+
+
+
+        </a>
+
+        </li>
+
+
+            </ul>
+            <button class="nuc-o-header-nav-slider__btn-right hidden@all" tabindex="-1">
+
+
+
+
+
+
+
+                <svg  class="nuc-o-header-nav-slider__icon nuc-a-icon nuc-a-icon--size-16 nuc-a-svg-use" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 1">
+                        <use href="/bundles/nucleuscomponent/retail/icons/nucleus.0295cc31d18a91f4.svg#right"></use>
+        </svg>
+
+
+            </button>
+        </div>
+
+                            </nav>
+
+                            <nav  class="nuc-o-header__navigation-sub hidden@all">
+
+
+
+                <div  class="nuc-o-header-nav-slider--sub nuc-o-header-nav-slider">
+            <button class="nuc-o-header-nav-slider__btn-left hidden@all" tabindex="-1">
+
+
+
+
+
+
+
+                <svg  class="nuc-o-header-nav-slider__icon nuc-a-icon nuc-a-icon--size-16 nuc-a-svg-use" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 1">
+                        <use href="/bundles/nucleuscomponent/retail/icons/nucleus.0295cc31d18a91f4.svg#left"></use>
+        </svg>
+
+
+            </button>
+            <ul class="nuc-o-header-nav-slider__content">
+
+
+
+                <li  class="nuc-m-header-main-nav-item nuc-m-header-main-nav-item--direct-access" data-tracking="gtm" data-tracking-type="EECpromotion" data-creative="Main Navigation" data-name="Lidl Plus" data-id="44623" data-position="10" data-js-subnav>
+
+
+
+                <a  class="nuc-m-header-main-nav-item__anchor nuc-a-anchor" href="/lidl-plus">
+
+                                                    <span class="nuc-m-header-main-nav-item__anchor-text">Lidl Plus</span>
+
+
+
+
+                            <span  class="nuc-m-header-main-nav-item__anchor-badge nuc-m-badge nuc-m-badge--theme-primary nuc-m-badge--size-small">
+                                        <span class="nuc-m-badge__text">Преглед</span>
+
+            </span>
+
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/lidl-plus">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Начало</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/lidl-plus/1000x300">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">1000x300</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/lidl-plus/app-offers">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Купони и оферти</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/lidl-plus/app-couponplus">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Купон +</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/lidl-plus/partners">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Партньори</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/lidl-plus/app-terms">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Условия за ползване</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/lidl-plus/app-privacy">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Лични данни</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="https://obsluzhvane-i-kontakti.lidl.bg/SelfServiceBG/s/">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Помощ</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/lidl-plus/camper">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Кемпер</span>
+
+
+
+        </a>
+
+        </li>
+
+
+            </ul>
+            <button class="nuc-o-header-nav-slider__btn-right hidden@all" tabindex="-1">
+
+
+
+
+
+
+
+                <svg  class="nuc-o-header-nav-slider__icon nuc-a-icon nuc-a-icon--size-16 nuc-a-svg-use" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 1">
+                        <use href="/bundles/nucleuscomponent/retail/icons/nucleus.0295cc31d18a91f4.svg#right"></use>
+        </svg>
+
+
+            </button>
+        </div>
+
+                            </nav>
+
+                            <nav  class="nuc-o-header__navigation-sub hidden@all">
+
+
+
+                <div  class="nuc-o-header-nav-slider--sub nuc-o-header-nav-slider">
+            <button class="nuc-o-header-nav-slider__btn-left hidden@all" tabindex="-1">
+
+
+
+
+
+
+
+                <svg  class="nuc-o-header-nav-slider__icon nuc-a-icon nuc-a-icon--size-16 nuc-a-svg-use" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 1">
+                        <use href="/bundles/nucleuscomponent/retail/icons/nucleus.0295cc31d18a91f4.svg#left"></use>
+        </svg>
+
+
+            </button>
+            <ul class="nuc-o-header-nav-slider__content">
+
+
+
+                <li  class="nuc-m-header-main-nav-item nuc-m-header-main-nav-item--direct-access" data-tracking="gtm" data-tracking-type="EECpromotion" data-creative="Main Navigation" data-name="volleyball" data-id="109929" data-position="41" data-js-subnav>
+
+
+
+                <a  class="nuc-m-header-main-nav-item__anchor nuc-a-anchor" href="/volleyball">
+
+                                                    <span class="nuc-m-header-main-nav-item__anchor-text">Волейбол</span>
+
+
+
+
+                            <span  class="nuc-m-header-main-nav-item__anchor-badge nuc-m-badge nuc-m-badge--theme-primary nuc-m-badge--size-small">
+                                        <span class="nuc-m-badge__text">Преглед</span>
+
+            </span>
+
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/volleyball/start-2005-eood">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Старт 2005 ЕООД</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/volleyball/lapatarev-eood">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Лапатарев ЕООД</span>
+
+
+
+        </a>
+
+        </li>
+
+
+            </ul>
+            <button class="nuc-o-header-nav-slider__btn-right hidden@all" tabindex="-1">
+
+
+
+
+
+
+
+                <svg  class="nuc-o-header-nav-slider__icon nuc-a-icon nuc-a-icon--size-16 nuc-a-svg-use" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 1">
+                        <use href="/bundles/nucleuscomponent/retail/icons/nucleus.0295cc31d18a91f4.svg#right"></use>
+        </svg>
+
+
+            </button>
+        </div>
+
+                            </nav>
+
+                            <nav  class="nuc-o-header__navigation-sub hidden@all">
+
+
+
+                <div  class="nuc-o-header-nav-slider--sub nuc-o-header-nav-slider">
+            <button class="nuc-o-header-nav-slider__btn-left hidden@all" tabindex="-1">
+
+
+
+
+
+
+
+                <svg  class="nuc-o-header-nav-slider__icon nuc-a-icon nuc-a-icon--size-16 nuc-a-svg-use" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 1">
+                        <use href="/bundles/nucleuscomponent/retail/icons/nucleus.0295cc31d18a91f4.svg#left"></use>
+        </svg>
+
+
+            </button>
+            <ul class="nuc-o-header-nav-slider__content">
+
+
+
+                <li  class="nuc-m-header-main-nav-item nuc-m-header-main-nav-item--direct-access" data-tracking="gtm" data-tracking-type="EECpromotion" data-creative="Main Navigation" data-name="4seasons" data-id="70904" data-position="100" data-js-subnav>
+
+
+
+                <a  class="nuc-m-header-main-nav-item__anchor nuc-a-anchor" href="/4seasons">
+
+                                                    <span class="nuc-m-header-main-nav-item__anchor-text">4 сезона</span>
+
+
+
+
+                            <span  class="nuc-m-header-main-nav-item__anchor-badge nuc-m-badge nuc-m-badge--theme-primary nuc-m-badge--size-small">
+                                        <span class="nuc-m-badge__text">Преглед</span>
+
+            </span>
+
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/4seasons/prolet">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Пролет</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/4seasons/lyato">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Лято</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/4seasons/esen">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Есен</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/4seasons/zima">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Зима</span>
+
+
+
+        </a>
+
+        </li>
+
+
+            </ul>
+            <button class="nuc-o-header-nav-slider__btn-right hidden@all" tabindex="-1">
+
+
+
+
+
+
+
+                <svg  class="nuc-o-header-nav-slider__icon nuc-a-icon nuc-a-icon--size-16 nuc-a-svg-use" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 1">
+                        <use href="/bundles/nucleuscomponent/retail/icons/nucleus.0295cc31d18a91f4.svg#right"></use>
+        </svg>
+
+
+            </button>
+        </div>
+
+                            </nav>
+
+                            <nav  class="nuc-o-header__navigation-sub hidden@all">
+
+
+
+                <div  class="nuc-o-header-nav-slider--sub nuc-o-header-nav-slider">
+            <button class="nuc-o-header-nav-slider__btn-left hidden@all" tabindex="-1">
+
+
+
+
+
+
+
+                <svg  class="nuc-o-header-nav-slider__icon nuc-a-icon nuc-a-icon--size-16 nuc-a-svg-use" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 1">
+                        <use href="/bundles/nucleuscomponent/retail/icons/nucleus.0295cc31d18a91f4.svg#left"></use>
+        </svg>
+
+
+            </button>
+            <ul class="nuc-o-header-nav-slider__content">
+
+
+
+                <li  class="hidden@all nuc-m-header-main-nav-item nuc-m-header-main-nav-item--direct-access" data-js-subnav>
+
+
+
+                <a  class="nuc-m-header-main-nav-item__anchor nuc-a-anchor" href="#">
+
+                                                    <span class="nuc-m-header-main-nav-item__anchor-text">Актуални</span>
+
+
+
+
+                            <span  class="nuc-m-header-main-nav-item__anchor-badge nuc-m-badge nuc-m-badge--theme-primary nuc-m-badge--size-small">
+                                        <span class="nuc-m-badge__text">Преглед</span>
+
+            </span>
+
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/c/otpusni-se-koleda-e-s-gurme-vkusove-ot-deluxe/c2840">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Отпусни се, Коледа е! С гурме вкусове от Deluxe.</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/c/otpusni-se-koleda-e-s-neustoimi-izkushenia-ot-favorina/c2845">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Отпусни се, Коледа е! С неустоими изкушения от Favorina</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/c/niska-tsena-visoko-kachestvo-promotsii-na-fokus/c2620">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">ниска ЦЕНА, високо КАЧЕСТВО. Промоции на фокус</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/c/plodove-i-zelenchutsi-na-fokus/c2622">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Плодове и зеленчуци на фокус</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/c/stilat-na-tvoite-sanishta/c2865">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Стилът на твоите сънища</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/c/aktsia-bliasak/c2866">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Акция Блясък</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/c/postno-i-vkusno/c2867">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Постно и вкусно</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/c/top-marki-na-top-tseni/c2359">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">ТОП марки на ТОП цени</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/c/svetovni-futbolni-emotsii-s-liubimi-vkusove/c2868">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Световни футболни емоции с любими вкусове</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/c/domashna-rapsodia/c2869">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Домашна рапсодия</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/c/otpusni-se-koleda-e-ukrasa/c2874">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Отпусни се, Коледа е! Украса.</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/c/tsveten-sviat/c2603">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Цветен свят</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/c/nay-interesnite-svetove-sa-skriti-mejdu-2-koritsi/c1840">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Най-интересните светове са скрити между 2 корици</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/c/tvori-smelo/c2864">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Твори смело</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/c/bezgrijna-moda/c2872">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Безгрижна мода</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/c/33-na-izbrani-sveji-salati/c2870">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">-33% на избрани свежи салати</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/c/otpusni-se-koleda-e-igrachki/c2873">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Отпусни се, Коледа е! Играчки.</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/c/otpusni-se-koleda-e-produkti-za-doma/c2846">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Отпусни се, Коледа е! Продукти за дома.</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/c/sabudi-maystora-v-teb/c2510">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Събуди майстора в теб!</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/c/niska-tsena-visoko-kachestvo-promotsii-na-fokus/c2621">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">ниска ЦЕНА, високо КАЧЕСТВО. Промоции на фокус</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/c/super-sabota/c2871">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Супер събота</span>
+
+
+
+        </a>
+
+        </li>
+
+
+            </ul>
+            <button class="nuc-o-header-nav-slider__btn-right hidden@all" tabindex="-1">
+
+
+
+
+
+
+
+                <svg  class="nuc-o-header-nav-slider__icon nuc-a-icon nuc-a-icon--size-16 nuc-a-svg-use" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 1">
+                        <use href="/bundles/nucleuscomponent/retail/icons/nucleus.0295cc31d18a91f4.svg#right"></use>
+        </svg>
+
+
+            </button>
+        </div>
+
+                            </nav>
+
+                            <nav  class="nuc-o-header__navigation-sub hidden@all">
+
+
+
+                <div  class="nuc-o-header-nav-slider--sub nuc-o-header-nav-slider">
+            <button class="nuc-o-header-nav-slider__btn-left hidden@all" tabindex="-1">
+
+
+
+
+
+
+
+                <svg  class="nuc-o-header-nav-slider__icon nuc-a-icon nuc-a-icon--size-16 nuc-a-svg-use" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 1">
+                        <use href="/bundles/nucleuscomponent/retail/icons/nucleus.0295cc31d18a91f4.svg#left"></use>
+        </svg>
+
+
+            </button>
+            <ul class="nuc-o-header-nav-slider__content">
+
+
+
+                <li  class="hidden@all nuc-m-header-main-nav-item nuc-m-header-main-nav-item--direct-access" data-js-subnav>
+
+
+
+                <a  class="nuc-m-header-main-nav-item__anchor nuc-a-anchor" href="#">
+
+                                                    <span class="nuc-m-header-main-nav-item__anchor-text">Предстоящи</span>
+
+
+
+
+                            <span  class="nuc-m-header-main-nav-item__anchor-badge nuc-m-badge nuc-m-badge--theme-primary nuc-m-badge--size-small">
+                                        <span class="nuc-m-badge__text">Преглед</span>
+
+            </span>
+
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/c/otpusni-se-koleda-e-s-gurme-vkusove-ot-deluxe/c2840">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Отпусни се, Коледа е! С гурме вкусове от Deluxe.</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/c/otpusni-se-koleda-e-s-neustoimi-izkushenia-ot-favorina/c2845">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Отпусни се, Коледа е! С неустоими изкушения от Favorina</span>
+
+
+
+        </a>
+
+        </li>
+
+
+            </ul>
+            <button class="nuc-o-header-nav-slider__btn-right hidden@all" tabindex="-1">
+
+
+
+
+
+
+
+                <svg  class="nuc-o-header-nav-slider__icon nuc-a-icon nuc-a-icon--size-16 nuc-a-svg-use" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 1">
+                        <use href="/bundles/nucleuscomponent/retail/icons/nucleus.0295cc31d18a91f4.svg#right"></use>
+        </svg>
+
+
+            </button>
+        </div>
+
+                            </nav>
+
+                            <nav  class="nuc-o-header__navigation-sub hidden@all">
+
+
+
+                <div  class="nuc-o-header-nav-slider--sub nuc-o-header-nav-slider">
+            <button class="nuc-o-header-nav-slider__btn-left hidden@all" tabindex="-1">
+
+
+
+
+
+
+
+                <svg  class="nuc-o-header-nav-slider__icon nuc-a-icon nuc-a-icon--size-16 nuc-a-svg-use" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 1">
+                        <use href="/bundles/nucleuscomponent/retail/icons/nucleus.0295cc31d18a91f4.svg#left"></use>
+        </svg>
+
+
+            </button>
+            <ul class="nuc-o-header-nav-slider__content">
+
+
+
+                <li  class="nuc-m-header-main-nav-item nuc-m-header-main-nav-item--direct-access" data-js-subnav>
+
+
+
+                <a  class="nuc-m-header-main-nav-item__anchor nuc-a-anchor" href="/lubimo/plodove-i-zelenchuci">
+
+                                                    <span class="nuc-m-header-main-nav-item__anchor-text">Плодове и зеленчуци</span>
+
+
+
+
+                            <span  class="nuc-m-header-main-nav-item__anchor-badge nuc-m-badge nuc-m-badge--theme-primary nuc-m-badge--size-small">
+                                        <span class="nuc-m-badge__text">Преглед</span>
+
+            </span>
+
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/lubimo/plodove-i-zelenchuci/agrispa-eood">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Агриспа ЕООД</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/lubimo/plodove-i-zelenchuci/arkom-3">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Арком 3</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/lubimo/plodove-i-zelenchuci/melisa-frukt">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Мелиса Фрукт</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/lubimo/plodove-i-zelenchuci/oranzherii-gimel">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Оранжерии Гимел</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/lubimo/plodove-i-zelenchuci/ivajlo-maldzhanski">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Ивайло Малджански</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/lubimo/plodove-i-zelenchuci/hepi-fruts-ood">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Хепи фрутс ООД</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/lubimo/plodove-i-zelenchuci/diva-agro">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Дива Агро</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/lubimo/plodove-i-zelenchuci/evro-2002">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Евро 2002</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/lubimo/plodove-i-zelenchuci/fruktalina">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Фрукталина</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/lubimo/plodove-i-zelenchuci/yablena-natura-i-partn-rs-ood">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Яблена Натура и Партнърс ООД</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/lubimo/plodove-i-zelenchuci/zagora-bio">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Загора Био</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/lubimo/plodove-i-zelenchuci/et-spekt-r-76-ivan-stojkov">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">ЕТ Спектър 76 Иван Стойков</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/lubimo/plodove-i-zelenchuci/oranzherii-harmanli">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Оранжерии Харманли</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/lubimo/plodove-i-zelenchuci/all-brands">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Алл брандс</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/lubimo/plodove-i-zelenchuci/rusev-i-rusev-sin-eood">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Русев и Русев син ЕООД</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/lubimo/plodove-i-zelenchuci/et-jordan-velichkov-vladi">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">ЕТ Йордан Величков – Влади</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/lubimo/plodove-i-zelenchuci/aron">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Арон</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/lubimo/plodove-i-zelenchuci/rajchevi">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Райчеви</span>
+
+
+
+        </a>
+
+        </li>
+
+
+            </ul>
+            <button class="nuc-o-header-nav-slider__btn-right hidden@all" tabindex="-1">
+
+
+
+
+
+
+
+                <svg  class="nuc-o-header-nav-slider__icon nuc-a-icon nuc-a-icon--size-16 nuc-a-svg-use" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 1">
+                        <use href="/bundles/nucleuscomponent/retail/icons/nucleus.0295cc31d18a91f4.svg#right"></use>
+        </svg>
+
+
+            </button>
+        </div>
+
+                            </nav>
+
+                            <nav  class="nuc-o-header__navigation-sub hidden@all">
+
+
+
+                <div  class="nuc-o-header-nav-slider--sub nuc-o-header-nav-slider">
+            <button class="nuc-o-header-nav-slider__btn-left hidden@all" tabindex="-1">
+
+
+
+
+
+
+
+                <svg  class="nuc-o-header-nav-slider__icon nuc-a-icon nuc-a-icon--size-16 nuc-a-svg-use" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 1">
+                        <use href="/bundles/nucleuscomponent/retail/icons/nucleus.0295cc31d18a91f4.svg#left"></use>
+        </svg>
+
+
+            </button>
+            <ul class="nuc-o-header-nav-slider__content">
+
+
+
+                <li  class="nuc-m-header-main-nav-item nuc-m-header-main-nav-item--direct-access" data-js-subnav>
+
+
+
+                <a  class="nuc-m-header-main-nav-item__anchor nuc-a-anchor" href="/lubimo/experts">
+
+                                                    <span class="nuc-m-header-main-nav-item__anchor-text">Къщата</span>
+
+
+
+
+                            <span  class="nuc-m-header-main-nav-item__anchor-badge nuc-m-badge nuc-m-badge--theme-primary nuc-m-badge--size-small">
+                                        <span class="nuc-m-badge__text">Преглед</span>
+
+            </span>
+
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/lubimo/experts">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Начало</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/lubimo/experts/dino">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Дино</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/lubimo/experts/mihaela">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Михаела</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/lubimo/experts/boyana">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Бояна</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/lubimo/experts/pavlina">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Павлина</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/lubimo/experts/mario">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Марио</span>
+
+
+
+        </a>
+
+        </li>
+
+
+            </ul>
+            <button class="nuc-o-header-nav-slider__btn-right hidden@all" tabindex="-1">
+
+
+
+
+
+
+
+                <svg  class="nuc-o-header-nav-slider__icon nuc-a-icon nuc-a-icon--size-16 nuc-a-svg-use" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 1">
+                        <use href="/bundles/nucleuscomponent/retail/icons/nucleus.0295cc31d18a91f4.svg#right"></use>
+        </svg>
+
+
+            </button>
+        </div>
+
+                            </nav>
+
+                            <nav  class="nuc-o-header__navigation-sub hidden@all">
+
+
+
+                <div  class="nuc-o-header-nav-slider--sub nuc-o-header-nav-slider">
+            <button class="nuc-o-header-nav-slider__btn-left hidden@all" tabindex="-1">
+
+
+
+
+
+
+
+                <svg  class="nuc-o-header-nav-slider__icon nuc-a-icon nuc-a-icon--size-16 nuc-a-svg-use" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 1">
+                        <use href="/bundles/nucleuscomponent/retail/icons/nucleus.0295cc31d18a91f4.svg#left"></use>
+        </svg>
+
+
+            </button>
+            <ul class="nuc-o-header-nav-slider__content">
+
+
+
+                <li  class="nuc-m-header-main-nav-item nuc-m-header-main-nav-item--direct-access" data-js-subnav>
+
+
+
+                <a  class="nuc-m-header-main-nav-item__anchor nuc-a-anchor" href="/lubimo/ot-cyala-b-lgariya">
+
+                                                    <span class="nuc-m-header-main-nav-item__anchor-text">От цяла България</span>
+
+
+
+
+                            <span  class="nuc-m-header-main-nav-item__anchor-badge nuc-m-badge nuc-m-badge--theme-primary nuc-m-badge--size-small">
+                                        <span class="nuc-m-badge__text">Преглед</span>
+
+            </span>
+
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/lubimo/ot-cyala-b-lgariya/serdika-94">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Сердика 94</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/lubimo/ot-cyala-b-lgariya/edoardo-mirolio">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Едоардо Миролио</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/lubimo/ot-cyala-b-lgariya/pirin-spring">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Пирин Спринг</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/lubimo/ot-cyala-b-lgariya/vipera-ood">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Випера ООД</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/lubimo/ot-cyala-b-lgariya/boni-holding">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Бони Холдинг</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/lubimo/ot-cyala-b-lgariya/merone">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Мероне</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/lubimo/ot-cyala-b-lgariya/famileks">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Фамилекс</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/lubimo/ot-cyala-b-lgariya/apitrejd">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Апитрейд</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/lubimo/ot-cyala-b-lgariya/mlechni-produkti-eood">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Млечни продукти ЕООД</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/lubimo/ot-cyala-b-lgariya/m-invest">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">М Инвест</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/lubimo/ot-cyala-b-lgariya/jotovi">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Йотови</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/lubimo/ot-cyala-b-lgariya/yajca-i-ptici-zora-ad">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Яйца и птици –Зора АД</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/lubimo/ot-cyala-b-lgariya/tandem-popovo-ood">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Тандем Попово ООД</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/lubimo/ot-cyala-b-lgariya/detelina">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Детелина</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/lubimo/ot-cyala-b-lgariya/ameta-holding-ad">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Амета холдинг АД</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/lubimo/ot-cyala-b-lgariya/klas-olio-ad">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Клас Олио АД</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/lubimo/ot-cyala-b-lgariya/simid">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Симид</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/lubimo/ot-cyala-b-lgariya/gradus-1-eood">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Градус-1 ЕООД</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/lubimo/ot-cyala-b-lgariya/vedrare">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Ведраре</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/lubimo/ot-cyala-b-lgariya/kfm">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">КФМ</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/lubimo/ot-cyala-b-lgariya/smart-organic">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Смарт органик</span>
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-header-sub-nav-item">
+
+
+
+                <a  class="nuc-m-header-sub-nav-item__anchor nuc-a-anchor" tabindex="-1" href="/lubimo/ot-cyala-b-lgariya/nuhelt">
+
+                                                    <span class="nuc-m-header-sub-nav-item__anchor-text">Нухелт</span>
+
+
+
+        </a>
+
+        </li>
+
+
+            </ul>
+            <button class="nuc-o-header-nav-slider__btn-right hidden@all" tabindex="-1">
+
+
+
+
+
+
+
+                <svg  class="nuc-o-header-nav-slider__icon nuc-a-icon nuc-a-icon--size-16 nuc-a-svg-use" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 1">
+                        <use href="/bundles/nucleuscomponent/retail/icons/nucleus.0295cc31d18a91f4.svg#right"></use>
+        </svg>
+
+
+            </button>
+        </div>
+
+                            </nav>
+                                                            </div>
+            </div>
+        </header>
+
+
+
+
+            </div>
+        </header>
+
+
+
+    <div class="page__main" data-controller="page/main" id="pageMain" tabindex="-1" style="margin-top: 0px;">
+
+        <nav class="page__section page__section--padding-top-mobile">
+
+
+
+    <div class="breadcrumbs hidden@xs hidden@sm">
+        <span class="visible@sr">
+
+        </span>
+        <div class="breadcrumbs__home-button-container hidden@xs hidden@sm">
+            <a class="breadcrumbs__home-button" href="/" title="">
+
+
+
+
+
+        <span class="icon icon--house icon--smallest">
+                    <svg role="img" focusable="false">
+                                    <title>Магазин</title>
+                                <!-- c -->
+                <use xlink:href="/bundles/cakecomponents/dist/images/icon__sprite.svg#house"></use>
+                <!-- c -->
+            </svg>
+
+
+
+    </span>
+
+            </a>
+        </div>
+        <ol class="breadcrumbs__items-container">
+
+
+
+
+
+
+    <li class="breadcrumbs__item">
+        <a  class="breadcrumbs__link" href="/c/niska-tsena-visoko-kachestvo-promotsii-na-fokus/c2620">
+            <div class="breadcrumbs__item-body">
+                <div class="breadcrumbs__icon-container">
+
+
+
+
+
+        <span class="icon icon--arrow-breadcrumb icon--extra-small icon--no-pointer-events">
+                    <svg role="img" focusable="false">
+                                <!-- c -->
+                <use xlink:href="/bundles/cakecomponents/dist/images/icon__sprite.svg#arrow-breadcrumb"></use>
+                <!-- c -->
+            </svg>
+
+
+
+    </span>
+
+                </div>
+                <div class="breadcrumbs__text">ниска ЦЕНА, високо КАЧЕСТВО. Промоции на фокус</div>
+            </div>
+        </a>
+    </li>
+
+
+
+
+
+
+
+    <li class="breadcrumbs__item breadcrumbs__item--current">
+        <div  class="breadcrumbs__nolink hidden@xs hidden@sm">
+            <div class="breadcrumbs__item-body">
+                <div class="breadcrumbs__icon-container">
+
+
+
+
+
+        <span class="icon icon--arrow-breadcrumb icon--extra-small icon--no-pointer-events">
+                    <svg role="img" focusable="false">
+                                <!-- c -->
+                <use xlink:href="/bundles/cakecomponents/dist/images/icon__sprite.svg#arrow-breadcrumb"></use>
+                <!-- c -->
+            </svg>
+
+
+
+    </span>
+
+                </div>
+                <div class="breadcrumbs__text">Шпеков салам Бургас</div>
+            </div>
+        </div>
+    </li>
+
+                                    </ol>
+      </div>
+
+
+
+        </nav>
+
+        <section class="page__section">
+
+            <div class="page__section">
+
+
+
+
+
+    <article id="productbox" data-controller="productbox" tabindex="-1" class="productbox">
+
+
+
+                    <div data-controller="productbox/left" class="productbox__section productbox__section--left">
+                <div>
+
+
+
+
+
+    <div  class="multimediabox" data-overlay-content="mediabox">
+        <div  class="multimediabox__preview" data-controller="multimediabox/preview">
+
+
+
+
+
+
+
+
+
+    <div data-controller="slider/multimediaboxPreview" class="slider slider--multimediabox-preview slider--default-pagination">
+                            <button class="slider__btn slider__btn--prev slider__btn--addOutline slick-disabled" title="Previous Slide" aria-label="Previous Slide" data-no-outline="true" data-controller="slider/prev">
+
+
+
+
+
+        <span class="icon icon--arrow-left icon--smallest icon--no-pointer-events">
+                    <svg role="img" focusable="false">
+                                <!-- c -->
+                <use xlink:href="/bundles/cakecomponents/dist/images/icon__sprite.svg#arrow-left"></use>
+                <!-- c -->
+            </svg>
+
+
+
+    </span>
+
+            </button>
+            <div class="slider__touchbtn slider__touchbtn--prev" data-controller="slider/prev"></div>
+
+        <div class="slider__body" data-controller="slider/body" aria-label="slider">
+
+
+
+
+
+
+
+
+
+
+
+    <div class="slick-slide" data-no-outline="true">
+
+
+                <link itemprop="image" href="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7205616/gallery/overlay/lg/7205616_0.jpg"/>
+        <div class="multimediabox__preview" data-controller="multimediabox/preview">
+                            <a href="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7205616/gallery/zoom/7205616_0.jpg" data-zoom="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7205616/gallery/zoom/7205616_0.jpg" class="multimediabox__preview-link" data-controller="overlay/opener">
+
+
+
+    <picture data-overlay="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7205616/gallery/overlay/lg/7205616_0.jpg" class="picture" data-controller="picture">
+
+
+                                <source data-srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7205616/gallery/preview/lg/7205616_0.jpg" media="(min-width: 960px)" srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7205616/gallery/thumb/lg/7205616_0.jpg">
+                            <source data-srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7205616/gallery/preview/sm/7205616_0.jpg" media="(min-width: 600px)" srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7205616/gallery/thumb/lg/7205616_0.jpg">
+                            <source data-srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7205616/gallery/preview/xs/7205616_0.jpg" srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7205616/gallery/thumb/lg/7205616_0.jpg">
+                <img draggable="false" ondragstart="return false" alt="" class="lazyload" src="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7205616/gallery/thumb/lg/7205616_0.jpg" />
+
+                    </picture>
+
+                    <div class="multimediabox__pinchtozoom" data-controller="multimediabox/pinchtozoom">
+                        <div class="multimediabox__pinchtozoom-wrapper">
+                            <div class="multimediabox__pinchtozoom-icon">
+
+
+
+
+
+        <span class="icon icon--pinch-zoom icon--small icon--middle icon--margin-right-larger icon--no-pointer-events">
+                    <svg role="img" focusable="false">
+                                    <title>Zoom view</title>
+                                <!-- c -->
+                <use xlink:href="/bundles/cakecomponents/dist/images/icon__sprite.svg#pinch-zoom"></use>
+                <!-- c -->
+            </svg>
+
+
+
+    </span>
+
+                            </div>
+                            <div class="multimediabox__pinchtozoom-text">
+                                Увеличи
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="multimediabox__touchtozoom" data-controller="multimediabox/touchtozoom">
+                        <div class="multimediabox__touchtozoom-wrapper">
+                            <div class="multimediabox__touchtozoom-icon">
+
+
+
+
+
+        <span class="icon icon--pointer-hand icon--small icon--middle icon--margin-right-larger icon--no-pointer-events">
+                    <svg role="img" focusable="false">
+                                    <title>Pointer hand</title>
+                                <!-- c -->
+                <use xlink:href="/bundles/cakecomponents/dist/images/icon__sprite.svg#pointer-hand"></use>
+                <!-- c -->
+            </svg>
+
+
+
+    </span>
+
+                            </div>
+                            <div class="multimediabox__touchtozoom-text">
+                                Увеличи
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="multimediabox__clicktozoom" data-controller="multimediabox/clicktozoom">
+                        <div class="multimediabox__clicktozoom-wrapper">
+                            <div class="multimediabox__clicktozoom-icon">
+
+
+
+
+
+        <span class="icon icon--pointer-hand icon--small icon--middle icon--margin-right-larger icon--no-pointer-events">
+                    <svg role="img" focusable="false">
+                                    <title>Pointer hand</title>
+                                <!-- c -->
+                <use xlink:href="/bundles/cakecomponents/dist/images/icon__sprite.svg#pointer-hand"></use>
+                <!-- c -->
+            </svg>
+
+
+
+    </span>
+
+                            </div>
+                            <div class="multimediabox__clicktozoom-text">
+                                Увеличи
+                            </div>
+                        </div>
+                    </div>
+                    <div class="multimediabox__zoomcontrol" data-controller="multimediabox/zoomcontrol"></div>
+                </a>
+                    </div>
+
+
+
+
+    </div>
+
+
+
+
+
+
+                    </div>
+
+                    <button  class="slider__btn slider__btn--next slider__btn--addOutline slick-disabled" title="Next Slide" aria-label="Next Slide" data-no-outline="true" data-controller="slider/next">
+
+
+
+
+
+        <span class="icon icon--arrow-right icon--smallest icon--no-pointer-events">
+                    <svg role="img" focusable="false">
+                                <!-- c -->
+                <use xlink:href="/bundles/cakecomponents/dist/images/icon__sprite.svg#arrow-right"></use>
+                <!-- c -->
+            </svg>
+
+
+
+    </span>
+
+            </button>
+            <div class="slider__touchbtn slider__touchbtn--next" data-controller="slider/next"></div>
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+    <div data-selector="slider/multimediaboxThumbnails" class="slider slider--multimediabox-thumbnails slider--default-pagination">
+                            <button class="slider__btn slider__btn--prev slider__btn--addOutline slick-disabled" title="Previous Slide" aria-label="Previous Slide" data-no-outline="true" data-controller="slider/prev">
+
+
+
+
+
+        <span class="icon icon--arrow-left icon--smallest icon--no-pointer-events">
+                    <svg role="img" focusable="false">
+                                <!-- c -->
+                <use xlink:href="/bundles/cakecomponents/dist/images/icon__sprite.svg#arrow-left"></use>
+                <!-- c -->
+            </svg>
+
+
+
+    </span>
+
+            </button>
+            <div class="slider__touchbtn slider__touchbtn--prev" data-controller="slider/prev"></div>
+
+        <div class="slider__body" data-controller="slider/body" aria-label="slider">
+
+
+
+
+
+
+
+
+
+
+    <div class="slick-slide" data-no-outline="true">
+
+
+                <div class="multimediabox multimediabox--item">
+            <div class="multimediabox__link" tabindex="0" data-controller="multimediabox/thumbnail" data-index="0" data-scope="slider/multimediaboxPreview" data-no-outline="true">
+
+
+
+    <picture class="picture picture--preview" data-controller="picture">
+
+
+                                <source data-srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7205616/gallery/preview/lg/7205616_0.jpg" media="(min-width: 960px)" srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7205616/gallery/thumb/lg/7205616_0.jpg">
+                            <source data-srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7205616/gallery/preview/sm/7205616_0.jpg" media="(min-width: 600px)" srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7205616/gallery/thumb/lg/7205616_0.jpg">
+                            <source data-srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7205616/gallery/preview/xs/7205616_0.jpg" srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7205616/gallery/thumb/lg/7205616_0.jpg">
+                <img alt="" class="lazyload" src="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7205616/gallery/thumb/lg/7205616_0.jpg" />
+
+                    </picture>
+
+                            </div>
+        </div>
+
+
+
+
+    </div>
+
+
+
+
+
+
+                    </div>
+
+                    <button  class="slider__btn slider__btn--next slider__btn--addOutline slick-disabled" title="Next Slide" aria-label="Next Slide" data-no-outline="true" data-controller="slider/next">
+
+
+
+
+
+        <span class="icon icon--arrow-right icon--smallest icon--no-pointer-events">
+                    <svg role="img" focusable="false">
+                                <!-- c -->
+                <use xlink:href="/bundles/cakecomponents/dist/images/icon__sprite.svg#arrow-right"></use>
+                <!-- c -->
+            </svg>
+
+
+
+    </span>
+
+            </button>
+            <div class="slider__touchbtn slider__touchbtn--next" data-controller="slider/next"></div>
+            </div>
+
+    </div>
+
+
+
+
+                </div>
+            </div>
+
+                    <div data-controller="productbox/right" class="productbox__section productbox__section--right">
+
+
+
+
+
+
+    <div data-category="Хранителни" data-currency="" data-id="76643" data-name="Шпеков салам Бургас" data-price="5,99" data-tracking="gtm" data-tracking-type="EECproductDetail" data-list="ниска ЦЕНА, високо КАЧЕСТВО. Промоции на фокус" class="attributebox" data-controller="attributebox">
+
+        <h1 class="attributebox__headline attributebox__headline--h1" data-controller="attributebox/headline" itemprop="name">
+            Шпеков салам Бургас
+                            <sup class="attributebox__superscript">
+
+                </sup>
+                    </h1>
+
+
+
+
+
+
+
+
+
+
+        <div class="pricebox pricebox--highlight-offer pricebox--negative pricebox--medium" data-controller="pricebox">
+        <div class="pricebox__wrapper">
+                                                <div class="pricebox__highlight">
+                        Двойно повече
+                    </div>
+                                        <div class="pricebox__container">
+                <div class="pricebox__discount-wrapper">
+                                                                <span class="pricebox__recommended-retail-price">
+                        11,98
+                            <span class="visible@sr">11,98</span>
+                        </span>
+                                    </div>
+                <div class="pricebox__price-wrapper" aria-label=" 5,99 лв. ">
+                                        <span class="pricebox__price">
+                        5,99
+                    </span>
+                    <div class="pricebox__suffix">
+                            <span data-price-legend-ref="1" class="pricebox__asterisk">
+                                                            </span>
+                                                    <span class="pricebox__currency">
+                             лв.
+                            </span>
+                                            </div>
+                </div>
+            </div>
+                    </div>
+                    <div class="pricebox__basic-quantity">
+                2 х 250 бр./опаковка
+            </div>
+            </div>
+
+
+
+    <div class="ribbon ribbon--primary ribbon--single">
+        <span class="visible@sr">
+            Наличност
+        </span>
+        <div class="ribbon__text">
+            14.11. - 20.11.
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <div class="attributebox__attribute" data-controller="attributebox/attribute" data-alignment="flow">
+
+
+
+    <div class="attributebox__long-description" data-controller="attributebox/long-description">
+
+
+
+    <article class="textbody">
+                    <ul><li>В асортимента и 250 g за 5,99 лв.</li><li>До 5 промопакета на&nbsp;клиент</li><li>В промоцията участват само показаните продукти, обозначени с промоционалния символ &bdquo;1 + 1&ldquo;</li></ul>
+            </article>
+
+
+
+            </div>
+
+
+
+    </div>
+
+
+
+
+
+    <div class="attributebox__attribute" data-controller="attributebox/attribute" data-alignment="flow">
+
+
+
+    <div class="attributebox__characteristics">
+                    <div class="attributebox__headline attributebox__headline--sub">Повече информация</div>
+
+        <div class="attributebox__badgegroup">
+
+
+
+
+
+    <a class="attributebox__badge attributebox__badge--haslink" href="https://www.lidl.bg/lidl-cena" title="_lidl cena">
+                    <img class="attributebox__badgeimage" src="https://bg.cat-ret.assets.lidl/catalog5media/bg/logo/184/sm/lidlcena_280_220.png" alt="_lidl cena">
+            </a>
+
+                    </div>
+    </div>
+
+
+
+    </div>
+
+                        </div>
+
+
+
+
+            </div>
+            </article>
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+        <header class="sectionhead">
+                    <div class="sectionhead__body">
+                <h2 class="sectionhead__title">Още предложения</h2>
+            </div>
+            </header>
+
+
+
+
+
+
+
+
+
+
+    <div class="slider slider--teaser slider--productslider slider--default-pagination" data-controller="slider/product" data-selector="slider/product">
+                            <button class="slider__btn slider__btn--prev slider__btn--addOutline slick-disabled" title="Previous Slide" aria-label="Previous Slide" data-no-outline="true" data-controller="slider/prev">
+
+
+
+
+
+        <span class="icon icon--arrow-left icon--smallest icon--no-pointer-events">
+                    <svg role="img" focusable="false">
+                                <!-- c -->
+                <use xlink:href="/bundles/cakecomponents/dist/images/icon__sprite.svg#arrow-left"></use>
+                <!-- c -->
+            </svg>
+
+
+
+    </span>
+
+            </button>
+            <div class="slider__touchbtn slider__touchbtn--prev" data-controller="slider/prev"></div>
+
+        <div class="slider__body slick-loading" data-controller="slider/body" aria-label="slider">
+
+
+
+
+    <div data-layoutcomponent="Product Slider" data-controller="slider/accordionTheme/slide" data-tracking="gtm" data-tracking-type="EECproduct" data-creative="Product Slider" data-id="29838" data-name="Плодово кисело мляко" data-price="" class="slick-slide" data-no-outline="true">
+
+
+
+
+
+
+
+    <article class="product product--tile" data-controller="product">
+                <a data-ref-id="29838" class="product__body" data-controller="product/body" href="/p/niska-tsena-visoko-kachestvo-promotsii-na-fokus/plodovo-kiselo-mliako/p76642">
+                            <div data-controller="product/image" class="product__image">
+
+
+
+    <picture class="picture" data-controller="picture">
+
+
+                        <source data-srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/29838/third/lg/29838_0.jpg, https://bg.cat-ret.assets.lidl/catalog5media/bg/article/29838/third/lg-retina/29838_0.jpg 2x" media="(min-width: 1280px)" srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/29838/xs/29838_0.jpg">
+                                    <source data-srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/29838/third/sm/29838_0.jpg, https://bg.cat-ret.assets.lidl/catalog5media/bg/article/29838/third/sm-retina/29838_0.jpg 2x" media="(min-width: 600px)" srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/29838/xs/29838_0.jpg">
+                            <source data-srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/29838/xs/29838_0.jpg, https://bg.cat-ret.assets.lidl/catalog5media/bg/article/29838/xs-retina/29838_0.jpg 2x" srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/29838/xs/29838_0.jpg">
+                <img alt="" class="lazyload" src="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/29838/xs/29838_0.jpg" />
+
+                    </picture>
+
+                </div>
+                        <div class="product__text">
+                <h3 class="product__title" data-clamp="data-clamp">
+                    Плодово кисело мляко
+                    <sup class="product__superscript">
+                                            </sup>
+                </h3>
+                <p class="product__desc" data-clamp="data-clamp">
+
+                </p>
+            </div>
+            <span class="product__price">
+
+
+
+
+
+
+
+        <div class="pricebox pricebox--highlight-offer pricebox--negative" data-controller="pricebox">
+        <div class="pricebox__wrapper">
+                                                <div class="pricebox__highlight">
+                        -33%
+                    </div>
+                                        <div class="pricebox__container">
+                <div class="pricebox__discount-wrapper">
+                                                                <span class="pricebox__recommended-retail-price">
+                        1,59
+                            <span class="visible@sr">1,59</span>
+                        </span>
+                                    </div>
+                <div class="pricebox__price-wrapper" aria-label=" 1,05 лв. ">
+                                        <span class="pricebox__price">
+                        1,05
+                    </span>
+                    <div class="pricebox__suffix">
+                            <span data-price-legend-ref="1" class="pricebox__asterisk">
+                                                            </span>
+                                                    <span class="pricebox__currency">
+                             лв.
+                            </span>
+                                            </div>
+                </div>
+            </div>
+                    </div>
+                    <div class="pricebox__basic-quantity">
+                250 g/опаковка
+            </div>
+            </div>
+
+                            </span>
+        </a>
+                    <div class="product__overlay product__overlay--right">
+
+
+
+    <ul class="ribbon ribbon--spaced">
+
+
+
+
+
+
+    <li class="ribbon__item ribbon__item--primary">
+
+
+            <div class="ribbon__text">
+                                14.11. - 20.11.
+                            </div>
+            </li>
+
+
+
+
+
+
+
+    <li class="ribbon__item ribbon__item--with-image ribbon__item--with-image-landscape">
+                    <div class="ribbon__image-wrapper">
+                <img class="ribbon__image" src="https://bg.cat-ret.assets.lidl/catalog5media/bg/ribbon/64/lidl_cena_1.png" alt="ribbon-image" />
+            </div>
+
+            </li>
+
+            </ul>
+
+                            </div>
+            </article>
+
+
+
+
+    </div>
+
+
+
+
+
+    <div data-layoutcomponent="Product Slider" data-controller="slider/accordionTheme/slide" data-tracking="gtm" data-tracking-type="EECproduct" data-creative="Product Slider" data-id="997202169" data-name="Цедено кисело мляко" data-price="" class="slick-slide" data-no-outline="true">
+
+
+
+
+
+
+
+    <article class="product product--tile" data-controller="product">
+                <a data-ref-id="997202169" class="product__body" data-controller="product/body" href="/p/niska-tsena-visoko-kachestvo-promotsii-na-fokus/tsedeno-kiselo-mliako/p76646">
+                            <div data-controller="product/image" class="product__image">
+
+
+
+    <picture class="picture" data-controller="picture">
+
+
+                        <source data-srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/997202169/third/lg/997202169_0.jpg, https://bg.cat-ret.assets.lidl/catalog5media/bg/article/997202169/third/lg-retina/997202169_0.jpg 2x" media="(min-width: 1280px)" srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/997202169/xs/997202169_0.jpg">
+                                    <source data-srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/997202169/third/sm/997202169_0.jpg, https://bg.cat-ret.assets.lidl/catalog5media/bg/article/997202169/third/sm-retina/997202169_0.jpg 2x" media="(min-width: 600px)" srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/997202169/xs/997202169_0.jpg">
+                            <source data-srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/997202169/xs/997202169_0.jpg, https://bg.cat-ret.assets.lidl/catalog5media/bg/article/997202169/xs-retina/997202169_0.jpg 2x" srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/997202169/xs/997202169_0.jpg">
+                <img alt="" class="lazyload" src="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/997202169/xs/997202169_0.jpg" />
+
+                    </picture>
+
+                </div>
+                        <div class="product__text">
+                <h3 class="product__title" data-clamp="data-clamp">
+                    Цедено кисело мляко
+                    <sup class="product__superscript">
+                                            </sup>
+                </h3>
+                <p class="product__desc" data-clamp="data-clamp">
+
+                </p>
+            </div>
+            <span class="product__price">
+
+
+
+
+
+
+
+        <div class="pricebox pricebox--highlight-offer pricebox--negative" data-controller="pricebox">
+        <div class="pricebox__wrapper">
+                                                <div class="pricebox__highlight">
+                        Двойно повече
+                    </div>
+                                        <div class="pricebox__container">
+                <div class="pricebox__discount-wrapper">
+                                                                <span class="pricebox__recommended-retail-price">
+                        8,98
+                            <span class="visible@sr">8,98</span>
+                        </span>
+                                    </div>
+                <div class="pricebox__price-wrapper" aria-label=" 4,49 лв. ">
+                                        <span class="pricebox__price">
+                        4,49
+                    </span>
+                    <div class="pricebox__suffix">
+                            <span data-price-legend-ref="1" class="pricebox__asterisk">
+                                                            </span>
+                                                    <span class="pricebox__currency">
+                             лв.
+                            </span>
+                                            </div>
+                </div>
+            </div>
+                    </div>
+                    <div class="pricebox__basic-quantity">
+                2 х 500 g/опаковка
+            </div>
+            </div>
+
+                            </span>
+        </a>
+                    <div class="product__overlay product__overlay--right">
+
+
+
+    <ul class="ribbon ribbon--spaced">
+
+
+
+
+
+
+    <li class="ribbon__item ribbon__item--primary">
+
+
+            <div class="ribbon__text">
+                                14.11. - 20.11.
+                            </div>
+            </li>
+
+
+
+
+
+
+
+    <li class="ribbon__item ribbon__item--with-image ribbon__item--with-image-landscape">
+                    <div class="ribbon__image-wrapper">
+                <img class="ribbon__image" src="https://bg.cat-ret.assets.lidl/catalog5media/bg/ribbon/64/lidl_cena_1.png" alt="ribbon-image" />
+            </div>
+
+            </li>
+
+            </ul>
+
+                            </div>
+            </article>
+
+
+
+
+    </div>
+
+
+
+
+
+    <div data-layoutcomponent="Product Slider" data-controller="slider/accordionTheme/slide" data-tracking="gtm" data-tracking-type="EECproduct" data-creative="Product Slider" data-id="7204502" data-name="Деликатесен Бански старец" data-price="" class="slick-slide" data-no-outline="true">
+
+
+
+
+
+
+
+    <article class="product product--tile" data-controller="product">
+                <a data-ref-id="7204502" class="product__body" data-controller="product/body" href="/p/niska-tsena-visoko-kachestvo-promotsii-na-fokus/delikatesen-banski-starets/p76637">
+                            <div data-controller="product/image" class="product__image">
+
+
+
+    <picture class="picture" data-controller="picture">
+
+
+                        <source data-srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7204502/third/lg/7204502_0.jpg, https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7204502/third/lg-retina/7204502_0.jpg 2x" media="(min-width: 1280px)" srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7204502/xs/7204502_0.jpg">
+                                    <source data-srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7204502/third/sm/7204502_0.jpg, https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7204502/third/sm-retina/7204502_0.jpg 2x" media="(min-width: 600px)" srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7204502/xs/7204502_0.jpg">
+                            <source data-srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7204502/xs/7204502_0.jpg, https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7204502/xs-retina/7204502_0.jpg 2x" srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7204502/xs/7204502_0.jpg">
+                <img alt="" class="lazyload" src="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7204502/xs/7204502_0.jpg" />
+
+                    </picture>
+
+                </div>
+                        <div class="product__text">
+                <h3 class="product__title" data-clamp="data-clamp">
+                    Деликатесен Бански старец
+                    <sup class="product__superscript">
+                                            </sup>
+                </h3>
+                <p class="product__desc" data-clamp="data-clamp">
+
+                </p>
+            </div>
+            <span class="product__price">
+
+
+
+
+
+
+
+        <div class="pricebox pricebox--highlight-offer pricebox--negative" data-controller="pricebox">
+        <div class="pricebox__wrapper">
+                                                <div class="pricebox__highlight">
+                        САМО СЕГА
+                    </div>
+                                        <div class="pricebox__container">
+                <div class="pricebox__discount-wrapper">
+                                                        </div>
+                <div class="pricebox__price-wrapper" aria-label=" 7,49 лв. ">
+                                        <span class="pricebox__price">
+                        7,49
+                    </span>
+                    <div class="pricebox__suffix">
+                            <span data-price-legend-ref="1" class="pricebox__asterisk">
+                                                            </span>
+                                                    <span class="pricebox__currency">
+                             лв.
+                            </span>
+                                            </div>
+                </div>
+            </div>
+                    </div>
+                    <div class="pricebox__basic-quantity">
+                300 g/опаковка
+            </div>
+            </div>
+
+                            </span>
+        </a>
+                    <div class="product__overlay product__overlay--right">
+
+
+
+    <ul class="ribbon ribbon--spaced">
+
+
+
+
+
+
+    <li class="ribbon__item ribbon__item--primary">
+
+
+            <div class="ribbon__text">
+                                14.11. - 20.11.
+                            </div>
+            </li>
+
+
+
+
+
+
+
+    <li class="ribbon__item ribbon__item--with-image ribbon__item--with-image-landscape">
+                    <div class="ribbon__image-wrapper">
+                <img class="ribbon__image" src="https://bg.cat-ret.assets.lidl/catalog5media/bg/ribbon/64/lidl_cena_1.png" alt="ribbon-image" />
+            </div>
+
+            </li>
+
+            </ul>
+
+                            </div>
+            </article>
+
+
+
+
+    </div>
+
+
+
+
+
+    <div data-layoutcomponent="Product Slider" data-controller="slider/accordionTheme/slide" data-tracking="gtm" data-tracking-type="EECproduct" data-creative="Product Slider" data-id="7202803" data-name="Хляб с тиквено семе" data-price="" class="slick-slide" data-no-outline="true">
+
+
+
+
+
+
+
+    <article class="product product--tile" data-controller="product">
+                <a data-ref-id="7202803" class="product__body" data-controller="product/body" href="/p/niska-tsena-visoko-kachestvo-promotsii-na-fokus/hliab-s-tikveno-seme/p76633">
+                            <div data-controller="product/image" class="product__image">
+
+
+
+    <picture class="picture" data-controller="picture">
+
+
+                        <source data-srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7202803/third/lg/7202803_0.jpg, https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7202803/third/lg-retina/7202803_0.jpg 2x" media="(min-width: 1280px)" srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7202803/xs/7202803_0.jpg">
+                                    <source data-srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7202803/third/sm/7202803_0.jpg, https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7202803/third/sm-retina/7202803_0.jpg 2x" media="(min-width: 600px)" srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7202803/xs/7202803_0.jpg">
+                            <source data-srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7202803/xs/7202803_0.jpg, https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7202803/xs-retina/7202803_0.jpg 2x" srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7202803/xs/7202803_0.jpg">
+                <img alt="" class="lazyload" src="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7202803/xs/7202803_0.jpg" />
+
+                    </picture>
+
+                </div>
+                        <div class="product__text">
+                <h3 class="product__title" data-clamp="data-clamp">
+                    Хляб с тиквено семе
+                    <sup class="product__superscript">
+                                            </sup>
+                </h3>
+                <p class="product__desc" data-clamp="data-clamp">
+
+                </p>
+            </div>
+            <span class="product__price">
+
+
+
+
+
+
+
+        <div class="pricebox pricebox--highlight-offer pricebox--negative" data-controller="pricebox">
+        <div class="pricebox__wrapper">
+                                                <div class="pricebox__highlight">
+                        САМО СЕГА
+                    </div>
+                                        <div class="pricebox__container">
+                <div class="pricebox__discount-wrapper">
+                                                        </div>
+                <div class="pricebox__price-wrapper" aria-label=" 1,99 лв. ">
+                                        <span class="pricebox__price">
+                        1,99
+                    </span>
+                    <div class="pricebox__suffix">
+                            <span data-price-legend-ref="1" class="pricebox__asterisk">
+                                                            </span>
+                                                    <span class="pricebox__currency">
+                             лв.
+                            </span>
+                                            </div>
+                </div>
+            </div>
+                    </div>
+                    <div class="pricebox__basic-quantity">
+                500 g/бр.
+            </div>
+            </div>
+
+                            </span>
+        </a>
+                    <div class="product__overlay product__overlay--right">
+
+
+
+    <ul class="ribbon ribbon--spaced">
+
+
+
+
+
+
+    <li class="ribbon__item ribbon__item--primary">
+
+
+            <div class="ribbon__text">
+                                14.11. - 20.11.
+                            </div>
+            </li>
+
+
+
+
+
+
+
+    <li class="ribbon__item ribbon__item--with-image ribbon__item--with-image-landscape">
+                    <div class="ribbon__image-wrapper">
+                <img class="ribbon__image" src="https://bg.cat-ret.assets.lidl/catalog5media/bg/ribbon/64/lidl_cena_1.png" alt="ribbon-image" />
+            </div>
+
+            </li>
+
+            </ul>
+
+                            </div>
+            </article>
+
+
+
+
+    </div>
+
+
+
+
+
+    <div data-layoutcomponent="Product Slider" data-controller="slider/accordionTheme/slide" data-tracking="gtm" data-tracking-type="EECproduct" data-creative="Product Slider" data-id="7204786" data-name="Баница със сирене и спанак" data-price="" class="slick-slide" data-no-outline="true">
+
+
+
+
+
+
+
+    <article class="product product--tile" data-controller="product">
+                <a data-ref-id="7204786" class="product__body" data-controller="product/body" href="/p/niska-tsena-visoko-kachestvo-promotsii-na-fokus/banitsa-sas-sirene-i-spanak/p76634">
+                            <div data-controller="product/image" class="product__image">
+
+
+
+    <picture class="picture" data-controller="picture">
+
+
+                        <source data-srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7204786/third/lg/7204786_0.jpg, https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7204786/third/lg-retina/7204786_0.jpg 2x" media="(min-width: 1280px)" srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7204786/xs/7204786_0.jpg">
+                                    <source data-srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7204786/third/sm/7204786_0.jpg, https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7204786/third/sm-retina/7204786_0.jpg 2x" media="(min-width: 600px)" srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7204786/xs/7204786_0.jpg">
+                            <source data-srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7204786/xs/7204786_0.jpg, https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7204786/xs-retina/7204786_0.jpg 2x" srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7204786/xs/7204786_0.jpg">
+                <img alt="" class="lazyload" src="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7204786/xs/7204786_0.jpg" />
+
+                    </picture>
+
+                </div>
+                        <div class="product__text">
+                <h3 class="product__title" data-clamp="data-clamp">
+                    Баница със сирене и спанак
+                    <sup class="product__superscript">
+                                            </sup>
+                </h3>
+                <p class="product__desc" data-clamp="data-clamp">
+
+                </p>
+            </div>
+            <span class="product__price">
+
+
+
+
+
+
+
+        <div class="pricebox pricebox--highlight-offer pricebox--negative" data-controller="pricebox">
+        <div class="pricebox__wrapper">
+                                                <div class="pricebox__highlight">
+                        САМО СЕГА
+                    </div>
+                                        <div class="pricebox__container">
+                <div class="pricebox__discount-wrapper">
+                                                        </div>
+                <div class="pricebox__price-wrapper" aria-label=" 0,85 лв. ">
+                                        <span class="pricebox__price">
+                        0,85
+                    </span>
+                    <div class="pricebox__suffix">
+                            <span data-price-legend-ref="1" class="pricebox__asterisk">
+                                                            </span>
+                                                    <span class="pricebox__currency">
+                             лв.
+                            </span>
+                                            </div>
+                </div>
+            </div>
+                    </div>
+                    <div class="pricebox__basic-quantity">
+                140 g/бр.
+            </div>
+            </div>
+
+                            </span>
+        </a>
+                    <div class="product__overlay product__overlay--right">
+
+
+
+    <ul class="ribbon ribbon--spaced">
+
+
+
+
+
+
+    <li class="ribbon__item ribbon__item--primary">
+
+
+            <div class="ribbon__text">
+                                14.11. - 20.11.
+                            </div>
+            </li>
+
+
+
+
+
+
+
+    <li class="ribbon__item ribbon__item--with-image ribbon__item--with-image-landscape">
+                    <div class="ribbon__image-wrapper">
+                <img class="ribbon__image" src="https://bg.cat-ret.assets.lidl/catalog5media/bg/ribbon/64/lidl_cena_1.png" alt="ribbon-image" />
+            </div>
+
+            </li>
+
+            </ul>
+
+                            </div>
+            </article>
+
+
+
+
+    </div>
+
+
+
+
+
+    <div data-layoutcomponent="Product Slider" data-controller="slider/accordionTheme/slide" data-tracking="gtm" data-tracking-type="EECproduct" data-creative="Product Slider" data-id="1975" data-name="Препарат за съдове" data-price="" class="slick-slide" data-no-outline="true">
+
+
+
+
+
+
+
+    <article class="product product--tile" data-controller="product">
+                <a data-ref-id="1975" class="product__body" data-controller="product/body" href="/p/niska-tsena-visoko-kachestvo-promotsii-na-fokus/preparat-za-sadove/p76644">
+                            <div data-controller="product/image" class="product__image">
+
+
+
+    <picture class="picture" data-controller="picture">
+
+
+                        <source data-srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/1975/third/lg/1975_82.jpg, https://bg.cat-ret.assets.lidl/catalog5media/bg/article/1975/third/lg-retina/1975_82.jpg 2x" media="(min-width: 1280px)" srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/1975/xs/1975_82.jpg">
+                                    <source data-srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/1975/third/sm/1975_82.jpg, https://bg.cat-ret.assets.lidl/catalog5media/bg/article/1975/third/sm-retina/1975_82.jpg 2x" media="(min-width: 600px)" srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/1975/xs/1975_82.jpg">
+                            <source data-srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/1975/xs/1975_82.jpg, https://bg.cat-ret.assets.lidl/catalog5media/bg/article/1975/xs-retina/1975_82.jpg 2x" srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/1975/xs/1975_82.jpg">
+                <img alt="" class="lazyload" src="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/1975/xs/1975_82.jpg" />
+
+                    </picture>
+
+                </div>
+                        <div class="product__text">
+                <h3 class="product__title" data-clamp="data-clamp">
+                    Препарат за съдове
+                    <sup class="product__superscript">
+                                            </sup>
+                </h3>
+                <p class="product__desc" data-clamp="data-clamp">
+
+                </p>
+            </div>
+            <span class="product__price">
+
+
+
+
+
+
+
+        <div class="pricebox pricebox--highlight-offer pricebox--negative" data-controller="pricebox">
+        <div class="pricebox__wrapper">
+                                                <div class="pricebox__highlight">
+                        Двойно повече
+                    </div>
+                                        <div class="pricebox__container">
+                <div class="pricebox__discount-wrapper">
+                                                                <span class="pricebox__recommended-retail-price">
+                        4,38
+                            <span class="visible@sr">4,38</span>
+                        </span>
+                                    </div>
+                <div class="pricebox__price-wrapper" aria-label=" 2,19 лв. ">
+                                        <span class="pricebox__price">
+                        2,19
+                    </span>
+                    <div class="pricebox__suffix">
+                            <span data-price-legend-ref="1" class="pricebox__asterisk">
+                                                            </span>
+                                                    <span class="pricebox__currency">
+                             лв.
+                            </span>
+                                            </div>
+                </div>
+            </div>
+                    </div>
+                    <div class="pricebox__basic-quantity">
+                2 х 1,5 l/опаковка
+            </div>
+            </div>
+
+                            </span>
+        </a>
+                    <div class="product__overlay product__overlay--right">
+
+
+
+    <ul class="ribbon ribbon--spaced">
+
+
+
+
+
+
+    <li class="ribbon__item ribbon__item--primary">
+
+
+            <div class="ribbon__text">
+                                14.11. - 20.11.
+                            </div>
+            </li>
+
+
+
+
+
+
+
+    <li class="ribbon__item ribbon__item--with-image ribbon__item--with-image-landscape">
+                    <div class="ribbon__image-wrapper">
+                <img class="ribbon__image" src="https://bg.cat-ret.assets.lidl/catalog5media/bg/ribbon/64/lidl_cena_1.png" alt="ribbon-image" />
+            </div>
+
+            </li>
+
+            </ul>
+
+                            </div>
+            </article>
+
+
+
+
+    </div>
+
+
+
+
+
+    <div data-layoutcomponent="Product Slider" data-controller="slider/accordionTheme/slide" data-tracking="gtm" data-tracking-type="EECproduct" data-creative="Product Slider" data-id="7205331" data-name="Deutsche Markenbutter Краве масло" data-price="" class="slick-slide" data-no-outline="true">
+
+
+
+
+
+
+
+    <article class="product product--tile" data-controller="product">
+                <a data-ref-id="7205331" class="product__body" data-controller="product/body" href="/p/niska-tsena-visoko-kachestvo-promotsii-na-fokus/deutsche-markenbutter-krave-maslo/p76629">
+                            <div data-controller="product/image" class="product__image">
+
+
+
+    <picture class="picture" data-controller="picture">
+
+
+                        <source data-srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7205331/third/lg/7205331_0.jpg, https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7205331/third/lg-retina/7205331_0.jpg 2x" media="(min-width: 1280px)" srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7205331/xs/7205331_0.jpg">
+                                    <source data-srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7205331/third/sm/7205331_0.jpg, https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7205331/third/sm-retina/7205331_0.jpg 2x" media="(min-width: 600px)" srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7205331/xs/7205331_0.jpg">
+                            <source data-srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7205331/xs/7205331_0.jpg, https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7205331/xs-retina/7205331_0.jpg 2x" srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7205331/xs/7205331_0.jpg">
+                <img alt="" class="lazyload" src="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7205331/xs/7205331_0.jpg" />
+
+                    </picture>
+
+                </div>
+                        <div class="product__text">
+                <h3 class="product__title" data-clamp="data-clamp">
+                    Deutsche Markenbutter Краве масло
+                    <sup class="product__superscript">
+                                            </sup>
+                </h3>
+                <p class="product__desc" data-clamp="data-clamp">
+
+                </p>
+            </div>
+            <span class="product__price">
+
+
+
+
+
+
+
+        <div class="pricebox pricebox--highlight-offer pricebox--negative" data-controller="pricebox">
+        <div class="pricebox__wrapper">
+                                                <div class="pricebox__highlight">
+                        САМО СЕГА
+                    </div>
+                                        <div class="pricebox__container">
+                <div class="pricebox__discount-wrapper">
+                                                        </div>
+                <div class="pricebox__price-wrapper" aria-label=" 5,29 лв. ">
+                                        <span class="pricebox__price">
+                        5,29
+                    </span>
+                    <div class="pricebox__suffix">
+                            <span data-price-legend-ref="1" class="pricebox__asterisk">
+                                                            </span>
+                                                    <span class="pricebox__currency">
+                             лв.
+                            </span>
+                                            </div>
+                </div>
+            </div>
+                    </div>
+                    <div class="pricebox__basic-quantity">
+                250 g/опаковка
+            </div>
+            </div>
+
+                            </span>
+        </a>
+                    <div class="product__overlay product__overlay--right">
+
+
+
+    <ul class="ribbon ribbon--spaced">
+
+
+
+
+
+
+    <li class="ribbon__item ribbon__item--primary">
+
+
+            <div class="ribbon__text">
+                                14.11. - 20.11.
+                            </div>
+            </li>
+
+
+
+
+
+
+
+    <li class="ribbon__item ribbon__item--with-image ribbon__item--with-image-landscape">
+                    <div class="ribbon__image-wrapper">
+                <img class="ribbon__image" src="https://bg.cat-ret.assets.lidl/catalog5media/bg/ribbon/64/lidl_cena_1.png" alt="ribbon-image" />
+            </div>
+
+            </li>
+
+            </ul>
+
+                            </div>
+            </article>
+
+
+
+
+    </div>
+
+
+
+
+
+    <div data-layoutcomponent="Product Slider" data-controller="slider/accordionTheme/slide" data-tracking="gtm" data-tracking-type="EECproduct" data-creative="Product Slider" data-id="997204192" data-name="Фиде" data-price="" class="slick-slide" data-no-outline="true">
+
+
+
+
+
+
+
+    <article class="product product--tile" data-controller="product">
+                <a data-ref-id="997204192" class="product__body" data-controller="product/body" href="/p/niska-tsena-visoko-kachestvo-promotsii-na-fokus/fide/p76648">
+                            <div data-controller="product/image" class="product__image">
+
+
+
+    <picture class="picture" data-controller="picture">
+
+
+                        <source data-srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/997204192/third/lg/997204192_0.jpg, https://bg.cat-ret.assets.lidl/catalog5media/bg/article/997204192/third/lg-retina/997204192_0.jpg 2x" media="(min-width: 1280px)" srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/997204192/xs/997204192_0.jpg">
+                                    <source data-srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/997204192/third/sm/997204192_0.jpg, https://bg.cat-ret.assets.lidl/catalog5media/bg/article/997204192/third/sm-retina/997204192_0.jpg 2x" media="(min-width: 600px)" srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/997204192/xs/997204192_0.jpg">
+                            <source data-srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/997204192/xs/997204192_0.jpg, https://bg.cat-ret.assets.lidl/catalog5media/bg/article/997204192/xs-retina/997204192_0.jpg 2x" srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/997204192/xs/997204192_0.jpg">
+                <img alt="" class="lazyload" src="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/997204192/xs/997204192_0.jpg" />
+
+                    </picture>
+
+                </div>
+                        <div class="product__text">
+                <h3 class="product__title" data-clamp="data-clamp">
+                    Фиде
+                    <sup class="product__superscript">
+                                            </sup>
+                </h3>
+                <p class="product__desc" data-clamp="data-clamp">
+
+                </p>
+            </div>
+            <span class="product__price">
+
+
+
+
+
+
+
+        <div class="pricebox pricebox--highlight-offer pricebox--negative" data-controller="pricebox">
+        <div class="pricebox__wrapper">
+                                                <div class="pricebox__highlight">
+                        Двойно повече
+                    </div>
+                                        <div class="pricebox__container">
+                <div class="pricebox__discount-wrapper">
+                                                                <span class="pricebox__recommended-retail-price">
+                        2,98
+                            <span class="visible@sr">2,98</span>
+                        </span>
+                                    </div>
+                <div class="pricebox__price-wrapper" aria-label=" 1,49 лв. ">
+                                        <span class="pricebox__price">
+                        1,49
+                    </span>
+                    <div class="pricebox__suffix">
+                            <span data-price-legend-ref="1" class="pricebox__asterisk">
+                                                            </span>
+                                                    <span class="pricebox__currency">
+                             лв.
+                            </span>
+                                            </div>
+                </div>
+            </div>
+                    </div>
+                    <div class="pricebox__basic-quantity">
+                2 х 500 g/опаковка
+            </div>
+            </div>
+
+                            </span>
+        </a>
+                    <div class="product__overlay product__overlay--right">
+
+
+
+    <ul class="ribbon ribbon--spaced">
+
+
+
+
+
+
+    <li class="ribbon__item ribbon__item--primary">
+
+
+            <div class="ribbon__text">
+                                14.11. - 20.11.
+                            </div>
+            </li>
+
+
+
+
+
+
+
+    <li class="ribbon__item ribbon__item--with-image ribbon__item--with-image-landscape">
+                    <div class="ribbon__image-wrapper">
+                <img class="ribbon__image" src="https://bg.cat-ret.assets.lidl/catalog5media/bg/ribbon/64/lidl_cena_1.png" alt="ribbon-image" />
+            </div>
+
+            </li>
+
+            </ul>
+
+                            </div>
+            </article>
+
+
+
+
+    </div>
+
+
+
+
+
+    <div data-layoutcomponent="Product Slider" data-controller="slider/accordionTheme/slide" data-tracking="gtm" data-tracking-type="EECproduct" data-creative="Product Slider" data-id="997203080" data-name="Смядовска луканка" data-price="" class="slick-slide" data-no-outline="true">
+
+
+
+
+
+
+
+    <article class="product product--tile" data-controller="product">
+                <a data-ref-id="997203080" class="product__body" data-controller="product/body" href="/p/niska-tsena-visoko-kachestvo-promotsii-na-fokus/smiadovska-lukanka/p76647">
+                            <div data-controller="product/image" class="product__image">
+
+
+
+    <picture class="picture" data-controller="picture">
+
+
+                        <source data-srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/997203080/third/lg/997203080_0.jpg, https://bg.cat-ret.assets.lidl/catalog5media/bg/article/997203080/third/lg-retina/997203080_0.jpg 2x" media="(min-width: 1280px)" srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/997203080/xs/997203080_0.jpg">
+                                    <source data-srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/997203080/third/sm/997203080_0.jpg, https://bg.cat-ret.assets.lidl/catalog5media/bg/article/997203080/third/sm-retina/997203080_0.jpg 2x" media="(min-width: 600px)" srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/997203080/xs/997203080_0.jpg">
+                            <source data-srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/997203080/xs/997203080_0.jpg, https://bg.cat-ret.assets.lidl/catalog5media/bg/article/997203080/xs-retina/997203080_0.jpg 2x" srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/997203080/xs/997203080_0.jpg">
+                <img alt="" class="lazyload" src="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/997203080/xs/997203080_0.jpg" />
+
+                    </picture>
+
+                </div>
+                        <div class="product__text">
+                <h3 class="product__title" data-clamp="data-clamp">
+                    Смядовска луканка
+                    <sup class="product__superscript">
+                                            </sup>
+                </h3>
+                <p class="product__desc" data-clamp="data-clamp">
+
+                </p>
+            </div>
+            <span class="product__price">
+
+
+
+
+
+
+
+        <div class="pricebox pricebox--highlight-offer pricebox--negative" data-controller="pricebox">
+        <div class="pricebox__wrapper">
+                                                <div class="pricebox__highlight">
+                        Двойно повече
+                    </div>
+                                        <div class="pricebox__container">
+                <div class="pricebox__discount-wrapper">
+                                                                <span class="pricebox__recommended-retail-price">
+                        7,38
+                            <span class="visible@sr">7,38</span>
+                        </span>
+                                    </div>
+                <div class="pricebox__price-wrapper" aria-label=" 3,69 лв. ">
+                                        <span class="pricebox__price">
+                        3,69
+                    </span>
+                    <div class="pricebox__suffix">
+                            <span data-price-legend-ref="1" class="pricebox__asterisk">
+                                                            </span>
+                                                    <span class="pricebox__currency">
+                             лв.
+                            </span>
+                                            </div>
+                </div>
+            </div>
+                    </div>
+                    <div class="pricebox__basic-quantity">
+                2 х 100 g/опаковка
+            </div>
+            </div>
+
+                            </span>
+        </a>
+                    <div class="product__overlay product__overlay--right">
+
+
+
+    <ul class="ribbon ribbon--spaced">
+
+
+
+
+
+
+    <li class="ribbon__item ribbon__item--primary">
+
+
+            <div class="ribbon__text">
+                                14.11. - 20.11.
+                            </div>
+            </li>
+
+
+
+
+
+
+
+    <li class="ribbon__item ribbon__item--with-image ribbon__item--with-image-landscape">
+                    <div class="ribbon__image-wrapper">
+                <img class="ribbon__image" src="https://bg.cat-ret.assets.lidl/catalog5media/bg/ribbon/64/lidl_cena_1.png" alt="ribbon-image" />
+            </div>
+
+            </li>
+
+            </ul>
+
+                            </div>
+            </article>
+
+
+
+
+    </div>
+
+
+
+
+
+    <div data-layoutcomponent="Product Slider" data-controller="slider/accordionTheme/slide" data-tracking="gtm" data-tracking-type="EECproduct" data-creative="Product Slider" data-id="99224601" data-name="Bella Продукт за мазане" data-price="" class="slick-slide" data-no-outline="true">
+
+
+
+
+
+
+
+    <article class="product product--tile" data-controller="product">
+                <a data-ref-id="99224601" class="product__body" data-controller="product/body" href="/p/niska-tsena-visoko-kachestvo-promotsii-na-fokus/bella-produkt-za-mazane/p76641">
+                            <div data-controller="product/image" class="product__image">
+
+
+
+    <picture class="picture" data-controller="picture">
+
+
+                        <source data-srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/99224601/third/lg/99224601_0.jpg, https://bg.cat-ret.assets.lidl/catalog5media/bg/article/99224601/third/lg-retina/99224601_0.jpg 2x" media="(min-width: 1280px)" srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/99224601/xs/99224601_0.jpg">
+                                    <source data-srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/99224601/third/sm/99224601_0.jpg, https://bg.cat-ret.assets.lidl/catalog5media/bg/article/99224601/third/sm-retina/99224601_0.jpg 2x" media="(min-width: 600px)" srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/99224601/xs/99224601_0.jpg">
+                            <source data-srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/99224601/xs/99224601_0.jpg, https://bg.cat-ret.assets.lidl/catalog5media/bg/article/99224601/xs-retina/99224601_0.jpg 2x" srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/99224601/xs/99224601_0.jpg">
+                <img alt="" class="lazyload" src="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/99224601/xs/99224601_0.jpg" />
+
+                    </picture>
+
+                </div>
+                        <div class="product__text">
+                <h3 class="product__title" data-clamp="data-clamp">
+                    Bella Продукт за мазане
+                    <sup class="product__superscript">
+                                            </sup>
+                </h3>
+                <p class="product__desc" data-clamp="data-clamp">
+
+                </p>
+            </div>
+            <span class="product__price">
+
+
+
+
+
+
+
+        <div class="pricebox pricebox--highlight-offer pricebox--negative" data-controller="pricebox">
+        <div class="pricebox__wrapper">
+                                                <div class="pricebox__highlight">
+                        -24%
+                    </div>
+                                        <div class="pricebox__container">
+                <div class="pricebox__discount-wrapper">
+                                                                <span class="pricebox__recommended-retail-price">
+                        4,59
+                            <span class="visible@sr">4,59</span>
+                        </span>
+                                    </div>
+                <div class="pricebox__price-wrapper" aria-label=" 3,45 лв. ">
+                                        <span class="pricebox__price">
+                        3,45
+                    </span>
+                    <div class="pricebox__suffix">
+                            <span data-price-legend-ref="1" class="pricebox__asterisk">
+                                                            </span>
+                                                    <span class="pricebox__currency">
+                             лв.
+                            </span>
+                                            </div>
+                </div>
+            </div>
+                    </div>
+                    <div class="pricebox__basic-quantity">
+                400 g/опаковка
+            </div>
+            </div>
+
+                            </span>
+        </a>
+                    <div class="product__overlay product__overlay--right">
+
+
+
+    <ul class="ribbon ribbon--spaced">
+
+
+
+
+
+
+    <li class="ribbon__item ribbon__item--primary">
+
+
+            <div class="ribbon__text">
+                                14.11. - 20.11.
+                            </div>
+            </li>
+
+
+
+
+
+
+
+    <li class="ribbon__item ribbon__item--with-image ribbon__item--with-image-landscape">
+                    <div class="ribbon__image-wrapper">
+                <img class="ribbon__image" src="https://bg.cat-ret.assets.lidl/catalog5media/bg/ribbon/64/lidl_cena_1.png" alt="ribbon-image" />
+            </div>
+
+            </li>
+
+            </ul>
+
+                            </div>
+            </article>
+
+
+
+
+    </div>
+
+
+
+
+
+    <div data-layoutcomponent="Product Slider" data-controller="slider/accordionTheme/slide" data-tracking="gtm" data-tracking-type="EECproduct" data-creative="Product Slider" data-id="99165197" data-name="Соев йогурт" data-price="" class="slick-slide" data-no-outline="true">
+
+
+
+
+
+
+
+    <article class="product product--tile" data-controller="product">
+                <a data-ref-id="99165197" class="product__body" data-controller="product/body" href="/p/niska-tsena-visoko-kachestvo-promotsii-na-fokus/soev-i-gurt/p76645">
+                            <div data-controller="product/image" class="product__image">
+
+
+
+    <picture class="picture" data-controller="picture">
+
+
+                        <source data-srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/99165197/third/lg/99165197_0.jpg, https://bg.cat-ret.assets.lidl/catalog5media/bg/article/99165197/third/lg-retina/99165197_0.jpg 2x" media="(min-width: 1280px)" srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/99165197/xs/99165197_0.jpg">
+                                    <source data-srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/99165197/third/sm/99165197_0.jpg, https://bg.cat-ret.assets.lidl/catalog5media/bg/article/99165197/third/sm-retina/99165197_0.jpg 2x" media="(min-width: 600px)" srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/99165197/xs/99165197_0.jpg">
+                            <source data-srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/99165197/xs/99165197_0.jpg, https://bg.cat-ret.assets.lidl/catalog5media/bg/article/99165197/xs-retina/99165197_0.jpg 2x" srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/99165197/xs/99165197_0.jpg">
+                <img alt="" class="lazyload" src="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/99165197/xs/99165197_0.jpg" />
+
+                    </picture>
+
+                </div>
+                        <div class="product__text">
+                <h3 class="product__title" data-clamp="data-clamp">
+                    Соев йогурт
+                    <sup class="product__superscript">
+                                            </sup>
+                </h3>
+                <p class="product__desc" data-clamp="data-clamp">
+
+                </p>
+            </div>
+            <span class="product__price">
+
+
+
+
+
+
+
+        <div class="pricebox pricebox--highlight-offer pricebox--negative" data-controller="pricebox">
+        <div class="pricebox__wrapper">
+                                                <div class="pricebox__highlight">
+                        Двойно повече
+                    </div>
+                                        <div class="pricebox__container">
+                <div class="pricebox__discount-wrapper">
+                                                                <span class="pricebox__recommended-retail-price">
+                        5,98
+                            <span class="visible@sr">5,98</span>
+                        </span>
+                                    </div>
+                <div class="pricebox__price-wrapper" aria-label=" 2,99 лв. ">
+                                        <span class="pricebox__price">
+                        2,99
+                    </span>
+                    <div class="pricebox__suffix">
+                            <span data-price-legend-ref="1" class="pricebox__asterisk">
+                                                            </span>
+                                                    <span class="pricebox__currency">
+                             лв.
+                            </span>
+                                            </div>
+                </div>
+            </div>
+                    </div>
+                    <div class="pricebox__basic-quantity">
+                2 х 500 g/опаковка
+            </div>
+            </div>
+
+                            </span>
+        </a>
+                    <div class="product__overlay product__overlay--right">
+
+
+
+    <ul class="ribbon ribbon--spaced">
+
+
+
+
+
+
+    <li class="ribbon__item ribbon__item--primary">
+
+
+            <div class="ribbon__text">
+                                14.11. - 20.11.
+                            </div>
+            </li>
+
+
+
+
+
+
+
+    <li class="ribbon__item ribbon__item--with-image ribbon__item--with-image-landscape">
+                    <div class="ribbon__image-wrapper">
+                <img class="ribbon__image" src="https://bg.cat-ret.assets.lidl/catalog5media/bg/ribbon/64/lidl_cena_1.png" alt="ribbon-image" />
+            </div>
+
+            </li>
+
+            </ul>
+
+                            </div>
+            </article>
+
+
+
+
+    </div>
+
+
+
+
+
+    <div data-layoutcomponent="Product Slider" data-controller="slider/accordionTheme/slide" data-tracking="gtm" data-tracking-type="EECproduct" data-creative="Product Slider" data-id="6804469" data-name="Свинска шунка" data-price="" class="slick-slide" data-no-outline="true">
+
+
+
+
+
+
+
+    <article class="product product--tile" data-controller="product">
+                <a data-ref-id="6804469" class="product__body" data-controller="product/body" href="/p/niska-tsena-visoko-kachestvo-promotsii-na-fokus/svinska-shunka/p76636">
+                            <div data-controller="product/image" class="product__image">
+
+
+
+    <picture class="picture" data-controller="picture">
+
+
+                        <source data-srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/6804469/third/lg/6804469_0.jpg, https://bg.cat-ret.assets.lidl/catalog5media/bg/article/6804469/third/lg-retina/6804469_0.jpg 2x" media="(min-width: 1280px)" srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/6804469/xs/6804469_0.jpg">
+                                    <source data-srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/6804469/third/sm/6804469_0.jpg, https://bg.cat-ret.assets.lidl/catalog5media/bg/article/6804469/third/sm-retina/6804469_0.jpg 2x" media="(min-width: 600px)" srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/6804469/xs/6804469_0.jpg">
+                            <source data-srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/6804469/xs/6804469_0.jpg, https://bg.cat-ret.assets.lidl/catalog5media/bg/article/6804469/xs-retina/6804469_0.jpg 2x" srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/6804469/xs/6804469_0.jpg">
+                <img alt="" class="lazyload" src="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/6804469/xs/6804469_0.jpg" />
+
+                    </picture>
+
+                </div>
+                        <div class="product__text">
+                <h3 class="product__title" data-clamp="data-clamp">
+                    Свинска шунка
+                    <sup class="product__superscript">
+                                            </sup>
+                </h3>
+                <p class="product__desc" data-clamp="data-clamp">
+
+                </p>
+            </div>
+            <span class="product__price">
+
+
+
+
+
+
+
+        <div class="pricebox pricebox--highlight-offer pricebox--negative" data-controller="pricebox">
+        <div class="pricebox__wrapper">
+                                                <div class="pricebox__highlight">
+                        -30%
+                    </div>
+                                        <div class="pricebox__container">
+                <div class="pricebox__discount-wrapper">
+                                                                <span class="pricebox__recommended-retail-price">
+                        9,99
+                            <span class="visible@sr">9,99</span>
+                        </span>
+                                    </div>
+                <div class="pricebox__price-wrapper" aria-label=" 6,99 лв. ">
+                                        <span class="pricebox__price">
+                        6,99
+                    </span>
+                    <div class="pricebox__suffix">
+                            <span data-price-legend-ref="1" class="pricebox__asterisk">
+                                                            </span>
+                                                    <span class="pricebox__currency">
+                             лв.
+                            </span>
+                                            </div>
+                </div>
+            </div>
+                    </div>
+                    <div class="pricebox__basic-quantity">
+                1 kg/опаковка
+            </div>
+            </div>
+
+                            </span>
+        </a>
+                    <div class="product__overlay product__overlay--right">
+
+
+
+    <ul class="ribbon ribbon--spaced">
+
+
+
+
+
+
+    <li class="ribbon__item ribbon__item--primary">
+
+
+            <div class="ribbon__text">
+                                14.11. - 20.11.
+                            </div>
+            </li>
+
+
+
+
+
+
+
+    <li class="ribbon__item ribbon__item--with-image ribbon__item--with-image-landscape">
+                    <div class="ribbon__image-wrapper">
+                <img class="ribbon__image" src="https://bg.cat-ret.assets.lidl/catalog5media/bg/ribbon/64/lidl_cena_1.png" alt="ribbon-image" />
+            </div>
+
+            </li>
+
+            </ul>
+
+                            </div>
+            </article>
+
+
+
+
+    </div>
+
+
+
+
+
+    <div data-layoutcomponent="Product Slider" data-controller="slider/accordionTheme/slide" data-tracking="gtm" data-tracking-type="EECproduct" data-creative="Product Slider" data-id="7202065" data-name="Ръжен хляб" data-price="" class="slick-slide" data-no-outline="true">
+
+
+
+
+
+
+
+    <article class="product product--tile" data-controller="product">
+                <a data-ref-id="7202065" class="product__body" data-controller="product/body" href="/p/niska-tsena-visoko-kachestvo-promotsii-na-fokus/rajen-hliab/p73337">
+                            <div data-controller="product/image" class="product__image">
+
+
+
+    <picture class="picture" data-controller="picture">
+
+
+                        <source data-srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7202065/third/lg/7202065_0.jpg, https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7202065/third/lg-retina/7202065_0.jpg 2x" media="(min-width: 1280px)" srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7202065/xs/7202065_0.jpg">
+                                    <source data-srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7202065/third/sm/7202065_0.jpg, https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7202065/third/sm-retina/7202065_0.jpg 2x" media="(min-width: 600px)" srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7202065/xs/7202065_0.jpg">
+                            <source data-srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7202065/xs/7202065_0.jpg, https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7202065/xs-retina/7202065_0.jpg 2x" srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7202065/xs/7202065_0.jpg">
+                <img alt="" class="lazyload" src="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7202065/xs/7202065_0.jpg" />
+
+                    </picture>
+
+                </div>
+                        <div class="product__text">
+                <h3 class="product__title" data-clamp="data-clamp">
+                    Ръжен хляб
+                    <sup class="product__superscript">
+                                            </sup>
+                </h3>
+                <p class="product__desc" data-clamp="data-clamp">
+
+                </p>
+            </div>
+            <span class="product__price">
+
+
+
+
+
+
+
+        <div class="pricebox pricebox--highlight-offer pricebox--negative" data-controller="pricebox">
+        <div class="pricebox__wrapper">
+                                                <div class="pricebox__highlight">
+                        -34%
+                    </div>
+                                        <div class="pricebox__container">
+                <div class="pricebox__discount-wrapper">
+                                                                <span class="pricebox__recommended-retail-price">
+                        1,51
+                            <span class="visible@sr">1,51</span>
+                        </span>
+                                    </div>
+                <div class="pricebox__price-wrapper" aria-label=" 0,99 лв. ">
+                                        <span class="pricebox__price">
+                        0,99
+                    </span>
+                    <div class="pricebox__suffix">
+                            <span data-price-legend-ref="1" class="pricebox__asterisk">
+                                                            </span>
+                                                    <span class="pricebox__currency">
+                             лв.
+                            </span>
+                                            </div>
+                </div>
+            </div>
+                    </div>
+                    <div class="pricebox__basic-quantity">
+                500 g/бр.
+            </div>
+            </div>
+
+                            </span>
+        </a>
+                    <div class="product__overlay product__overlay--right">
+
+
+
+    <ul class="ribbon ribbon--spaced">
+
+
+
+
+
+
+    <li class="ribbon__item ribbon__item--primary">
+
+
+            <div class="ribbon__text">
+                                14.11. - 20.11.
+                            </div>
+            </li>
+
+
+
+
+
+
+
+    <li class="ribbon__item ribbon__item--with-image ribbon__item--with-image-landscape">
+                    <div class="ribbon__image-wrapper">
+                <img class="ribbon__image" src="https://bg.cat-ret.assets.lidl/catalog5media/bg/ribbon/64/lidl_cena_1.png" alt="ribbon-image" />
+            </div>
+
+            </li>
+
+            </ul>
+
+                            </div>
+            </article>
+
+
+
+
+    </div>
+
+
+
+
+
+    <div data-layoutcomponent="Product Slider" data-controller="slider/accordionTheme/slide" data-tracking="gtm" data-tracking-type="EECproduct" data-creative="Product Slider" data-id="7206660" data-name="Beliisa Кисело мляко" data-price="" class="slick-slide" data-no-outline="true">
+
+
+
+
+
+
+
+    <article class="product product--tile" data-controller="product">
+                <a data-ref-id="7206660" class="product__body" data-controller="product/body" href="/p/niska-tsena-visoko-kachestvo-promotsii-na-fokus/beliisa-kiselo-mliako/p76640">
+                            <div data-controller="product/image" class="product__image">
+
+
+
+    <picture class="picture" data-controller="picture">
+
+
+                        <source data-srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7206660/third/lg/7206660_0.jpg, https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7206660/third/lg-retina/7206660_0.jpg 2x" media="(min-width: 1280px)" srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7206660/xs/7206660_0.jpg">
+                                    <source data-srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7206660/third/sm/7206660_0.jpg, https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7206660/third/sm-retina/7206660_0.jpg 2x" media="(min-width: 600px)" srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7206660/xs/7206660_0.jpg">
+                            <source data-srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7206660/xs/7206660_0.jpg, https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7206660/xs-retina/7206660_0.jpg 2x" srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7206660/xs/7206660_0.jpg">
+                <img alt="" class="lazyload" src="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7206660/xs/7206660_0.jpg" />
+
+                    </picture>
+
+                </div>
+                        <div class="product__text">
+                <h3 class="product__title" data-clamp="data-clamp">
+                    Beliisa Кисело мляко
+                    <sup class="product__superscript">
+                                            </sup>
+                </h3>
+                <p class="product__desc" data-clamp="data-clamp">
+
+                </p>
+            </div>
+            <span class="product__price">
+
+
+
+
+
+
+
+        <div class="pricebox pricebox--highlight-offer pricebox--negative" data-controller="pricebox">
+        <div class="pricebox__wrapper">
+                                                <div class="pricebox__highlight">
+                        САМО СЕГА
+                    </div>
+                                        <div class="pricebox__container">
+                <div class="pricebox__discount-wrapper">
+                                                        </div>
+                <div class="pricebox__price-wrapper" aria-label=" 1,29 лв. ">
+                                        <span class="pricebox__price">
+                        1,29
+                    </span>
+                    <div class="pricebox__suffix">
+                            <span data-price-legend-ref="1" class="pricebox__asterisk">
+                                                            </span>
+                                                    <span class="pricebox__currency">
+                             лв.
+                            </span>
+                                            </div>
+                </div>
+            </div>
+                    </div>
+                    <div class="pricebox__basic-quantity">
+                400 g/опаковка
+            </div>
+            </div>
+
+                            </span>
+        </a>
+                    <div class="product__overlay product__overlay--right">
+
+
+
+    <ul class="ribbon ribbon--spaced">
+
+
+
+
+
+
+    <li class="ribbon__item ribbon__item--primary">
+
+
+            <div class="ribbon__text">
+                                14.11. - 20.11.
+                            </div>
+            </li>
+
+
+
+
+
+
+
+    <li class="ribbon__item ribbon__item--with-image ribbon__item--with-image-landscape">
+                    <div class="ribbon__image-wrapper">
+                <img class="ribbon__image" src="https://bg.cat-ret.assets.lidl/catalog5media/bg/ribbon/64/lidl_cena_1.png" alt="ribbon-image" />
+            </div>
+
+            </li>
+
+            </ul>
+
+                            </div>
+            </article>
+
+
+
+
+    </div>
+
+
+
+
+
+    <div data-layoutcomponent="Product Slider" data-controller="slider/accordionTheme/slide" data-tracking="gtm" data-tracking-type="EECproduct" data-creative="Product Slider" data-id="7204723" data-name="Карначе от младо телешко" data-price="" class="slick-slide" data-no-outline="true">
+
+
+
+
+
+
+
+    <article class="product product--tile" data-controller="product">
+                <a data-ref-id="7204723" class="product__body" data-controller="product/body" href="/p/niska-tsena-visoko-kachestvo-promotsii-na-fokus/karnache-ot-mlado-teleshko/p76631">
+                            <div data-controller="product/image" class="product__image">
+
+
+
+    <picture class="picture" data-controller="picture">
+
+
+                        <source data-srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7204723/third/lg/7204723_0.jpg, https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7204723/third/lg-retina/7204723_0.jpg 2x" media="(min-width: 1280px)" srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7204723/xs/7204723_0.jpg">
+                                    <source data-srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7204723/third/sm/7204723_0.jpg, https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7204723/third/sm-retina/7204723_0.jpg 2x" media="(min-width: 600px)" srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7204723/xs/7204723_0.jpg">
+                            <source data-srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7204723/xs/7204723_0.jpg, https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7204723/xs-retina/7204723_0.jpg 2x" srcset="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7204723/xs/7204723_0.jpg">
+                <img alt="" class="lazyload" src="https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7204723/xs/7204723_0.jpg" />
+
+                    </picture>
+
+                </div>
+                        <div class="product__text">
+                <h3 class="product__title" data-clamp="data-clamp">
+                    Карначе от младо телешко
+                    <sup class="product__superscript">
+                                            </sup>
+                </h3>
+                <p class="product__desc" data-clamp="data-clamp">
+
+                </p>
+            </div>
+            <span class="product__price">
+
+
+
+
+
+
+
+        <div class="pricebox pricebox--highlight-offer pricebox--negative" data-controller="pricebox">
+        <div class="pricebox__wrapper">
+                                                <div class="pricebox__highlight">
+                        -28%
+                    </div>
+                                        <div class="pricebox__container">
+                <div class="pricebox__discount-wrapper">
+                                                                <span class="pricebox__recommended-retail-price">
+                        7,99
+                            <span class="visible@sr">7,99</span>
+                        </span>
+                                    </div>
+                <div class="pricebox__price-wrapper" aria-label=" 5,69 лв. ">
+                                        <span class="pricebox__price">
+                        5,69
+                    </span>
+                    <div class="pricebox__suffix">
+                            <span data-price-legend-ref="1" class="pricebox__asterisk">
+                                                            </span>
+                                                    <span class="pricebox__currency">
+                             лв.
+                            </span>
+                                            </div>
+                </div>
+            </div>
+                    </div>
+                    <div class="pricebox__basic-quantity">
+                400 g/опаковка
+            </div>
+            </div>
+
+                            </span>
+        </a>
+                    <div class="product__overlay product__overlay--right">
+
+
+
+    <ul class="ribbon ribbon--spaced">
+
+
+
+
+
+
+    <li class="ribbon__item ribbon__item--primary">
+
+
+            <div class="ribbon__text">
+                                14.11. - 20.11.
+                            </div>
+            </li>
+
+
+
+
+
+
+
+    <li class="ribbon__item ribbon__item--with-image ribbon__item--with-image-landscape">
+                    <div class="ribbon__image-wrapper">
+                <img class="ribbon__image" src="https://bg.cat-ret.assets.lidl/catalog5media/bg/ribbon/64/lidl_cena_1.png" alt="ribbon-image" />
+            </div>
+
+            </li>
+
+            </ul>
+
+                            </div>
+            </article>
+
+
+
+
+    </div>
+
+                                    </div>
+
+                    <button  class="slider__btn slider__btn--next slider__btn--addOutline slick-disabled" title="Next Slide" aria-label="Next Slide" data-no-outline="true" data-controller="slider/next">
+
+
+
+
+
+        <span class="icon icon--arrow-right icon--smallest icon--no-pointer-events">
+                    <svg role="img" focusable="false">
+                                <!-- c -->
+                <use xlink:href="/bundles/cakecomponents/dist/images/icon__sprite.svg#arrow-right"></use>
+                <!-- c -->
+            </svg>
+
+
+
+    </span>
+
+            </button>
+            <div class="slider__touchbtn slider__touchbtn--next" data-controller="slider/next"></div>
+            </div>
+
+
+
+                    </section>
+    </div>
+
+
+        <footer class="page__footer">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <section  class="nuc-o-trustbar-container" role="complementary">
+            <ul class="nuc-o-trustbar-container__embedded">
+
+
+            </ul>
+        </section>
+
+
+
+
+                <footer  class="nuc-o-footer">
+            <div class="nuc-o-footer__main">
+
+
+
+
+                <div  class="nuc-o-footer-section nuc-o-footer-section--align-center nuc-o-footer-section--column-layout" style="justify-content:space-evenly;">
+
+
+
+
+                <div  class="nuc-o-footer-content nuc-o-footer-content--nav-list" style="padding:0 4px;">
+                            <span class="nuc-o-footer-content__headline">Карта на сайта</span>
+                        <ul class="nuc-o-footer-content__embedded">
+
+
+
+
+                <li  class="nuc-m-footer-nav-item">
+
+
+
+                <a  class="nuc-m-footer-nav-item__anchor nuc-a-anchor" href="/novi-predlozheniya">
+
+                                    Нови предложения
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-footer-nav-item">
+
+
+
+                <a  class="nuc-m-footer-nav-item__anchor nuc-a-anchor" href="/lubimo">
+
+                                    Любимо
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-footer-nav-item">
+
+
+
+                <a  class="nuc-m-footer-nav-item__anchor nuc-a-anchor" href="/lidl-plus">
+
+                                    Lidl Plus
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-footer-nav-item">
+
+
+
+                <a  class="nuc-m-footer-nav-item__anchor nuc-a-anchor" href="https://gotvi.lidl.bg/">
+
+                                    Рецепти
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-footer-nav-item">
+
+
+
+                <a  class="nuc-m-footer-nav-item__anchor nuc-a-anchor" href="/lidl-plus/1000x300">
+
+                                    1000x300
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-footer-nav-item">
+
+
+
+                <a  class="nuc-m-footer-nav-item__anchor nuc-a-anchor" href="/parkside">
+
+                                    Parkside
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-footer-nav-item">
+
+
+
+                <a  class="nuc-m-footer-nav-item__anchor nuc-a-anchor" href="/volleyball">
+
+                                    Волейбол
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-footer-nav-item">
+
+
+
+                <a  class="nuc-m-footer-nav-item__anchor nuc-a-anchor" href="/solizahar">
+
+                                    По-малко сол и захар
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-footer-nav-item">
+
+
+
+                <a  class="nuc-m-footer-nav-item__anchor nuc-a-anchor" href="/4seasons">
+
+                                    4 сезона
+
+
+        </a>
+
+        </li>
+
+
+            </ul>
+        </div>
+
+
+
+
+                <div  class="nuc-o-footer-content nuc-o-footer-content--nav-list" style="padding:0 4px;">
+                            <span class="nuc-o-footer-content__headline">Контакти</span>
+                        <ul class="nuc-o-footer-content__embedded">
+
+
+
+
+                <li  class="ret-m-footer-text-button-nav-item">
+
+
+
+                <div  class="ret-m-footer-text-button-nav-item__text nuc-a-textbody nuc-a-textbody--type-basic nuc-a-textbody--theme-inherit nuc-a-textbody--table-style-none nuc-a-textbody--align-center nuc-a-textbody--align-left@md nuc-a-textbody--no-bottom-margin">
+                                                                        <div class="ezrichtext-field"><p><a href="">O</a><a href="https://obsluzhvane-i-kontakti.lidl.bg/SelfServiceBG" target="_blank" title="">&#1073;&#1089;&#1083;&#1091;&#1078;&#1074;&#1072;&#1085;&#1077; &#1085;&#1072; &#1082;&#1083;&#1080;&#1077;&#1085;&#1090;&#1080;</a></p>
+</div>
+
+                                                        </div>
+
+                                </li>
+
+
+            </ul>
+        </div>
+
+
+
+
+                <div  class="nuc-o-footer-content nuc-o-footer-content--nav-list" style="padding:0 4px;">
+                            <span class="nuc-o-footer-content__headline">Мобилно приложение</span>
+                        <ul class="nuc-o-footer-content__embedded">
+
+
+
+
+                <li  class="nuc-o-footer-award">
+
+
+
+                <a  class="nuc-o-footer-award__anchor nuc-a-anchor" href="https://app.adjust.com/t5j2mnl?campaign=website&amp;adgroup=footer&amp;creative=badge_apple&amp;fallback=https%3A%2F%2Fapps.apple.com%2Fbg%2Fapp%2Flidl-plus%2Fid1238611143%3Fl%3Den_US">
+
+
+
+
+                <img  class="nuc-o-footer-award__image nuc-a-image" src="/bundles/cakecomponents/dist/images/icons/apple-store-bg.svg" alt="apple-store-bg" style="width:140px;align-self:flex-start;" />
+
+
+
+
+        </a>
+
+                    </li>
+
+
+
+
+                <li  class="nuc-o-footer-award">
+
+
+
+                <a  class="nuc-o-footer-award__anchor nuc-a-anchor" href="https://app.adjust.com/t5j2mnl?campaign=website&amp;adgroup=footer&amp;creative=badge_google&amp;fallback=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.lidl.eci.lidlplus%26hl%3Dbg_BG">
+
+
+
+
+                <img  class="nuc-o-footer-award__image nuc-a-image" src="/bundles/cakecomponents/dist/images/icons/google-store-bg.svg" alt="google-store-bg" style="width:140px;align-self:flex-start;" />
+
+
+
+
+        </a>
+
+                    </li>
+
+
+            </ul>
+        </div>
+
+
+
+
+                <div  class="nuc-o-footer-content nuc-o-footer-content--nav-list" style="padding:0 4px;">
+                            <span class="nuc-o-footer-content__headline">Информация</span>
+                        <ul class="nuc-o-footer-content__embedded">
+
+
+
+
+                <li  class="nuc-m-footer-nav-item">
+
+
+
+                <a  class="nuc-m-footer-nav-item__anchor nuc-a-anchor" href="/polezno-info/zaschita-na-lichnite-danni">
+
+                                    Защита на личните данни
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-footer-nav-item">
+
+
+
+                <a  class="nuc-m-footer-nav-item__anchor nuc-a-anchor" href="/polezno-info/normativno-s-otvetstvie">
+
+                                    Нормативно съответствие
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-footer-nav-item">
+
+
+
+                <a  class="nuc-m-footer-nav-item__anchor nuc-a-anchor" href="/polezno-info/impresum">
+
+                                    Импресум
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-footer-nav-item">
+
+
+
+                <a  class="nuc-m-footer-nav-item__anchor nuc-a-anchor" href="/polezno-info/magazini">
+
+                                    Магазини
+
+
+        </a>
+
+        </li>
+
+
+            </ul>
+        </div>
+
+
+
+
+                <div  class="nuc-o-footer-content nuc-o-footer-content--nav-list" style="padding:0 4px;">
+                            <span class="nuc-o-footer-content__headline">Локации</span>
+                        <ul class="nuc-o-footer-content__embedded">
+
+
+
+
+                <li  class="nuc-m-footer-nav-item" data-map-search-toggle>
+
+
+
+                <a  class="nuc-m-footer-nav-item__anchor nuc-a-anchor" href="#">
+
+                                    Магазини
+
+
+        </a>
+
+        </li>
+
+
+            </ul>
+        </div>
+
+
+
+
+                <div  class="nuc-o-footer-content nuc-o-footer-content--nav-list" style="padding:0 4px;">
+                            <span class="nuc-o-footer-content__headline">Абониране</span>
+                        <ul class="nuc-o-footer-content__embedded">
+
+
+
+
+                <li  class="ret-m-footer-text-button-nav-item">
+
+
+
+
+
+
+
+                <a  class="ret-m-footer-text-button-nav-item__button nuc-m-button nuc-m-button--negative nuc-a-anchor" href="/polezno-info/abonirane">
+
+                                                                                                    <span class="nuc-m-button__text">Нюзлетър</span>
+
+
+
+        </a>
+
+
+                    </li>
+
+
+            </ul>
+        </div>
+
+
+        </div>
+
+
+
+
+                <div  class="nuc-a-footer-divider"></div>
+
+
+
+
+                <div  class="nuc-o-footer-section nuc-o-footer-section--align-center">
+
+
+
+
+                <div  class="nuc-o-footer-content nuc-o-footer-content--nav-list">
+                        <ul class="nuc-o-footer-content__embedded">
+
+
+
+
+                <li  class="nuc-o-footer-award">
+
+
+
+                <a  class="nuc-o-footer-award__anchor nuc-a-anchor" href="https://gotvi.lidl.bg/manchev-i-shishkov/shef-manchev">
+
+
+
+
+                <img  class="nuc-o-footer-award__image nuc-a-image" src="/var/retail/storage/images/_aliases/100x120/8/8/1/2/1062188-1-bg-BG/Manchev_100_120.jpg" alt="Любими рецепти от шеф Иван Манчев" />
+
+
+
+
+        </a>
+
+                    </li>
+
+
+
+
+                <li  class="nuc-o-footer-award">
+
+
+
+                <a  class="nuc-o-footer-award__anchor nuc-a-anchor" href="https://gotvi.lidl.bg/manchev-i-shishkov/shef-shishkov">
+
+
+
+
+                <img  class="nuc-o-footer-award__image nuc-a-image" src="/var/retail/storage/images/_aliases/100x120/2/9/1/2/1062192-1-bg-BG/Shishkov_100_120.jpg" alt="Любими рецепти от шеф Таньо Шишков" />
+
+
+
+
+        </a>
+
+                    </li>
+
+
+            </ul>
+        </div>
+
+
+        </div>
+
+
+
+
+                <div  class="nuc-a-footer-divider"></div>
+
+
+
+
+                <div  class="nuc-o-footer-section nuc-o-footer-section--align-center">
+
+
+
+
+                <div  class="nuc-o-footer-content nuc-o-footer-content--nav-list">
+                        <ul class="nuc-o-footer-content__embedded">
+
+
+
+
+                <div  class="nuc-o-footer-content nuc-o-footer-content--nav-list">
+                        <ul class="nuc-o-footer-content__embedded">
+
+
+
+
+                <li  class="nuc-m-footer-social-nav-item" data-tracking="gtm" data-tracking-type="EECpromotion" data-creative="Company Navigation" data-name="Youtube" data-id="3359" data-position="1">
+
+
+
+                <a  class="nuc-m-footer-social-nav-item__anchor nuc-a-anchor" href="https://www.youtube.com/lidlbulgaria" target="_blank">
+
+
+
+
+
+
+
+
+                <svg  class="nuc-m-footer-social-nav-item__icon nuc-a-icon nuc-a-icon--size-16 nuc-a-svg-use" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 1">
+                        <use href="/bundles/nucleuscomponent/retail/icons/lidl.ebbd80e0845ba10b.svg#youtube"></use>
+        </svg>
+
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-footer-social-nav-item" data-tracking="gtm" data-tracking-type="EECpromotion" data-creative="Company Navigation" data-name="Facebook" data-id="3361" data-position="2">
+
+
+
+                <a  class="nuc-m-footer-social-nav-item__anchor nuc-a-anchor" href="https://www.facebook.com/lidlbulgaria" target="_blank">
+
+
+
+
+
+
+
+
+                <svg  class="nuc-m-footer-social-nav-item__icon nuc-a-icon nuc-a-icon--size-16 nuc-a-svg-use" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 1">
+                        <use href="/bundles/nucleuscomponent/retail/icons/lidl.ebbd80e0845ba10b.svg#facebook"></use>
+        </svg>
+
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-footer-social-nav-item" data-tracking="gtm" data-tracking-type="EECpromotion" data-creative="Company Navigation" data-name="Instagram" data-id="3360" data-position="3">
+
+
+
+                <a  class="nuc-m-footer-social-nav-item__anchor nuc-a-anchor" href="https://www.instagram.com/lidlbulgaria" target="_blank">
+
+
+
+
+
+
+
+
+                <svg  class="nuc-m-footer-social-nav-item__icon nuc-a-icon nuc-a-icon--size-16 nuc-a-svg-use" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 1">
+                        <use href="/bundles/nucleuscomponent/retail/icons/lidl.ebbd80e0845ba10b.svg#instagram"></use>
+        </svg>
+
+
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-footer-social-nav-item" data-tracking="gtm" data-tracking-type="EECpromotion" data-creative="Company Navigation" data-name="LinkedIn" data-id="3739" data-position="4">
+
+
+
+                <a  class="nuc-m-footer-social-nav-item__anchor nuc-a-anchor" href="https://www.linkedin.com/company/lidlbulgaria" target="_blank">
+
+
+
+
+
+
+
+
+                <svg  class="nuc-m-footer-social-nav-item__icon nuc-a-icon nuc-a-icon--size-16 nuc-a-svg-use" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 1">
+                        <use href="/bundles/nucleuscomponent/retail/icons/lidl.ebbd80e0845ba10b.svg#linkedin"></use>
+        </svg>
+
+
+
+
+        </a>
+
+        </li>
+
+
+            </ul>
+        </div>
+
+
+            </ul>
+        </div>
+
+
+        </div>
+
+
+
+
+                <div  class="nuc-a-footer-divider"></div>
+
+
+
+
+                <div  class="nuc-o-footer-section nuc-o-footer-section--align-center">
+
+
+
+
+                <div  class="nuc-o-footer-content nuc-o-footer-content--nav-list">
+                        <ul class="nuc-o-footer-content__embedded">
+
+
+
+
+                <li  class="nuc-m-footer-nav-item" data-tracking="gtm" data-tracking-type="EECpromotion" data-creative="Company Navigation" data-name="За нас" data-id="3353" data-position="1">
+
+
+
+                <a  class="nuc-m-footer-nav-item__anchor nuc-a-anchor" href="https://www.corporate.lidl.bg/">
+
+                                    За нас
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-footer-nav-item" data-tracking="gtm" data-tracking-type="EECpromotion" data-creative="Company Navigation" data-name="Полезно инфо" data-id="3351" data-position="2">
+
+
+
+                <a  class="nuc-m-footer-nav-item__anchor nuc-a-anchor" href="/polezno-info">
+
+                                    Полезно инфо
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-footer-nav-item" data-tracking="gtm" data-tracking-type="EECpromotion" data-creative="Company Navigation" data-name="Обслужване и контакти" data-id="3352" data-position="30">
+
+
+
+                <a  class="nuc-m-footer-nav-item__anchor nuc-a-anchor" href="https://obsluzhvane-i-kontakti.lidl.bg/SelfServiceBG/s/">
+
+                                    Обслужване и контакти
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-footer-nav-item" data-tracking="gtm" data-tracking-type="EECpromotion" data-creative="Company Navigation" data-name="Пресцентър" data-id="29307" data-position="40">
+
+
+
+                <a  class="nuc-m-footer-nav-item__anchor nuc-a-anchor" href="https://corporate.lidl.bg">
+
+                                    Пресцентър
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-footer-nav-item" data-tracking="gtm" data-tracking-type="EECpromotion" data-creative="Company Navigation" data-name="Кариера" data-id="3349" data-position="50">
+
+
+
+                <a  class="nuc-m-footer-nav-item__anchor nuc-a-anchor" href="https://jobs.lidl.bg">
+
+                                    Кариера
+
+
+        </a>
+
+        </li>
+
+
+
+
+                <li  class="nuc-m-footer-nav-item" data-tracking="gtm" data-tracking-type="EECpromotion" data-creative="Company Navigation" data-name="Недвижими имоти" data-id="3350" data-position="60">
+
+
+
+                <a  class="nuc-m-footer-nav-item__anchor nuc-a-anchor" href="https://www.realestate-lidl.bg/">
+
+                                    Недвижими имоти
+
+
+        </a>
+
+        </li>
+
+
+            </ul>
+        </div>
+
+
+        </div>
+
+
+            </div>
+        </footer>
+
+
+        </footer>
+
+
+        <script type="text/plain" data-cookieconsent="marketing">
+            var dynamic_tm_data = {
+                type: "detailpage",
+                country: "bg-BG",
+                productid: "76643",
+                productname: "Шпеков салам Бургас",
+                amount: "5,99",
+                currency: "лв.",
+                img_url: "https://bg.cat-ret.assets.lidl/catalog5media/bg/article/7205616/gallery/overlay/sm/7205616_0.jpg",
+                item_url: "https://www.lidl.bg/p/niska-tsena-visoko-kachestvo-promotsii-na-fokus/shpekov-salam-burgas/p76643",
+                list: "ниска ЦЕНА, високо КАЧЕСТВО. Промоции на фокус"
+            };
+        </script>
+        <script type="text/plain" data-cookieconsent="marketing" src='https://lidl.media01.eu/tm_js.aspx?trackid=5EEF7132990C05679B224B39B657ED45&amp;mode=2&amp;dt_freetext=&amp;dt_subid1=&amp;dt_subid2=&amp;dt_keywords=' async="async" defer="defer"></script>
+
+    <script defer src="/bundles/cakecomponents/vendor/requirejs/require.js"></script>
+
+            <script data-cookieconsent="ignore">
+            document.addEventListener("DOMContentLoaded", function () {
+                requirejs.config({
+                    baseUrl: "/bundles/retail/dist/scripts",
+                    env: "prod",
+                    locale: "bg-BG",
+                                        waitSeconds: 90,
+                    imagesUrl: "/bundles/cakecomponents/dist/images",
+                    paths: {
+                        'chat4com': 'https://static700.multichannelacd.de/chat/v1/product/acd700/js/4com.chatapi.min'
+                    }
+                });
+            });
+        </script>
+
+        <script data-cookieconsent="ignore">
+        document.addEventListener('DOMContentLoaded', function () {
+            require(['DetailPage']);
+        });
+    </script>
+
+        </body>
+</html>
