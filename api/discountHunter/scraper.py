@@ -15,24 +15,16 @@ def convert_to_date(date_text):
         year = datetime.now().year
 
     date_text = datetime.strptime(f"{date_text}{year} 00:00:00", "%d.%m.%Y %H:%M:%S")
-
     return date_text
 
 
-def get_lidl_product_image(soup, class_name):
+def get_product_discount_phrase(soup, class_name):
     try:
-        product_image = soup.find("a", class_name)["href"]
+        product_discount_phrase = soup.select_one(class_name).text.strip()
     except AttributeError:
-        product_image = None
+        product_discount_phrase = None
 
-    return product_image
-def get_product_sub_title(soup, class_name):
-    try:
-        product_subtitle = soup.select_one(class_name).text.strip()
-    except AttributeError:
-        product_subtitle = None
-
-    return product_subtitle
+    return product_discount_phrase
 
 
 def get_product_title(soup, class_name):
@@ -42,19 +34,6 @@ def get_product_title(soup, class_name):
         product_title = None
 
     return product_title
-
-
-def get_kaufland_product_discount_phrase(soup, class_name1, class_name2):
-    try:
-        product_discount_phrase = soup.select_one(class_name1).text.strip()
-    except AttributeError:
-        try:
-            float(soup.select_one(class_name2).text.strip().replace(",", "."))
-            product_discount_phrase = None
-        except ValueError:
-            product_discount_phrase = soup.select_one(class_name2).text.strip()
-
-    return product_discount_phrase
 
 
 def get_product_new_price(soup, class_name):
@@ -145,13 +124,27 @@ def get_billa_product_old_price(soup, class_name):
     return product_old_price
 
 
-def get_billa_product_discount_phrase(soup, class_name):
+def get_kaufland_product_sub_title(soup, class_name):
     try:
-        product_discount_phrase = soup.select_one(class_name).text.strip()
+        product_subtitle = soup.select_one(class_name).text.strip()
     except AttributeError:
-        product_discount_phrase = None
+        product_subtitle = None
+
+    return product_subtitle
+
+
+def get_kaufland_product_discount_phrase(soup, class_name1, class_name2):
+    try:
+        product_discount_phrase = soup.select_one(class_name1).text.strip()
+    except AttributeError:
+        try:
+            float(soup.select_one(class_name2).text.strip().replace(",", "."))
+            product_discount_phrase = None
+        except ValueError:
+            product_discount_phrase = soup.select_one(class_name2).text.strip()
 
     return product_discount_phrase
+
 
 def get_kaufland_promotion_text(soup, class_name):
     try:
@@ -170,6 +163,7 @@ def get_kaufland_product_image(soup, class_name):
 
     return product_image
 
+
 def get_kaufland_product_description(soup, class_name):
     try:
         description_wrapper = str(soup.select_one(class_name).find("p"))
@@ -183,6 +177,63 @@ def get_kaufland_product_description(soup, class_name):
         product_description = None
 
     return product_description
+
+
+def get_lidl_product_old_price(soup, class_name):
+    try:
+        product_old_price = soup.select_one(class_name).find(
+            "span").text.strip()
+    except AttributeError:
+        product_old_price = None
+    else:
+        try:
+            product_old_price = float(product_old_price.replace(",", "."))
+        except ValueError:
+            product_old_price = None
+
+    return product_old_price
+
+
+def get_lidl_product_description(soup, class_name):
+    try:
+        product_description = "\n".join([description.text for description in
+                                         soup.select_one(class_name).find_all("li")])
+    except AttributeError:
+        product_description = None
+
+    return product_description
+
+
+def get_lidl_product_promotion_interval(soup, class_name):
+    try:
+        promotion_interval = soup.select_one(class_name).text.strip()
+        promotion_starts = promotion_interval.split()[-3]
+        if promotion_starts == 'само':
+            promotion_starts = None
+        promotion_expires = promotion_interval.split()[-1]
+    except AttributeError:
+        promotion_starts = None
+        promotion_expires = None
+    except IndexError:
+        promotion_starts = promotion_interval.split()[-1]
+        promotion_expires = convert_to_date(promotion_interval.split()[-1]) + timedelta(days=7)
+
+    if promotion_starts:
+        promotion_starts = convert_to_date(promotion_starts)
+    if promotion_expires and not type(promotion_expires) == datetime:
+        promotion_expires = convert_to_date(promotion_expires)
+
+    return promotion_starts, promotion_expires
+
+
+def get_lidl_product_image(soup, class_name):
+    try:
+        product_image = soup.find("a", class_name)["href"]
+    except AttributeError:
+        product_image = None
+
+    return product_image
+
 
 def billa(store):
     response = requests.get(billa_cats[0])
@@ -200,7 +251,7 @@ def billa(store):
         product_title = get_product_title(product, ".actualProduct")
         product_old_price = get_billa_product_old_price(product, ".price")
         product_new_price = get_billa_product_new_price(product, ".price")
-        product_discount_phrase = get_billa_product_discount_phrase(product, ".discount")
+        product_discount_phrase = get_product_discount_phrase(product, ".discount")
 
         if product_new_price:
             product, _ = Product.objects.get_or_create(promotion=promotion, title=product_title,
@@ -243,7 +294,7 @@ def kaufland(store):
                 promotion_starts = None
                 promotion_expires = None
 
-            product_subtitle = get_product_sub_title(soup, ".t-offer-detail__subtitle")
+            product_subtitle = get_kaufland_product_sub_title(soup, ".t-offer-detail__subtitle")
             product_title = get_product_title(soup, ".t-offer-detail__title")
             product_discount_phrase = get_kaufland_product_discount_phrase(soup, ".a-pricetag__discount",
                                                                            ".a-pricetag__old-price")
@@ -298,47 +349,15 @@ def lidl(store):
 
             # Shows discount % as well as other type of promotion 'СПЕСТИ 20 ЛВ. САМО НА 05.11.'
             product_discount_phrase = get_product_discount_phrase(product_component, ".pricebox__highlight")
-
-            try:
-                product_old_price = product_component.select_one(".pricebox__recommended-retail-price").find(
-                    "span").text.strip()
-            except AttributeError:
-                product_old_price = None
-            else:
-                try:
-                    product_old_price = float(product_old_price.replace(",", "."))
-                except ValueError:
-                    product_old_price = None
-
+            product_old_price = get_lidl_product_old_price(product_component, ".pricebox__recommended-retail-price")
             product_new_price = get_product_new_price(product_component, ".pricebox__price")
-
             product_quantity = get_product_quantity(product_component, ".pricebox__basic-quantity")
-
-            try:
-                product_description = "\n".join([description.text for description in
-                                                 product_component.select_one(".textbody").find_all("li")])
-            except AttributeError:
-                product_description = None
+            product_description = get_lidl_product_description(product_component, ".textbody")
 
             # Promotion could be interval date-date, but could be 'само на date', 'от date'
             # if promotion_starts is None - 'само на date'
-            try:
-                promotion_interval = product_component.select_one(".ribbon__text").text.strip()
-                promotion_starts = promotion_interval.split()[-3]
-                if promotion_starts == 'само':
-                    promotion_starts = None
-                promotion_expires = promotion_interval.split()[-1]
-            except AttributeError:
-                promotion_starts = None
-                promotion_expires = None
-            except IndexError:
-                promotion_starts = promotion_interval.split()[-1]
-                promotion_expires = convert_to_date(promotion_interval.split()[-1]) + timedelta(days=7)
-
-            if promotion_starts:
-                promotion_starts = convert_to_date(promotion_starts)
-            if promotion_expires and not type(promotion_expires) == datetime:
-                promotion_expires = convert_to_date(promotion_expires)
+            promotion_starts, promotion_expires = get_lidl_product_promotion_interval(product_component,
+                                                                                      ".ribbon__text")
 
             promotion, _ = Promotion.objects.get_or_create(store=store, expire_date=promotion_expires,
                                                            start_date=promotion_starts)
