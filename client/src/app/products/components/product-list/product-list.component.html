@@ -16,8 +16,8 @@
   <ejs-daterangepicker placeholder="Избери интервал на промоция"
                        #picker
                        enablePersistence="true"
-                       (valueChange)="reload(p, searchName.value, currentDate, store, picker.value)"
-                       (cleared)="reload(p, searchName.value, currentDate, store, ['',''])">
+                       (valueChange)="reload(pageNumber, searchName.value, currentDate, store, picker.value)"
+                       (cleared)="reload(pageNumber, searchName.value, currentDate, store, ['',''])">
   </ejs-daterangepicker>
   <div class="dropdown">
     <span class="dropdown-main">{{storeWrapper}}</span>
@@ -38,7 +38,7 @@
                alt=""/>
         </figure>
         <a [routerLink]="['/product/' + product.id]"
-           [queryParams]="{search: search, page:p, store:store, startDate:promotionInterval[0], endDate: promotionInterval[1]}">
+           [queryParams]="{search: search, page:pageNumber, store:store, startDate:promotionInterval[0], endDate: promotionInterval[1]}">
           <div class="product__content">
             <p class="product__title">{{product.name}}</p>
             <em class="product__price">{{ product.price | currency: 'BGN' }}</em>
@@ -47,12 +47,12 @@
       </section>
     </ng-container>
   </div>
-   <ng-template #noResults style="text-align: center">
- No results.
-</ng-template>
+  <ng-template #noResults>
+    No results.
+  </ng-template>
   <ul>
     <li
-      *ngFor="let item of collection | paginate: { itemsPerPage: itemsPerPage, currentPage: p, totalItems: productsCount }">
+      *ngFor="let item of collection | paginate: { itemsPerPage: itemsPerPage, currentPage: pageNumber, totalItems: productsCount }">
       ...
     </li>
   </ul>

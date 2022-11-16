@@ -101,7 +101,7 @@ class TestScraper(TestCase):
         self.assertEqual(promotion_text, self.kaufland_promotion_text_test)
 
     def test_find_kaufland_product_image_url(self):
-        product_image_url = get_kaufland_product_image(self.kaufland_test_soup, ["a-image-responsive",
+        product_image_url = get_kaufland_product_image_url(self.kaufland_test_soup, ["a-image-responsive",
                                                                                  "a-image-responsive--preview-knockout"])
         self.assertEqual(product_image_url, self.kaufland_image_url_test)
 
@@ -119,7 +119,7 @@ class TestScraper(TestCase):
         self.assertEqual(product_discount_phrase, self.kaufland_product_discount_phrase)
 
     def test_find_kaufland_product_old_price(self):
-        product_old_price = get_product_old_price(self.kaufland_test_soup, ".a-pricetag__old-price")
+        product_old_price = get_kaufland_product_old_price(self.kaufland_test_soup, ".a-pricetag__old-price")
         self.assertEqual(product_old_price, self.kaufland_product_old_price)
 
     def test_find_kaufland_product_new_price(self):
@@ -127,7 +127,7 @@ class TestScraper(TestCase):
         self.assertEqual(product_new_price, self.kaufland_product_new_price)
 
     def test_find_kaufland_product_base_price(self):
-        product_base_price = get_product_base_price(self.kaufland_test_soup, ".t-offer-detail__basic-price")
+        product_base_price = get_kaufland_product_base_price(self.kaufland_test_soup, ".t-offer-detail__basic-price")
         self.assertEqual(product_base_price, self.kaufland_product_base_price)
 
     def test_find_kaufland_product_quantity(self):
@@ -139,12 +139,12 @@ class TestScraper(TestCase):
         self.assertEqual(product_description, self.kaufland_product_description)
 
     def test_find_kaufland_product_promotion_message(self):
-        product_promotion_message = get_product_promotion_message(self.kaufland_test_soup, ".t-offer-detail__mpa",
+        product_promotion_message = get_kaufland_product_promotion_message(self.kaufland_test_soup, ".t-offer-detail__mpa",
                                                           ".t-offer-detail__promo-message")
         self.assertEqual(product_promotion_message, self.kaufland_product_promotion_message)
 
     def test_find_lidl_product_image_url(self):
-        product_image_url = get_lidl_product_image(self.lidl_test_soup, "multimediabox__preview-link")
+        product_image_url = get_lidl_product_image_url(self.lidl_test_soup, "multimediabox__preview-link")
         self.assertEqual(product_image_url, self.lidl_product_image_url)
 
     def test_find_lidl_product_title(self):
@@ -182,6 +182,16 @@ class TestScraper(TestCase):
                                                                                   ".ribbon__text")[1]
         self.assertEqual(product_promotion_expires, self.lidl_product_promotion_expire_date)
 
+    def test_find_billa_product_non_existing_field(self):
+        product_title = get_product_title(self.billa_test_product_soup, ".someField")
+        self.assertEqual(product_title, None)
 
+    def test_find_kaufland_product_non_existing_field(self):
+        product_title = get_product_title(self.kaufland_test_soup, ".someField")
+        self.assertEqual(product_title, None)
+
+    def test_find_lidl_product_non_existing_field(self):
+        product_title = get_product_title(self.lidl_test_product_component_soup, ".someField")
+        self.assertEqual(product_title, None)
 
 

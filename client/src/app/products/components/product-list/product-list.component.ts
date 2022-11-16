@@ -12,7 +12,7 @@ import {formatDate} from "@angular/common";
 })
 export class ProductListComponent implements OnInit {
   products: ProductData[] = []
-  p: any = 1;
+  pageNumber: any = 1;
   productsCount: number = 1
   collection: any[] = [];
   search: string = ''
@@ -34,7 +34,7 @@ export class ProductListComponent implements OnInit {
         relativeTo: this.route,
         replaceUrl: true,
         queryParams: {
-          page: this.p,
+          page: this.pageNumber,
           search: this.search,
           store: this.store,
           startDate: this.promotionInterval[0],
@@ -53,23 +53,23 @@ export class ProductListComponent implements OnInit {
         this.store = param["store"]
       }
       if (param["page"]) {
-        this.p = param["page"]
+        this.pageNumber = param["page"]
       }
       if (param["startDate"] && param["endDate"]) {
         this.promotionInterval[0] = param["startDate"]
         this.promotionInterval[1] = param["endDate"]
       }
-      this.reload(this.p, this.search, this.currentDate, this.store, this.promotionInterval)
+      this.reload(this.pageNumber, this.search, this.currentDate, this.store, this.promotionInterval)
     })
   }
 
-  reload(event: any, search: any, startDate: any, store: any, promotionInterval: any): void {
+  reload(pageNumber: any, search: any, startDate: any, store: any, promotionInterval: any): void {
     window.scroll({
       top: 0,
       left: 0,
       behavior: 'smooth'
     });
-    this.p = event
+    this.pageNumber = pageNumber
     this.search = search
     this.store = store
     this.currentDate = startDate
@@ -90,10 +90,10 @@ export class ProductListComponent implements OnInit {
 
       this.productsCount = productsCount
       this.pagesCount = Math.ceil(this.productsCount / this.itemsPerPage)
-      if (this.p > this.pagesCount || this.p < 1) {
-        this.p = 1
+      if (this.pageNumber > this.pagesCount || this.pageNumber < 1) {
+        this.pageNumber = 1
       }
-      this.product.getFilteredProducts(this.p, this.search, this.currentDate, this.store, this.promotionInterval).then((products: any) => {
+      this.product.getFilteredProducts(this.pageNumber, this.search, this.currentDate, this.store, this.promotionInterval).then((products: any) => {
         this.products = products.map((x: Product) => {
           var product: ProductData = x.data
           return {

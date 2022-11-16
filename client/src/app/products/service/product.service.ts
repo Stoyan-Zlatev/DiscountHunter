@@ -22,24 +22,16 @@ export class ProductService {
     return productsWithImages
   }
 
-  public async getProductById(id: any): Promise<ProductData | null> {
-    if (!id) return null
-    const product = await this.http.get<Product>(`${environment.apiUrl}product/${id}/`).toPromise()
-    return new Product(this.getProductImage(product)).data
-  }
-
-  private getProductImage(product: any): Product {
-    const tempProduct = {...product}
-    return tempProduct
-  }
-
-  public async getProductsCount(): Promise<any> {
-    const productCount = await this.http.get<any>(`${environment.apiUrl}products/`).toPromise()
-    return productCount.count
-  }
-
   public async getFilteredProductsCount(search: any, minDate: any, store: any, promotionInterval: any): Promise<any> {
     const productCount = await this.http.get<any>(`${environment.apiUrl}products/?search=${search}&promotion_expire_gte=${minDate}&store=${store}&promotion_expire_lte=${promotionInterval[1]}&promotion_start=${promotionInterval[0]}`).toPromise()
     return productCount.count
   }
+
+  public async getProductById(id: any): Promise<ProductData | null> {
+    if (!id) return null
+    const product = await this.http.get<Product>(`${environment.apiUrl}product/${id}/`).toPromise()
+    return new Product(product).data
+  }
+
+
 }

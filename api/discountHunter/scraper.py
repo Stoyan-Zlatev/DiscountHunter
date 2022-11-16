@@ -54,36 +54,6 @@ def get_product_quantity(soup, class_name):
     return product_quantity
 
 
-def get_product_promotion_message(soup, class_name1, class_name_2):
-    try:
-        promotion_message = soup.select_one(class_name1).text.strip()
-    except AttributeError:
-        try:
-            promotion_message = soup.select_one(class_name_2).text.strip()
-        except AttributeError:
-            promotion_message = None
-
-    return promotion_message
-
-
-def get_product_base_price(soup, class_name):
-    try:
-        product_base_price = soup.select_one(class_name).text.strip()
-    except AttributeError:
-        product_base_price = None
-
-    return product_base_price
-
-
-def get_product_old_price(soup, class_name):
-    try:
-        product_old_price = float(soup.select_one(class_name).text.strip().replace(",", "."))
-    except ValueError or AttributeError:
-        product_old_price = None
-
-    return product_old_price
-
-
 def get_billa_promotion_start_date(soup):
     promotion_text = soup.find("div", 'date').get_text().split(" ")
     try:
@@ -124,6 +94,36 @@ def get_billa_product_old_price(soup, class_name):
     return product_old_price
 
 
+def get_kaufland_product_old_price(soup, class_name):
+    try:
+        product_old_price = float(soup.select_one(class_name).text.strip().replace(",", "."))
+    except ValueError or AttributeError:
+        product_old_price = None
+
+    return product_old_price
+
+
+def get_kaufland_product_base_price(soup, class_name):
+    try:
+        product_base_price = soup.select_one(class_name).text.strip()
+    except AttributeError:
+        product_base_price = None
+
+    return product_base_price
+
+
+def get_kaufland_product_promotion_message(soup, class_name1, class_name_2):
+    try:
+        promotion_message = soup.select_one(class_name1).text.strip()
+    except AttributeError:
+        try:
+            promotion_message = soup.select_one(class_name_2).text.strip()
+        except AttributeError:
+            promotion_message = None
+
+    return promotion_message
+
+
 def get_kaufland_product_sub_title(soup, class_name):
     try:
         product_subtitle = soup.select_one(class_name).text.strip()
@@ -155,13 +155,13 @@ def get_kaufland_promotion_text(soup, class_name):
     return promotion_text
 
 
-def get_kaufland_product_image(soup, class_name):
+def get_kaufland_product_image_url(soup, class_name):
     try:
-        product_image = soup.find("img", class_name)['src']
+        product_image_url = soup.find("img", class_name)['src']
     except AttributeError:
-        product_image = None
+        product_image_url = None
 
-    return product_image
+    return product_image_url
 
 
 def get_kaufland_product_description(soup, class_name):
@@ -226,13 +226,13 @@ def get_lidl_product_promotion_interval(soup, class_name):
     return promotion_starts, promotion_expires
 
 
-def get_lidl_product_image(soup, class_name):
+def get_lidl_product_image_url(soup, class_name):
     try:
-        product_image = soup.find("a", class_name)["href"]
+        product_image_url = soup.find("a", class_name)["href"]
     except AttributeError:
-        product_image = None
+        product_image_url = None
 
-    return product_image
+    return product_image_url
 
 
 def billa(store):
@@ -283,7 +283,7 @@ def kaufland(store):
                 return False
 
             soup = BeautifulSoup(response.text, "html.parser")
-            product_image = get_kaufland_product_image(soup, ["a-image-responsive",
+            product_image_url = get_kaufland_product_image_url(soup, ["a-image-responsive",
                                                               "a-image-responsive--preview-knockout"]).replace(
                 '?MYRAVRESIZE=150', '')
             promotion_text = get_kaufland_promotion_text(soup, ["a-eye-catcher", "a-eye-catcher--secondary"])
@@ -298,15 +298,15 @@ def kaufland(store):
             product_title = get_product_title(soup, ".t-offer-detail__title")
             product_discount_phrase = get_kaufland_product_discount_phrase(soup, ".a-pricetag__discount",
                                                                            ".a-pricetag__old-price")
-            product_old_price = get_product_old_price(soup, ".a-pricetag__old-price")
+            product_old_price = get_kaufland_product_old_price(soup, ".a-pricetag__old-price")
 
             product_new_price = get_product_new_price(soup, ".a-pricetag__price")
-            product_base_price = get_product_base_price(soup, ".t-offer-detail__basic-price")
+            product_base_price = get_kaufland_product_base_price(soup, ".t-offer-detail__basic-price")
             product_quantity = get_product_quantity(soup, ".t-offer-detail__quantity")
             product_description = get_kaufland_product_description(soup, ".t-offer-detail__description")
 
-            promotion_message = get_product_promotion_message(soup, ".t-offer-detail__mpa",
-                                                              ".t-offer-detail__promo-message")
+            promotion_message = get_kaufland_product_promotion_message(soup, ".t-offer-detail__mpa",
+                                                                       ".t-offer-detail__promo-message")
 
             promotion, _ = Promotion.objects.get_or_create(store=store, expire_date=promotion_expires,
                                                            start_date=promotion_starts)
@@ -317,7 +317,7 @@ def kaufland(store):
                                                        base_price=product_base_price, quantity=product_quantity,
                                                        discount_phrase=product_discount_phrase,
                                                        description=product_description,
-                                                       image_url=product_image, promo_message=promotion_message
+                                                       image_url=product_image_url, promo_message=promotion_message
                                                        )
     return True
 
@@ -343,7 +343,7 @@ def lidl(store):
 
             soup = BeautifulSoup(response.text, "html.parser")
             product_component = soup.select_one(".attributebox")
-            product_image = get_lidl_product_image(soup, "multimediabox__preview-link")
+            product_image_url = get_lidl_product_image_url(soup, "multimediabox__preview-link")
             product_title = " ".join(
                 re.sub('\n', '', get_product_title(product_component, ".attributebox__headline--h1")).split())
 
@@ -367,6 +367,6 @@ def lidl(store):
                                                        quantity=product_quantity,
                                                        discount_phrase=product_discount_phrase,
                                                        description=product_description,
-                                                       image_url=product_image
+                                                       image_url=product_image_url
                                                        )
     return True

@@ -10,8 +10,6 @@ class ProductsSerializer(serializers.HyperlinkedModelSerializer):
     promotion_expires = serializers.SerializerMethodField()
     store = serializers.SerializerMethodField()
 
-    # TODO filter only active promotions
-    # promotion_starts = filter.DateFilter('promotion_starts', date__range=["2022-11-03", "2022-11-06"])
     def get_name(self, obj):
         return str(obj)
 
