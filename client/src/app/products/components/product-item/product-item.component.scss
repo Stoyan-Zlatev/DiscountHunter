@@ -92,8 +92,38 @@ font-size: 20px;
     display: flex;
     flex-direction: column;
     font-family: sans-serif;
+    width: 100%;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  .image-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+  }
+
+  .price_component {
+    padding:30px;
   }
 }
+
+.square {
+  width: 100%;
+}
+
+button {
+    margin-top: 10px;
+	padding: 10px 30px;
+  font-size: 16px;
+  cursor: pointer;
+
+	border-radius: 7px;
+
+	background-color: #0a68a3;
+  }
 
 .bottom-section{
   margin-top: 20px;

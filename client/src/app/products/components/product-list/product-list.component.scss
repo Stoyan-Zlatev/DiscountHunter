@@ -96,24 +96,55 @@ input[type=text] {
   background: #ccc;
 }
 
+.filters {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 20vw;
+}
+
 @media screen and (max-width: 600px) {
   .products__container {
     grid-template-columns: repeat(1, 1fr);
 
   }
+
   .search-container {
+    margin-left: -30px;
     float: none;
   }
   input[type=text], .search-container button {
     float: none;
     display: block;
     text-align: left;
-    width: 100%;
     margin: 0;
     padding: 14px;
   }
   input[type=search] {
     border: 1px solid #ccc;
+  }
+
+  .input-form {
+    min-width: 90vw;
+  }
+
+  .search-filter {
+    flex-direction: column;
+  }
+
+  .filters {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    width: 80vw;
+  }
+
+  .date-picker {
+    margin-right: 20px
+  }
+
+  .ngx-pagination {
+    padding: 0px;
   }
 }
 

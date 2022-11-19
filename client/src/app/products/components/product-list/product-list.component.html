@@ -13,21 +13,23 @@
       </div>
     </form>
   </div>
-  <div class="date-picker">
-    <ejs-daterangepicker placeholder="Избери интервал на промоция"
-                         #picker
-                         [enablePersistence]="true"
-                         (valueChange)="reload(pageNumber, searchName.value, currentDate, store, picker.value)"
-                         (cleared)="reload(1, searchName.value, currentDate, store, ['',''])">
-    </ejs-daterangepicker>
-  </div>
-  <div class="dropdown">
-    <span class="dropdown-main">{{storeWrapper}}</span>
-    <div class="dropdown-content">
-      <p (click)="reload(1, searchName.value, currentDate, '', promotionInterval)">Всички</p>
-      <p (click)="reload(1, searchName.value, currentDate, 'Kaufland', promotionInterval)">Kaufland</p>
-      <p (click)="reload(1, searchName.value, currentDate, 'Lidl', promotionInterval)">Lidl</p>
-      <p (click)="reload(1, searchName.value, currentDate, 'Billa', promotionInterval)">Billa</p>
+  <div class="filters">
+    <div class="date-picker">
+      <ejs-daterangepicker placeholder="Избери интервал на промоция"
+                           #picker
+                           [enablePersistence]="true"
+                           (valueChange)="reload(pageNumber, searchName.value, currentDate, store, picker.value)"
+                           (cleared)="reload(1, searchName.value, currentDate, store, ['',''])">
+      </ejs-daterangepicker>
+    </div>
+    <div class="dropdown">
+      <span class="dropdown-main">{{storeWrapper}}</span>
+      <div class="dropdown-content">
+        <p (click)="reload(1, searchName.value, currentDate, '', promotionInterval)">Всички</p>
+        <p (click)="reload(1, searchName.value, currentDate, 'Kaufland', promotionInterval)">Kaufland</p>
+        <p (click)="reload(1, searchName.value, currentDate, 'Lidl', promotionInterval)">Lidl</p>
+        <p (click)="reload(1, searchName.value, currentDate, 'Billa', promotionInterval)">Billa</p>
+      </div>
     </div>
   </div>
 </div>
@@ -62,5 +64,6 @@
   </ul>
 
   <pagination-controls
+      [responsive]="true"
     (pageChange)="reload($event, searchName.value, currentDate, store, promotionInterval)"></pagination-controls>
 </div>
