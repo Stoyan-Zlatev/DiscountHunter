@@ -71,7 +71,7 @@ pagination-controls {
 .search-container {
   text-align: center;
   margin: 20px 0;
-   display: flex !important;
+  display: flex !important;
 }
 
 input[type=text] {
@@ -98,9 +98,9 @@ input[type=text] {
 
 @media screen and (max-width: 600px) {
   .products__container {
-  grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr);
 
-}
+  }
   .search-container {
     float: none;
   }
@@ -120,6 +120,7 @@ input[type=text] {
 .dropdown {
   position: relative;
   display: inline-block;
+  min-width: 115px;
 }
 
 .dropdown-content {
@@ -127,7 +128,7 @@ input[type=text] {
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   padding: 12px 16px;
   z-index: 1;
 
@@ -146,14 +147,16 @@ input[type=text] {
 }
 
 .input-form {
-   display: flex !important;
-    width: 40vw;
+  display: flex !important;
+  width: 30vw;
 }
 
 .dropdown-main {
   background: #c3c4c7;
   border-radius: 10px;
   padding: 10px;
+  display: block;
+  text-align: center;
 }
 
 button[type=button] {

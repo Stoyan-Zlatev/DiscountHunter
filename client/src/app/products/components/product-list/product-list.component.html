@@ -13,12 +13,14 @@
       </div>
     </form>
   </div>
-  <ejs-daterangepicker placeholder="Избери интервал на промоция"
-                       #picker
-                       [enablePersistence]="true"
-                       (valueChange)="reload(pageNumber, searchName.value, currentDate, store, picker.value)"
-                       (cleared)="reload(1, searchName.value, currentDate, store, ['',''])">
-  </ejs-daterangepicker>
+  <div class="date-picker">
+    <ejs-daterangepicker placeholder="Избери интервал на промоция"
+                         #picker
+                         [enablePersistence]="true"
+                         (valueChange)="reload(pageNumber, searchName.value, currentDate, store, picker.value)"
+                         (cleared)="reload(1, searchName.value, currentDate, store, ['',''])">
+    </ejs-daterangepicker>
+  </div>
   <div class="dropdown">
     <span class="dropdown-main">{{storeWrapper}}</span>
     <div class="dropdown-content">
@@ -49,7 +51,7 @@
   </div>
   <ng-template #noResults>
     <div class="no-result">
-         Няма намерени продукти.
+      Няма намерени продукти.
     </div>
   </ng-template>
   <ul>
