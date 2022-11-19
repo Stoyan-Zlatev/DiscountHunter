@@ -4,10 +4,10 @@
       <div class="input-form">
         <input [value]="search" type="text" placeholder="Въведи име на продукт" name="search" #searchName>
         <button type="button" class="btn bg-transparent"
-                (click)="searchName.value=''; reload(1, '', currentDate, store, picker.value)">
+                (click)="searchName.value=''; reload(1, '', currentDate, store, promotionInterval)">
           <i class="fa fa-times"></i>
         </button>
-        <button type="submit" (click)="reload(1, searchName.value, currentDate, store, picker.value)"><i
+        <button type="submit" (click)="reload(1, searchName.value, currentDate, store, promotionInterval)"><i
           class="fa fa-search"></i>
         </button>
       </div>
@@ -15,17 +15,17 @@
   </div>
   <ejs-daterangepicker placeholder="Избери интервал на промоция"
                        #picker
-                       enablePersistence="true"
+                       [enablePersistence]="true"
                        (valueChange)="reload(pageNumber, searchName.value, currentDate, store, picker.value)"
-                       (cleared)="reload(pageNumber, searchName.value, currentDate, store, ['',''])">
+                       (cleared)="reload(1, searchName.value, currentDate, store, ['',''])">
   </ejs-daterangepicker>
   <div class="dropdown">
     <span class="dropdown-main">{{storeWrapper}}</span>
     <div class="dropdown-content">
-      <p (click)="reload(1, searchName.value, currentDate, '', picker.value)">Всички</p>
-      <p (click)="reload(1, searchName.value, currentDate, 'Kaufland', picker.value)">Kaufland</p>
-      <p (click)="reload(1, searchName.value, currentDate, 'Lidl', picker.value)">Lidl</p>
-      <p (click)="reload(1, searchName.value, currentDate, 'Billa', picker.value)">Billa</p>
+      <p (click)="reload(1, searchName.value, currentDate, '', promotionInterval)">Всички</p>
+      <p (click)="reload(1, searchName.value, currentDate, 'Kaufland', promotionInterval)">Kaufland</p>
+      <p (click)="reload(1, searchName.value, currentDate, 'Lidl', promotionInterval)">Lidl</p>
+      <p (click)="reload(1, searchName.value, currentDate, 'Billa', promotionInterval)">Billa</p>
     </div>
   </div>
 </div>
@@ -48,7 +48,9 @@
     </ng-container>
   </div>
   <ng-template #noResults>
-    No results.
+    <div class="no-result">
+         Няма намерени продукти.
+    </div>
   </ng-template>
   <ul>
     <li
@@ -58,5 +60,5 @@
   </ul>
 
   <pagination-controls
-    (pageChange)="reload($event, searchName.value, currentDate, store, picker.value)"></pagination-controls>
+    (pageChange)="reload($event, searchName.value, currentDate, store, promotionInterval)"></pagination-controls>
 </div>
