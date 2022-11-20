@@ -17,8 +17,8 @@ Discount Hunter цели да извлече максимума от конку�
 6. Инсталирайте Angular Dependencies:<br/>
     • `$ npm install`
 7. Стартиране:<br/>
-    • `$ cd api`
-    • `$ python3 manage.py runsrever 8888`
-    • `$ cd client`
-    • `$ ng serve --open`
+    • `$ cd api`<br/>
+    • `$ python3 manage.py runsrever 8888`<br/>
+    • `$ cd client`<br/>
+    • `$ ng serve --open`<br/>
     
