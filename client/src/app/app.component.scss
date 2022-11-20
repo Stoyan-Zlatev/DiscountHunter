@@ -26,6 +26,9 @@ p {
 }
 .name {
 	margin-left: 2rem;
+  color: #660000;
+  font-family: "Agrandir Narrow";
+  font-size: 40px !important;
 }
 
 .toolbar {
@@ -38,7 +41,7 @@ p {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	background-color: #b1d8ff;
+	background-color: #ffdd9a;
 	color: #267fd8;
 	font-weight: 600;
 	padding: 0 1rem;
