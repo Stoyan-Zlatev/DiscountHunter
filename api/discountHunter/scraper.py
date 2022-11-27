@@ -283,9 +283,14 @@ def kaufland(store):
                 return False
 
             soup = BeautifulSoup(response.text, "html.parser")
-            product_image_url = get_kaufland_product_image_url(soup, ["a-image-responsive",
-                                                              "a-image-responsive--preview-knockout"]).replace(
-                '?MYRAVRESIZE=150', '')
+            product_image_url_wrapper = get_kaufland_product_image_url(soup, ["a-image-responsive",
+                                                                              "a-image-responsive--preview-knockout"])
+            resize_index = product_image_url_wrapper.find("?MYRAVRESIZE")
+            if resize_index != -1:
+                product_image_url = product_image_url_wrapper[:resize_index]
+            else:
+                product_image_url = product_image_url_wrapper
+
             promotion_text = get_kaufland_promotion_text(soup, ["a-eye-catcher", "a-eye-catcher--secondary"])
             if promotion_text:
                 promotion_starts = convert_to_date(promotion_text.split()[-3])
